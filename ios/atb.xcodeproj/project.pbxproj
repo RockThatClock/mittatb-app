@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* atbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* atbTests.m */; };
 		0882CBE739E29EB58350AF47 /* libPods-atb-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5688FA526DA9D40F2D561C2D /* libPods-atb-tvOSTests.a */; };
+		0F85071A2430BDD500E1F382 /* DigsToAtb.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0F8507192430BDD500E1F382 /* DigsToAtb.gpx */; };
 		0FAAF32724069EFC00267583 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FAAF32624069EFC00267583 /* GoogleService-Info.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
@@ -47,6 +48,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* atbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = atbTests.m; sourceTree = "<group>"; };
 		086E2C1471780051C8BCBAB4 /* Pods-atb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atb.release.xcconfig"; path = "Target Support Files/Pods-atb/Pods-atb.release.xcconfig"; sourceTree = "<group>"; };
+		0F8507192430BDD500E1F382 /* DigsToAtb.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DigsToAtb.gpx; path = atb/DigsToAtb.gpx; sourceTree = "<group>"; };
 		0FAAF32624069EFC00267583 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "atb/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AtB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = atb/AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		13B07FAE1A68108700A75B9A /* atb */ = {
 			isa = PBXGroup;
 			children = (
+				0F8507192430BDD500E1F382 /* DigsToAtb.gpx */,
 				0FAAF32624069EFC00267583 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -352,6 +355,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				0FAAF32724069EFC00267583 /* GoogleService-Info.plist in Resources */,
+				0F85071A2430BDD500E1F382 /* DigsToAtb.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

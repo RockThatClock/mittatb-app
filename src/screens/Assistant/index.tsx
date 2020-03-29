@@ -1,6 +1,8 @@
 import React, {useEffect, useState, useMemo} from 'react';
+import {Text} from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {SafeAreaView} from 'react-native-safe-area-context';
+import MapView from 'react-native-maps';
 import Results from './Results';
 import {TripPattern} from '../../sdk';
 import {useGeolocationState} from '../../GeolocationContext';
@@ -112,6 +114,19 @@ const Assistant: React.FC<Props> = ({currentLocation, navigation}) => {
           onPress={() => openLocationSearch('toLocation', to?.name)}
         />
       </SharedElement>
+      {__DEV__ ? (
+        <>
+          <Text style={{fontSize: 12}}>
+            Coordinates: {currentLocation?.coordinates.latitude},{' '}
+            {currentLocation?.coordinates.longitude}
+          </Text>
+          <MapView
+            style={{height: 200}}
+            followsUserLocation={true}
+            showsUserLocation={true}
+          />
+        </>
+      ) : null}
     </SafeAreaView>
   );
 };
