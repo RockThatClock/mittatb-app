@@ -98,7 +98,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../atb/DigsToAtb.gpx"
+         identifier = "../atb/HospitalToBar.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>
