@@ -12,6 +12,7 @@ import TicketingScreen from '../screens/Ticketing';
 import ProfileScreen from '../screens/Profile';
 import {LocationWithSearchMetadata} from '../location-search';
 import {useRemoteConfig} from '../RemoteConfigContext';
+import {useIntl} from 'react-intl';
 
 export type TabNavigatorParams = {
   Assistant: {
@@ -29,6 +30,7 @@ const Tab = createBottomTabNavigator<TabNavigatorParams>();
 
 const NavigationRoot = () => {
   const {enable_ticketing} = useRemoteConfig();
+  const {formatMessage} = useIntl();
 
   return (
     <Tab.Navigator>
@@ -36,7 +38,7 @@ const NavigationRoot = () => {
         name="Assistant"
         component={Assistant}
         options={{
-          tabBarLabel: 'Reiseassistent',
+          tabBarLabel: formatMessage({id: 'Reiseassistent'}),
           tabBarIcon: ({color}) => <PlannerIcon fill={color} />,
         }}
       />

@@ -1,4 +1,5 @@
 import 'react-native-get-random-values';
+import './localization';
 
 import React, {useEffect, useState} from 'react';
 import {enableScreens} from 'react-native-screens';
@@ -14,6 +15,7 @@ import {loadLocalConfig} from './local-config';
 import Splash from './screens/Splash';
 import Intercom from 'react-native-intercom';
 import {Platform} from 'react-native';
+import {IntlProvider} from 'react-intl';
 
 Intercom.setBottomPadding(Platform.OS === 'ios' ? 40 : 80);
 trackAppState();
@@ -36,19 +38,21 @@ const App = () => {
   }
 
   return (
-    <AppContextProvider>
-      <ThemeContextProvider>
-        <FavoritesContextProvider>
-          <SearchHistoryContextProvider>
-            <GeolocationContextProvider>
-              <RemoteConfigContextProvider>
-                <NavigationRoot />
-              </RemoteConfigContextProvider>
-            </GeolocationContextProvider>
-          </SearchHistoryContextProvider>
-        </FavoritesContextProvider>
-      </ThemeContextProvider>
-    </AppContextProvider>
+    <IntlProvider locale="en" messages={{}}>
+      <AppContextProvider>
+        <ThemeContextProvider>
+          <FavoritesContextProvider>
+            <SearchHistoryContextProvider>
+              <GeolocationContextProvider>
+                <RemoteConfigContextProvider>
+                  <NavigationRoot />
+                </RemoteConfigContextProvider>
+              </GeolocationContextProvider>
+            </SearchHistoryContextProvider>
+          </FavoritesContextProvider>
+        </ThemeContextProvider>
+      </AppContextProvider>
+    </IntlProvider>
   );
 };
 
