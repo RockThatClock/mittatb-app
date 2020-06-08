@@ -38,7 +38,10 @@ const NavigationRoot = () => {
         name="Assistant"
         component={Assistant}
         options={{
-          tabBarLabel: formatMessage({id: 'Reiseassistent'}),
+          tabBarLabel: formatMessage({
+            id: 'Reiseassistent',
+            defaultMessage: 'Reiseassistent',
+          }),
           tabBarIcon: ({color}) => <PlannerIcon fill={color} />,
         }}
       />
