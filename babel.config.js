@@ -11,7 +11,7 @@ module.exports = function (api) {
         'react-intl-auto',
         {
           removePrefix: 'src/',
-          extractComments: true,
+          includeExportName: true,
           filebase: false,
         },
       ],

@@ -1,17 +1,49 @@
 {
-  "geolocation.buttonNegative": "Don't allow",
-  "geolocation.buttonNeutral": "Ask me later",
-  "geolocation.buttonPositive": "Allow",
-  "geolocation.message": "We need access to your position to suggest relevant travel routes while using the app.",
-  "geolocation.title": "Will you give AtB access to your position?",
-  "location-search.inputLabel": "Adress or stop",
-  "location-search.inputPlaceholder": "Search for adress or stop",
-  "location-search.previousHeader": "Previous searches",
-  "location-search.resultsHeader": "Results",
-  "navigation.assistant": "Travel assistant",
-  "navigation.nearby": "Departures nearby",
-  "navigation.profile": "My AtB",
-  "navigation.searchHeader": "Search",
-  "navigation.ticketing": "Tickets",
-  "utils.unknown": "Unknown"
+  "geolocation": {
+    "buttonNegative": "Don't allow",
+    "buttonNeutral": "Ask me later",
+    "buttonPositive": "Allow",
+    "message": "We need access to your position to suggest relevant travel routes while using the app.",
+    "title": "Will you give AtB access to your position?"
+  },
+  "location-search": {
+    "inputLabel": "Adress or stop",
+    "inputPlaceholder": "Search for adress or stop",
+    "previousHeader": "Previous searches",
+    "resultsHeader": "Results"
+  },
+  "navigation": {
+    "assistant": "Travel assistant",
+    "nearby": "Departures nearby",
+    "profile": "My AtB",
+    "searchHeader": "Search",
+    "ticketing": "Tickets"
+  },
+  "screens": {
+    "Assistant": {
+      "dateTypes": {
+        "arrival": "Arrival",
+        "departure": "Departure",
+        "now": "Now"
+      },
+      "noTravelsFound": {
+        "info": "Sadly we could not find any trips.\nPlease adjust your search criteria."
+      },
+      "timeButton": {
+        "prefix": "When"
+      },
+      "timeModal": {
+        "button": "Search trips",
+        "title": "Choose travel time"
+      },
+      "travelTimes": {
+        "arrivalAt": "Arrival at {time}",
+        "departureAt": "Departure at {time}",
+        "departureNow": "Departure now"
+      }
+    }
+  },
+  "utils": {
+    "unknown": "Unknown"
+  }
 }

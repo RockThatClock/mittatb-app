@@ -6,6 +6,8 @@ import {TripPattern} from '../../sdk';
 import {StyleSheet, useTheme} from '../../theme';
 import {AssistantScreenNavigationProp} from './';
 import ResultItem from './ResultItem';
+import {FormattedDate, FormattedMessage} from 'react-intl';
+import {noTravelsFound} from './messages';
 
 type Props = {
   tripPatterns: TripPattern[] | null;
@@ -37,8 +39,7 @@ const Results: React.FC<Props> = ({
       <View style={[styles.scrollContainer, styles.container]}>
         <MessageBox>
           <Text style={styles.infoBoxText}>
-            Vi fant dessverre ingen reiseruter som passer til ditt søk.
-            Vennligst prøv et annet avreisested eller destinasjon.
+            <FormattedMessage {...noTravelsFound.info} />
           </Text>
         </MessageBox>
       </View>

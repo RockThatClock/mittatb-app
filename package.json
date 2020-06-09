@@ -11,7 +11,7 @@
     "postinstall": "patch-package",
     "icons": "app-icon generate --platforms=android,ios --rounded none && app-icon generate -i icon.round.png --platforms=android --rounded only",
     "release-draft": "sh tools/release/release-draft.sh",
-    "extract": "extract-messages -l=en,nb -o src/translations -d nb --flat true --overwriteDefault false 'src/**/*.{ts,tsx}'"
+    "extract": "extract-messages -l=en,nb -o src/translations -d nb --overwriteDefault false --flat false 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@entur/sdk": "^1.5.0",
@@ -34,6 +34,7 @@
     "date-fns": "^2.14.0",
     "date-time-format-timezone": "^1.0.22",
     "emoji-datasource": "^5.0.1",
+    "flat": "^5.0.0",
     "haversine": "^1.1.1",
     "hex-to-rgba": "^2.0.1",
     "humanize-duration": "^3.23.0",
@@ -68,6 +69,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",
+    "@types/flat": "^5.0.1",
     "@types/humanize-duration": "^3.18.0",
     "@types/jest": "^25.2.1",
     "@types/react-native": "^0.62.5",

@@ -1,17 +1,49 @@
 {
-  "geolocation.buttonNegative": "Ikke tillat",
-  "geolocation.buttonNeutral": "Spør meg senere",
-  "geolocation.buttonPositive": "Tillat",
-  "geolocation.message": "Vi trenger din posisjon for å lage reiseruter når du bruker appen.",
-  "geolocation.title": "Vil du gi AtB tilgang til posisjonen din?",
-  "location-search.inputLabel": "Adresse eller stoppested",
-  "location-search.inputPlaceholder": "Søk etter adresse eller stoppested",
-  "location-search.previousHeader": "Tidligere søk",
-  "location-search.resultsHeader": "Søkeresultat",
-  "navigation.assistant": "Reiseassistent",
-  "navigation.nearby": "Avganger i nærheten",
-  "navigation.profile": "Mitt AtB",
-  "navigation.searchHeader": "Søk",
-  "navigation.ticketing": "Reisebevis",
-  "utils.unknown": "Ukjent"
+  "geolocation": {
+    "buttonNegative": "Ikke tillat",
+    "buttonNeutral": "Spør meg senere",
+    "buttonPositive": "Tillat",
+    "message": "Vi trenger din posisjon for å lage reiseruter når du bruker appen.",
+    "title": "Vil du gi AtB tilgang til posisjonen din?"
+  },
+  "location-search": {
+    "inputLabel": "Adresse eller stoppested",
+    "inputPlaceholder": "Søk etter adresse eller stoppested",
+    "previousHeader": "Tidligere søk",
+    "resultsHeader": "Søkeresultat"
+  },
+  "navigation": {
+    "assistant": "Reiseassistent",
+    "nearby": "Avganger i nærheten",
+    "profile": "Mitt AtB",
+    "searchHeader": "Søk",
+    "ticketing": "Reisebevis"
+  },
+  "screens": {
+    "Assistant": {
+      "dateTypes": {
+        "arrival": "Ankomst",
+        "departure": "Avreise",
+        "now": "Nå"
+      },
+      "noTravelsFound": {
+        "info": "Vi fant dessverre ingen reiseruter som passer til ditt søk.\nVennligst prøv et annet avreisested eller destinasjon."
+      },
+      "timeButton": {
+        "prefix": "Når"
+      },
+      "timeModal": {
+        "button": "Søk etter reiser",
+        "title": "Velg tidspunkt"
+      },
+      "travelTimes": {
+        "arrivalAt": "Ankomst {time}",
+        "departureAt": "Avreise {time}",
+        "departureNow": "Avreise nå"
+      }
+    }
+  },
+  "utils": {
+    "unknown": "Ukjent"
+  }
 }

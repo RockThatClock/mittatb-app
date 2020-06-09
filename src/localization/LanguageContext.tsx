@@ -1,11 +1,11 @@
 import React, {useState, useEffect, useContext, createContext} from 'react';
 import {
-  useIntl,
   createIntl,
   createIntlCache,
   RawIntlProvider,
   IntlShape,
 } from 'react-intl';
+import flatten from 'flat';
 import defaultLocale from '../translations/nb.json';
 
 // This is optional but highly recommended
@@ -13,7 +13,7 @@ import defaultLocale from '../translations/nb.json';
 const cache = createIntlCache();
 
 export type SupportedLocales = 'nb' | 'en';
-export let Language = createLocale('nb', defaultLocale);
+export let Language = createFlattenedIntl('nb', defaultLocale);
 
 export async function importMessages(
   locale: SupportedLocales,
@@ -21,23 +21,23 @@ export async function importMessages(
   switch (locale) {
     case 'en':
       const enMessages = await import('../translations/en.json');
-      const enLocale = createLocale('en', enMessages);
+      const enLocale = createFlattenedIntl('en', enMessages);
       Language = enLocale;
       return enLocale;
 
     case 'nb':
       const nbMessages = await import('../translations/nb.json');
-      const nbLocale = createLocale('nb', nbMessages);
+      const nbLocale = createFlattenedIntl('nb', nbMessages);
       Language = nbLocale;
       return nbLocale;
   }
 }
 
-function createLocale(locale: SupportedLocales, messages: any) {
+function createFlattenedIntl(locale: SupportedLocales, messages: any) {
   return createIntl(
     {
       locale,
-      messages,
+      messages: flatten(messages),
       onError: (err) => console.warn(err),
     },
     cache,

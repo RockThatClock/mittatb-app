@@ -8,9 +8,12 @@ import DatePicker from 'react-native-date-picker';
 import Button from '../../components/button';
 import CloseModalCrossIcon from '../../navigation/svg/CloseModalCrossIcon';
 import SearchButton from '../../components/search-button';
-import {formatToClock, formatToLongDateTime} from '../../utils/date';
+import {formatToLongDateTime} from '../../utils/date';
 import nb from 'date-fns/locale/nb';
 import insets from '../../utils/insets';
+import {Language} from '../../localization/LanguageContext';
+import {dateTypes, travelTimes, timeButton, timeModal} from './messages';
+import {useIntl, FormattedMessage} from 'react-intl';
 
 type DateTypesWithoutNow = 'departure' | 'arrival';
 type DateTypes = DateTypesWithoutNow | 'now';
@@ -34,25 +37,29 @@ const now = (): DateOutput => ({
 function dateTypeToText(type: DateTypes): string {
   switch (type) {
     case 'arrival':
-      return 'Ankomst';
+      return Language.formatMessage(dateTypes.arrival);
     case 'departure':
-      return 'Avreise';
+      return Language.formatMessage(dateTypes.departure);
     case 'now':
     default:
-      return 'Nå';
+      return Language.formatMessage(dateTypes.now);
   }
 }
 
 function dateToText(date: DateOutput): string {
   if (date.type === 'now') {
-    return `Avreise nå`;
+    return Language.formatMessage(travelTimes.departureNow);
   }
 
   if (date.type === 'arrival') {
-    return `Ankomst ${formatToLongDateTime(date.date, nb)}`;
+    return Language.formatMessage(travelTimes.arrivalAt, {
+      time: formatToLongDateTime(date.date, nb),
+    });
   }
 
-  return `Avreise ${formatToLongDateTime(date.date, nb)}`;
+  return Language.formatMessage(travelTimes.departureAt, {
+    time: formatToLongDateTime(date.date, nb),
+  });
 }
 
 const DateTypeButton: React.FC<{
@@ -133,10 +140,12 @@ const DateInput: React.FC<DateInputProps> = ({onDateSelected, value}) => {
     onClose();
   };
 
+  const {formatMessage} = useIntl();
+
   return (
     <>
       <SearchButton
-        title="Når"
+        title={formatMessage(timeButton.prefix)}
         placeholder={dateToText(valueOrDefault)}
         onPress={onOpen}
       />
@@ -150,7 +159,9 @@ const DateInput: React.FC<DateInputProps> = ({onDateSelected, value}) => {
           <View style={style.container}>
             <View style={style.header}>
               <View style={style.headerTextContainer}>
-                <Text style={style.headerText}>Velg tidspunkt</Text>
+                <Text style={style.headerText}>
+                  <FormattedMessage {...timeModal.title} />
+                </Text>
               </View>
               <TouchableOpacity onPress={onClose}>
                 <CloseModalCrossIcon width={20} height={20} />
@@ -183,7 +194,7 @@ const DateInput: React.FC<DateInputProps> = ({onDateSelected, value}) => {
               />
             </View>
 
-            <Button onPress={onSave} text="Søk etter reiser" />
+            <Button onPress={onSave} text={formatMessage(timeModal.button)} />
           </View>
         </Modalize>
       </Portal>
