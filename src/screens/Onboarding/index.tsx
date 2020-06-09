@@ -4,7 +4,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import WaitingForBus from '../../assets/svg/WaitingForBus';
 import Logo from '../../assets/svg/Logo';
 import colors from '../../theme/colors';
-import {useGeolocationState} from '../../GeolocationContext';
+import {useGeolocationState} from '../../geolocation';
 import {useAppState} from '../../AppContext';
 
 const GeoPermission: React.FC = () => {

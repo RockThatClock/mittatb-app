@@ -15,7 +15,7 @@ import useDebounce from './useDebounce';
 import {useGeocoder} from './useGeocoder';
 import LocationResults from './LocationResults';
 import FavoriteChips from './FavoriteChips';
-import {useGeolocationState} from '../GeolocationContext';
+import {useGeolocationState} from '../geolocation';
 import {SharedElement} from 'react-navigation-shared-element';
 import {RootStackParamList} from '../navigation';
 import {useSearchHistory} from '../search-history';

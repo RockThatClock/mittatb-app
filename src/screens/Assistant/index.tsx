@@ -13,7 +13,7 @@ import {LocationButton} from '../../components/search-button';
 import SearchGroup from '../../components/search-button/search-group';
 import {useFavorites} from '../../favorites/FavoritesContext';
 import {Location, UserFavorites} from '../../favorites/types';
-import {useGeolocationState} from '../../GeolocationContext';
+import {useGeolocationState} from '../../geolocation';
 import {
   LocationWithSearchMetadata,
   useLocationSearchValue,

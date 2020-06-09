@@ -10,7 +10,7 @@ import {
 import {LocationButton} from '../../components/search-button';
 import SearchLocationIcon from '../../components/search-location-icon';
 import {Location} from '../../favorites/types';
-import {useGeolocationState} from '../../GeolocationContext';
+import {useGeolocationState} from '../../geolocation';
 import {
   LocationWithSearchMetadata,
   useLocationSearchValue,

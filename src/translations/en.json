@@ -1,4 +1,9 @@
 {
+  "geolocation.buttonNegative": "Don't allow",
+  "geolocation.buttonNeutral": "Ask me later",
+  "geolocation.buttonPositive": "Allow",
+  "geolocation.message": "We need access to your position to suggest relevant travel routes while using the app.",
+  "geolocation.title": "Will you give AtB access to your position?",
   "location-search.inputLabel": "Adress or stop",
   "location-search.inputPlaceholder": "Search for adress or stop",
   "location-search.previousHeader": "Previous searches",

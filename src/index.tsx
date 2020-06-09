@@ -4,7 +4,7 @@ import './localization';
 import React, {useEffect, useState} from 'react';
 import {enableScreens} from 'react-native-screens';
 import AppContextProvider from './AppContext';
-import GeolocationContextProvider from './GeolocationContext';
+import GeolocationContextProvider from './geolocation';
 import NavigationRoot from './navigation';
 import trackAppState from './diagnostics/trackAppState';
 import ThemeContextProvider from './theme/ThemeContext';

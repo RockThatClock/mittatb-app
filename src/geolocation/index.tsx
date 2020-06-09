@@ -11,7 +11,9 @@ import {
   PERMISSIONS,
   PermissionStatus,
 } from 'react-native-permissions';
-import bugsnag from './diagnostics/bugsnag';
+import bugsnag from '../diagnostics/bugsnag';
+import {defineMessages} from 'react-intl';
+import {Language} from '../localization/LanguageContext';
 
 type GeolocationState = {
   status: PermissionStatus | null;
@@ -156,13 +158,21 @@ async function checkGeolocationPermission(): Promise<PermissionStatus> {
   }
 }
 
+const messages = defineMessages({
+  title: 'Vil du gi AtB Reise tilgang til posisjonen din?',
+  message: 'Vi trenger din posisjon for å lage reiseruter',
+  buttonNeutral: 'Spør meg senere',
+  buttonNegative: 'Ikke tillat',
+  buttonPositive: 'Tillat',
+});
+
 async function requestGeolocationPermission(): Promise<PermissionStatus> {
   const rationale: Rationale = {
-    title: 'Vil du gi AtB Reise tilgang til posisjonen din?',
-    message: 'Vi trenger din posisjon for å lage reiseruter',
-    buttonNeutral: 'Spør meg senere',
-    buttonNegative: 'Ikke tillat',
-    buttonPositive: 'Tillat',
+    title: Language.formatMessage(messages.title),
+    message: Language.formatMessage(messages.message),
+    buttonNeutral: Language.formatMessage(messages.buttonNeutral),
+    buttonNegative: Language.formatMessage(messages.buttonNegative),
+    buttonPositive: Language.formatMessage(messages.buttonPositive),
   };
 
   if (Platform.OS === 'ios') {

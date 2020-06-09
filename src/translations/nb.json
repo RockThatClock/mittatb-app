@@ -1,4 +1,9 @@
 {
+  "geolocation.buttonNegative": "Ikke tillat",
+  "geolocation.buttonNeutral": "Spør meg senere",
+  "geolocation.buttonPositive": "Tillat",
+  "geolocation.message": "Vi trenger din posisjon for å lage reiseruter når du bruker appen.",
+  "geolocation.title": "Vil du gi AtB tilgang til posisjonen din?",
   "location-search.inputLabel": "Adresse eller stoppested",
   "location-search.inputPlaceholder": "Søk etter adresse eller stoppested",
   "location-search.previousHeader": "Tidligere søk",
