@@ -6,5 +6,7 @@
   "navigation.assistant": "Reiseassistent",
   "navigation.nearby": "Avganger i nærheten",
   "navigation.profile": "Mitt AtB",
-  "navigation.ticketing": "Reisebevis"
+  "navigation.searchHeader": "Søk",
+  "navigation.ticketing": "Reisebevis",
+  "utils.unknown": "Ukjent"
 }

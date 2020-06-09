@@ -22,6 +22,7 @@ import DepartureDetails, {
   DepartureDetailsRouteParams,
 } from '../screens/TripDetailsModal/DepartureDetails';
 import {Host} from 'react-native-portalize';
+import {defineMessages, useIntl} from 'react-intl';
 
 export type RootStackParamList = {
   Onboarding: undefined;
@@ -33,9 +34,14 @@ export type RootStackParamList = {
 
 const SharedStack = createSharedElementStackNavigator<RootStackParamList>();
 
+const messages = defineMessages({
+  searchHeader: 'Søk',
+});
+
 const NavigationRoot = () => {
   const {isLoading, onboarded} = useAppState();
   const {theme} = useTheme();
+  const {formatMessage} = useIntl();
 
   if (isLoading) {
     return <Splash />;
@@ -99,7 +105,7 @@ const NavigationRoot = () => {
                     },
                   ]}
                   options={{
-                    title: 'Søk',
+                    title: formatMessage(messages.searchHeader),
                     headerBackTitleVisible: false,
                     headerTintColor: theme.text.primary,
                     headerStyle: {

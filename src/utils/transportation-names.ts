@@ -1,11 +1,15 @@
-import {Leg, EstimatedCall, Quay, ServiceJourney} from '../sdk';
+import {Leg, EstimatedCall, Quay} from '../sdk';
+import {Language} from '../localization/LanguageContext';
+import {defineMessages} from 'react-intl';
+
+const messages = defineMessages({unknown: 'Ukjent'});
 
 export function getLineName(leg: Leg) {
   return leg.line
     ? leg.line.publicCode +
         ' ' +
         leg.fromEstimatedCall?.destinationDisplay?.frontText ?? leg.line.name
-    : 'Ukjent';
+    : Language.formatMessage(messages.unknown);
 }
 
 export function getLineNameFromEstimatedCall(call: EstimatedCall) {
@@ -16,7 +20,7 @@ export function getLineNameFromEstimatedCall(call: EstimatedCall) {
   const publicCode = call.serviceJourney.journeyPattern?.line.publicCode;
 
   if (!publicCode && !suffix) {
-    return 'Ukjent';
+    return Language.formatMessage(messages.unknown);
   }
   if (!publicCode) {
     return suffix;
@@ -24,8 +28,8 @@ export function getLineNameFromEstimatedCall(call: EstimatedCall) {
   return `${publicCode} ${suffix}`;
 }
 
-export function getQuayName(quay?: Quay, defaultName: string = 'Ukjent') {
-  if (!quay) return defaultName;
+export function getQuayName(quay?: Quay, defaultName?: string) {
+  if (!quay) return defaultName ?? Language.formatMessage(messages.unknown);
   if (!quay.publicCode) return quay.name;
   return `${quay.name} ${quay.publicCode}`;
 }
