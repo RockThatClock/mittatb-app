@@ -12,7 +12,7 @@ import TicketingScreen from '../screens/Ticketing';
 import ProfileScreen from '../screens/Profile';
 import {LocationWithSearchMetadata} from '../location-search';
 import {useRemoteConfig} from '../RemoteConfigContext';
-import {useIntl} from 'react-intl';
+import {defineMessages, useIntl} from 'react-intl';
 
 export type TabNavigatorParams = {
   Assistant: {
@@ -26,6 +26,13 @@ export type TabNavigatorParams = {
   Profile: undefined;
 };
 
+const messages = defineMessages({
+  assistant: 'Reiseassistent',
+  nearby: 'Avganger i nærheten',
+  ticketing: 'Reisebevis',
+  profile: 'Mitt AtB',
+});
+
 const Tab = createBottomTabNavigator<TabNavigatorParams>();
 
 const NavigationRoot = () => {
@@ -38,10 +45,7 @@ const NavigationRoot = () => {
         name="Assistant"
         component={Assistant}
         options={{
-          tabBarLabel: formatMessage({
-            id: 'Reiseassistent',
-            defaultMessage: 'Reiseassistent',
-          }),
+          tabBarLabel: formatMessage(messages.assistant),
           tabBarIcon: ({color}) => <PlannerIcon fill={color} />,
         }}
       />
@@ -49,7 +53,7 @@ const NavigationRoot = () => {
         name="Nearest"
         component={NearbyScreen}
         options={{
-          tabBarLabel: 'Avganger i nærheten',
+          tabBarLabel: formatMessage(messages.nearby),
           tabBarIcon: ({color}) => <NearestIcon fill={color} />,
         }}
       />
@@ -58,7 +62,7 @@ const NavigationRoot = () => {
           name="Ticketing"
           component={TicketingScreen}
           options={{
-            tabBarLabel: 'Reisebevis',
+            tabBarLabel: formatMessage(messages.ticketing),
             tabBarIcon: ({color}) => <TicketingIcon fill={color} />,
           }}
         />
@@ -67,7 +71,7 @@ const NavigationRoot = () => {
         name="Profile"
         component={ProfileScreen}
         options={{
-          tabBarLabel: 'Mitt AtB',
+          tabBarLabel: formatMessage(messages.profile),
           tabBarIcon: ({color}) => <ProfileIcon fill={color} />,
         }}
       />

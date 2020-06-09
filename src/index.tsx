@@ -15,7 +15,7 @@ import {loadLocalConfig} from './local-config';
 import Splash from './screens/Splash';
 import Intercom from 'react-native-intercom';
 import {Platform} from 'react-native';
-import {IntlProvider} from 'react-intl';
+import LanguageContext from './LanguageContext';
 
 Intercom.setBottomPadding(Platform.OS === 'ios' ? 40 : 80);
 trackAppState();
@@ -38,7 +38,7 @@ const App = () => {
   }
 
   return (
-    <IntlProvider locale="en" messages={{}}>
+    <LanguageContext>
       <AppContextProvider>
         <ThemeContextProvider>
           <FavoritesContextProvider>
@@ -52,7 +52,7 @@ const App = () => {
           </FavoritesContextProvider>
         </ThemeContextProvider>
       </AppContextProvider>
-    </IntlProvider>
+    </LanguageContext>
   );
 };
 
