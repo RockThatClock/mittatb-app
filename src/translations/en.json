@@ -1,4 +1,8 @@
 {
+  "inputLabel": "Adress or stop",
+  "location-search.inputPlaceholder": "Search for adress or stop",
+  "location-search.previousHeader": "Previous searches",
+  "location-search.resultsHeader": "Results",
   "navigation.assistant": "Travel assistant",
   "navigation.nearby": "Departures nearby",
   "navigation.profile": "My AtB",

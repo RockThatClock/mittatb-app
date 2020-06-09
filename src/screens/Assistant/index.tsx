@@ -99,6 +99,7 @@ const Assistant: React.FC<Props> = ({currentLocation, navigation}) => {
             <LocationButton
               title="Fra"
               placeholder="Søk etter adresse eller sted"
+              positionLabel="Min posisjon"
               location={from}
               onPress={() => openLocationSearch('fromLocation', from?.name)}
             />
@@ -118,6 +119,7 @@ const Assistant: React.FC<Props> = ({currentLocation, navigation}) => {
             <LocationButton
               title="Til"
               placeholder="Søk etter adresse eller sted"
+              positionLabel="Min posisjon"
               location={to}
               onPress={() => openLocationSearch('toLocation', to?.name)}
             />

@@ -45,14 +45,16 @@ export default SearchButton;
 
 type ResultItemLocationProps = Omit<ResultItemProps, 'text'> & {
   location?: LocationWithSearchMetadata;
+  positionLabel: string;
 };
 
 export const LocationButton: React.FC<ResultItemLocationProps> = ({
   location,
+  positionLabel,
   ...props
 }) => {
   const text =
-    location?.resultType == 'geolocation' ? 'Min posisjon' : location?.label;
+    location?.resultType == 'geolocation' ? positionLabel : location?.label;
   return <SearchButton text={text} {...props} />;
 };
 

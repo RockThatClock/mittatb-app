@@ -21,6 +21,7 @@ import {RootStackParamList} from '../navigation';
 import {useSearchHistory} from '../search-history';
 import CancelCrossIcon from '../assets/svg/CancelCrossIcon';
 import insets from '../utils/insets';
+import {defineMessages, useIntl, FormattedMessage} from 'react-intl';
 
 export type Props = {
   navigation: NavigationProp<any>;
@@ -33,6 +34,12 @@ export type RouteParams = {
   hideFavorites?: boolean;
   initialText?: string;
 };
+
+const messages = defineMessages({
+  inputPlaceholder: 'Søk etter adresse eller stoppested',
+  previousHeader: 'Tidligere søk',
+  resultsHeader: 'Søkeresultat',
+});
 
 const LocationSearch: React.FC<Props> = ({
   navigation,
@@ -52,6 +59,8 @@ const LocationSearch: React.FC<Props> = ({
 
   const locations = useGeocoder(debouncedText, geolocation) ?? [];
   const filteredLocations = filterCurrentLocation(locations, previousLocations);
+
+  const {formatMessage} = useIntl();
 
   const onSelect = (location: LocationWithSearchMetadata) => {
     if (location.resultType === 'search') {
@@ -89,7 +98,12 @@ const LocationSearch: React.FC<Props> = ({
   return (
     <View style={styles.container}>
       <View style={styles.contentBlock}>
-        <Text style={styles.label}>Adresse eller stoppested</Text>
+        <Text style={styles.label}>
+          <FormattedMessage
+            id="inputLabel"
+            defaultMessage="Adresse eller stoppested"
+          />
+        </Text>
         <SharedElement id="locationSearchInput">
           <View style={styles.inputContainer}>
             <TextInput
@@ -97,7 +111,7 @@ const LocationSearch: React.FC<Props> = ({
               style={styles.input}
               value={text}
               onChangeText={setText}
-              placeholder="Søk etter adresse eller stoppested"
+              placeholder={formatMessage(messages.inputPlaceholder)}
               autoCorrect={false}
               autoCompleteType="off"
               placeholderTextColor={(styles.placeholder as TextStyle).color}
@@ -128,7 +142,7 @@ const LocationSearch: React.FC<Props> = ({
         <ScrollView style={styles.contentBlock}>
           {hasPreviousResults && (
             <LocationResults
-              title="Tidligere søk"
+              title={formatMessage(messages.previousHeader)}
               locations={previousLocations}
               onSelect={onSearchSelect}
               onPrefillText={onPrefillText}
@@ -136,7 +150,7 @@ const LocationSearch: React.FC<Props> = ({
           )}
           {hasResults && (
             <LocationResults
-              title="Søkeresultat"
+              title={formatMessage(messages.resultsHeader)}
               locations={filteredLocations}
               onSelect={onSearchSelect}
               onPrefillText={onPrefillText}

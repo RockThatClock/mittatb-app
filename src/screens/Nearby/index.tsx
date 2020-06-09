@@ -104,6 +104,7 @@ const NearbyOverview: React.FC<Props> = ({currentLocation, navigation}) => {
           <LocationButton
             title="Fra"
             placeholder="Søk etter adresse eller sted"
+            positionLabel="Min posisjon"
             location={fromLocation}
             icon={<SearchLocationIcon location={fromLocation} />}
             onPress={() => openLocationSearch()}

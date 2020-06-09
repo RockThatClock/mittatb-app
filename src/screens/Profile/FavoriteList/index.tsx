@@ -14,6 +14,7 @@ import Header from '../../../ScreenHeader';
 import {FavoriteIcon} from '../../../favorites';
 import insets from '../../../utils/insets';
 import useChatIcon from '../../../utils/use-chat-icon';
+import {useLanguageContext} from '../../../LanguageContext';
 
 export type ProfileScreenNavigationProp = StackNavigationProp<
   ProfileStackParams,
@@ -37,6 +38,8 @@ export default function Profile({navigation}: ProfileScreenProps) {
 
   const {icon: chatIcon, openChat} = useChatIcon();
 
+  const {change} = useLanguageContext();
+
   return (
     <SafeAreaView style={css.container}>
       <Header
@@ -56,6 +59,12 @@ export default function Profile({navigation}: ProfileScreenProps) {
             <AddFavoriteButton onPress={onAddButtonClick} />
           )}
         />
+        <TouchableOpacity onPress={() => change('en')}>
+          <Text>English</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => change('nb')}>
+          <Text>Norsk</Text>
+        </TouchableOpacity>
       </ScrollView>
     </SafeAreaView>
   );

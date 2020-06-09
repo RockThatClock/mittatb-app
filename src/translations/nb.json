@@ -1,4 +1,8 @@
 {
+  "inputLabel": "Adresse eller stoppested",
+  "location-search.inputPlaceholder": "Søk etter adresse eller stoppested",
+  "location-search.previousHeader": "Tidligere søk",
+  "location-search.resultsHeader": "Søkeresultat",
   "navigation.assistant": "Reiseassistent",
   "navigation.nearby": "Avganger i nærheten",
   "navigation.profile": "Mit AtB",
