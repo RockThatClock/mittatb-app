@@ -14,7 +14,7 @@ import Header from '../../../ScreenHeader';
 import {FavoriteIcon} from '../../../favorites';
 import insets from '../../../utils/insets';
 import useChatIcon from '../../../utils/use-chat-icon';
-import {useLanguageContext} from '../../../LanguageContext';
+import {useLanguageContext} from '../../../localization/LanguageContext';
 
 export type ProfileScreenNavigationProp = StackNavigationProp<
   ProfileStackParams,

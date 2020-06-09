@@ -15,7 +15,7 @@ import {loadLocalConfig} from './local-config';
 import Splash from './screens/Splash';
 import Intercom from 'react-native-intercom';
 import {Platform} from 'react-native';
-import LanguageContext from './LanguageContext';
+import LanguageContext from './localization/LanguageContext';
 
 Intercom.setBottomPadding(Platform.OS === 'ios' ? 40 : 80);
 trackAppState();

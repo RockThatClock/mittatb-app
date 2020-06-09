@@ -6,7 +6,7 @@ import {
   RawIntlProvider,
   IntlShape,
 } from 'react-intl';
-import defaultLocale from './translations/nb.json';
+import defaultLocale from '../translations/nb.json';
 
 // This is optional but highly recommended
 // since it prevents memory leak
@@ -20,13 +20,13 @@ export async function importMessages(
 ): Promise<IntlShape> {
   switch (locale) {
     case 'en':
-      const enMessages = await import('./translations/en.json');
+      const enMessages = await import('../translations/en.json');
       const enLocale = createLocale('en', enMessages);
       Language = enLocale;
       return enLocale;
 
     case 'nb':
-      const nbMessages = await import('./translations/nb.json');
+      const nbMessages = await import('../translations/nb.json');
       const nbLocale = createLocale('nb', nbMessages);
       Language = nbLocale;
       return nbLocale;

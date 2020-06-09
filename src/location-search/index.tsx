@@ -36,6 +36,7 @@ export type RouteParams = {
 };
 
 const messages = defineMessages({
+  inputLabel: 'Adresse eller stoppested',
   inputPlaceholder: 'Søk etter adresse eller stoppested',
   previousHeader: 'Tidligere søk',
   resultsHeader: 'Søkeresultat',
@@ -99,10 +100,7 @@ const LocationSearch: React.FC<Props> = ({
     <View style={styles.container}>
       <View style={styles.contentBlock}>
         <Text style={styles.label}>
-          <FormattedMessage
-            id="inputLabel"
-            defaultMessage="Adresse eller stoppested"
-          />
+          <FormattedMessage {...messages.inputLabel} />
         </Text>
         <SharedElement id="locationSearchInput">
           <View style={styles.inputContainer}>
