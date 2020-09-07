@@ -135,6 +135,12 @@ const MapSelection: React.FC<Props> = ({
       );
   }
 
+  const flyToFeature = (feature: Feature) => {
+    if (feature && feature.geometry.type === 'Point') {
+      mapCameraRef.current?.flyTo(feature.geometry.coordinates, 300);
+    }
+  };
+
   return (
     <View style={styles.container}>
       <MapboxGL.MapView
@@ -148,6 +154,7 @@ const MapSelection: React.FC<Props> = ({
         onRegionWillChange={() =>
           setRegionEvent({isChanging: true, region: regionEvent?.region})
         }
+        onPress={flyToFeature}
       >
         <MapboxGL.Camera
           ref={mapCameraRef}
