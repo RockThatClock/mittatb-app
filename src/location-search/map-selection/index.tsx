@@ -1,6 +1,6 @@
 import {RouteProp} from '@react-navigation/native';
 import React, {useState, useRef, useMemo} from 'react';
-import {Text, View, TouchableOpacity} from 'react-native';
+import {Text, View, TouchableOpacity, Image} from 'react-native';
 
 import MapboxGL, {RegionPayload} from '@react-native-mapbox-gl/maps';
 import {useReverseGeocoder} from '../useGeocoder';
@@ -17,8 +17,35 @@ import LocationBar from './LocationBar';
 import {ArrowLeft} from '../../assets/svg/icons/navigation';
 import {SelectionPin} from '../../assets/svg/map';
 import {StyleSheet} from '../../theme';
+import quaysJson from '../../assets/json/quays.json';
 import shadows from './shadows';
 import {Coordinates} from '@entur/sdk';
+
+type Quay = {
+  id: string;
+  name: string;
+  latitude: number;
+  longitude: number;
+};
+
+const quays: Quay[] = quaysJson;
+const busIcon = require('../../assets/images/bus.png');
+
+const featureCollection = {
+  type: 'FeatureCollection',
+  features: quays.map((q) => ({
+    type: 'Feature',
+    id: q.id,
+    properties: {
+      icon: 'bus',
+      label: q.name,
+    },
+    geometry: {
+      type: 'Point',
+      coordinates: [q.longitude, q.latitude],
+    },
+  })),
+};
 
 export type RouteParams = {
   callerRouteName: string;
@@ -115,6 +142,18 @@ const MapSelection: React.FC<Props> = ({
           animationMode="moveTo"
         />
         <MapboxGL.UserLocation showsUserHeadingIndicator />
+        <MapboxGL.Images images={{bus: busIcon}} />
+        <MapboxGL.ShapeSource id="bus" shape={featureCollection}>
+          <MapboxGL.SymbolLayer
+            minZoomLevel={14}
+            id="bus"
+            style={{
+              iconImage: 'bus',
+              iconSize: 1.2,
+              textField: '{label}',
+            }}
+          />
+        </MapboxGL.ShapeSource>
       </MapboxGL.MapView>
       <View style={styles.backArrowContainer}>
         <BackArrow onBack={() => navigation.goBack()} />

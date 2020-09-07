@@ -1,0 +1,5702 @@
+[
+  {
+    "latitude": 63.43416,
+    "name": "Søndre gate Regionbuss",
+    "longitude": 10.400076,
+    "id": "NSR:Quay:73574"
+  },
+  {
+    "latitude": 63.433858,
+    "name": "Olav Tryggvasons gate",
+    "longitude": 10.40033,
+    "id": "NSR:Quay:73571"
+  },
+  {
+    "latitude": 63.433292,
+    "name": "Olav Tryggvasons gate",
+    "longitude": 10.397798,
+    "id": "NSR:Quay:101521"
+  },
+  {
+    "latitude": 63.436028,
+    "name": "Trondheim S",
+    "longitude": 10.400624,
+    "id": "NSR:Quay:71418"
+  },
+  {
+    "latitude": 63.43602,
+    "name": "Trondheim S",
+    "longitude": 10.400648,
+    "id": "NSR:Quay:71430"
+  },
+  {
+    "latitude": 63.435932,
+    "name": "Trondheim S",
+    "longitude": 10.401385,
+    "id": "NSR:Quay:71416"
+  },
+  {
+    "latitude": 63.436035,
+    "name": "Trondheim S",
+    "longitude": 10.401348,
+    "id": "NSR:Quay:71412"
+  },
+  {
+    "latitude": 63.436085,
+    "name": "Trondheim",
+    "longitude": 10.398231,
+    "id": "NSR:Quay:1092"
+  },
+  {
+    "latitude": 63.433307,
+    "name": "Olav Tryggvasons gate",
+    "longitude": 10.401918,
+    "id": "NSR:Quay:74205"
+  },
+  {
+    "latitude": 63.435932,
+    "name": "Trondheim S",
+    "longitude": 10.402448,
+    "id": "NSR:Quay:71422"
+  },
+  {
+    "latitude": 63.436427,
+    "name": "Trondheim",
+    "longitude": 10.400487,
+    "id": "NSR:Quay:110499"
+  },
+  {
+    "latitude": 63.436386,
+    "name": "Trondheim S",
+    "longitude": 10.398751,
+    "id": "NSR:Quay:1078"
+  },
+  {
+    "latitude": 63.436043,
+    "name": "Trondheim S",
+    "longitude": 10.402351,
+    "id": "NSR:Quay:99726"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.401561,
+    "id": "NSR:Quay:71419"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.401431,
+    "id": "NSR:Quay:71415"
+  },
+  {
+    "latitude": 63.436153,
+    "name": "Trondheim S",
+    "longitude": 10.401309,
+    "id": "NSR:Quay:99922"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.401171,
+    "id": "NSR:Quay:71420"
+  },
+  {
+    "latitude": 63.436538,
+    "name": "Trondheim S",
+    "longitude": 10.398684,
+    "id": "NSR:Quay:1080"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.401041,
+    "id": "NSR:Quay:71411"
+  },
+  {
+    "latitude": 63.436458,
+    "name": "Trondheim S",
+    "longitude": 10.398719,
+    "id": "NSR:Quay:1079"
+  },
+  {
+    "latitude": 63.436523,
+    "name": "Trondheim S",
+    "longitude": 10.402009,
+    "id": "NSR:Quay:100531"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.400911,
+    "id": "NSR:Quay:71424"
+  },
+  {
+    "latitude": 63.436591,
+    "name": "Trondheim S",
+    "longitude": 10.401982,
+    "id": "NSR:Quay:100530"
+  },
+  {
+    "latitude": 63.43615,
+    "name": "Trondheim S",
+    "longitude": 10.400781,
+    "id": "NSR:Quay:71417"
+  },
+  {
+    "latitude": 63.436685,
+    "name": "Trondheim S",
+    "longitude": 10.398619,
+    "id": "NSR:Quay:1082"
+  },
+  {
+    "latitude": 63.436603,
+    "name": "Trondheim S",
+    "longitude": 10.398655,
+    "id": "NSR:Quay:1081"
+  },
+  {
+    "latitude": 63.433498,
+    "name": "Radisson Blu Royal Garden Hotel",
+    "longitude": 10.404456,
+    "id": "NSR:Quay:99506"
+  },
+  {
+    "latitude": 63.43605,
+    "name": "Trondheim S",
+    "longitude": 10.395601,
+    "id": "NSR:Quay:100529"
+  },
+  {
+    "latitude": 63.436538,
+    "name": "Trondheim S",
+    "longitude": 10.398684,
+    "id": "NSR:Quay:1080"
+  },
+  {
+    "latitude": 63.436458,
+    "name": "Trondheim S",
+    "longitude": 10.398719,
+    "id": "NSR:Quay:1079"
+  },
+  {
+    "latitude": 63.436685,
+    "name": "Trondheim S",
+    "longitude": 10.398619,
+    "id": "NSR:Quay:1082"
+  },
+  {
+    "latitude": 63.436603,
+    "name": "Trondheim S",
+    "longitude": 10.398655,
+    "id": "NSR:Quay:1081"
+  },
+  {
+    "latitude": 63.431923,
+    "name": "Dronningens gate",
+    "longitude": 10.393694,
+    "id": "NSR:Quay:74649"
+  },
+  {
+    "latitude": 63.43222,
+    "name": "Prinsens gate P3",
+    "longitude": 10.39166,
+    "id": "NSR:Quay:102717"
+  },
+  {
+    "latitude": 63.43202,
+    "name": "Dronningens gate",
+    "longitude": 10.392315,
+    "id": "NSR:Quay:74648"
+  },
+  {
+    "latitude": 63.431924,
+    "name": "Dronningens gate",
+    "longitude": 10.392503,
+    "id": "NSR:Quay:103163"
+  },
+  {
+    "latitude": 63.432449,
+    "name": "Bakkegata",
+    "longitude": 10.407097,
+    "id": "NSR:Quay:74792"
+  },
+  {
+    "latitude": 63.437902,
+    "name": "Trondheim hurtigbåtterminal",
+    "longitude": 10.39683,
+    "id": "NSR:Quay:116014"
+  },
+  {
+    "latitude": 63.438255,
+    "name": "Trondheim hurtigbåtterminal",
+    "longitude": 10.39971,
+    "id": "NSR:Quay:71795"
+  },
+  {
+    "latitude": 63.438534,
+    "name": "Trondheim hurtigbåtterminal",
+    "longitude": 10.399909,
+    "id": "NSR:Quay:71798"
+  },
+  {
+    "latitude": 63.43193,
+    "name": "Dronningens gate 19",
+    "longitude": 10.39153,
+    "id": "NSR:Quay:102718"
+  },
+  {
+    "latitude": 63.43224,
+    "name": "Bakkegata",
+    "longitude": 10.407278,
+    "id": "NSR:Quay:74793"
+  },
+  {
+    "latitude": 63.438151,
+    "name": "Trondheim hurtigbåtterminal",
+    "longitude": 10.396253,
+    "id": "NSR:Quay:116013"
+  },
+  {
+    "latitude": 63.431194,
+    "name": "Prinsens gate",
+    "longitude": 10.392115,
+    "id": "NSR:Quay:71181"
+  },
+  {
+    "latitude": 63.437504,
+    "name": "Brattøra",
+    "longitude": 10.406835,
+    "id": "NSR:Quay:75313"
+  },
+  {
+    "latitude": 63.437653,
+    "name": "Brattøra",
+    "longitude": 10.407343,
+    "id": "NSR:Quay:75314"
+  },
+  {
+    "latitude": 63.430874,
+    "name": "Prinsens gate",
+    "longitude": 10.391899,
+    "id": "NSR:Quay:71184"
+  },
+  {
+    "latitude": 63.43153,
+    "name": "Dronningens gate",
+    "longitude": 10.388027,
+    "id": "NSR:Quay:103547"
+  },
+  {
+    "latitude": 63.430668,
+    "name": "Kongens gate",
+    "longitude": 10.390887,
+    "id": "NSR:Quay:74265"
+  },
+  {
+    "latitude": 63.431051,
+    "name": "St. Olavs gate",
+    "longitude": 10.390352,
+    "id": "NSR:Quay:74061"
+  },
+  {
+    "latitude": 63.430492,
+    "name": "Kongens gate",
+    "longitude": 10.3916,
+    "id": "NSR:Quay:74264"
+  },
+  {
+    "latitude": 63.439506,
+    "name": "Clarion Hotel & Congress Trondheim",
+    "longitude": 10.401926,
+    "id": "NSR:Quay:101893"
+  },
+  {
+    "latitude": 63.43704,
+    "name": "Dyre Halses gate",
+    "longitude": 10.41321,
+    "id": "NSR:Quay:102714"
+  },
+  {
+    "latitude": 63.434006,
+    "name": "Solsiden",
+    "longitude": 10.412957,
+    "id": "NSR:Quay:73975"
+  },
+  {
+    "latitude": 63.43695,
+    "name": "Dyre Halses gate",
+    "longitude": 10.41344,
+    "id": "NSR:Quay:102713"
+  },
+  {
+    "latitude": 63.43403,
+    "name": "Solsiden",
+    "longitude": 10.413499,
+    "id": "NSR:Quay:73976"
+  },
+  {
+    "latitude": 63.43024,
+    "name": "Hospitalskirka",
+    "longitude": 10.385956,
+    "id": "NSR:Quay:71681"
+  },
+  {
+    "latitude": 63.430358,
+    "name": "Hospitalskirka",
+    "longitude": 10.385092,
+    "id": "NSR:Quay:71683"
+  },
+  {
+    "latitude": 63.430358,
+    "name": "Hospitalskirka",
+    "longitude": 10.385092,
+    "id": "NSR:Quay:103576"
+  },
+  {
+    "latitude": 63.440933,
+    "name": "Pirbadet",
+    "longitude": 10.402271,
+    "id": "NSR:Quay:71132"
+  },
+  {
+    "latitude": 63.441124,
+    "name": "Pirbadet",
+    "longitude": 10.402221,
+    "id": "NSR:Quay:71134"
+  },
+  {
+    "latitude": 63.43706,
+    "name": "Nidelv bru",
+    "longitude": 10.416094,
+    "id": "NSR:Quay:73988"
+  },
+  {
+    "latitude": 63.431195,
+    "name": "Skansen",
+    "longitude": 10.378787,
+    "id": "NSR:Quay:227"
+  },
+  {
+    "latitude": 63.43023,
+    "name": "Hospitalskirka",
+    "longitude": 10.382971,
+    "id": "NSR:Quay:71685"
+  },
+  {
+    "latitude": 63.43023,
+    "name": "Hospitalskirka",
+    "longitude": 10.382971,
+    "id": "NSR:Quay:103577"
+  },
+  {
+    "latitude": 63.431159,
+    "name": "Skansen stasjon",
+    "longitude": 10.377665,
+    "id": "NSR:Quay:224"
+  },
+  {
+    "latitude": 63.43023,
+    "name": "Kalvskinnet",
+    "longitude": 10.379803,
+    "id": "NSR:Quay:73960"
+  },
+  {
+    "latitude": 63.43032,
+    "name": "Kalvskinnet",
+    "longitude": 10.378585,
+    "id": "NSR:Quay:73959"
+  },
+  {
+    "latitude": 63.437208,
+    "name": "Lademoen",
+    "longitude": 10.416997,
+    "id": "NSR:Quay:454"
+  },
+  {
+    "latitude": 63.4379,
+    "name": "Losgata",
+    "longitude": 10.417499,
+    "id": "NSR:Quay:73600"
+  },
+  {
+    "latitude": 63.435986,
+    "name": "Strandveien",
+    "longitude": 10.419889,
+    "id": "NSR:Quay:73011"
+  },
+  {
+    "latitude": 63.437267,
+    "name": "Lademoen stasjon",
+    "longitude": 10.416689,
+    "id": "NSR:Quay:445"
+  },
+  {
+    "latitude": 63.426144,
+    "name": "Nidarosdomen",
+    "longitude": 10.393493,
+    "id": "NSR:Quay:71175"
+  },
+  {
+    "latitude": 63.425877,
+    "name": "Nidarosdomen",
+    "longitude": 10.3933,
+    "id": "NSR:Quay:71174"
+  },
+  {
+    "latitude": 63.436333,
+    "name": "Strandveien",
+    "longitude": 10.422713,
+    "id": "NSR:Quay:73013"
+  },
+  {
+    "latitude": 63.43633,
+    "name": "Buran",
+    "longitude": 10.42295,
+    "id": "NSR:Quay:103009"
+  },
+  {
+    "latitude": 63.443078,
+    "name": "Trondheim Hurtigrutekai",
+    "longitude": 10.407057,
+    "id": "NSR:Quay:99526"
+  },
+  {
+    "latitude": 63.438544,
+    "name": "Dora",
+    "longitude": 10.419518,
+    "id": "NSR:Quay:74590"
+  },
+  {
+    "latitude": 63.430071,
+    "name": "Skansen",
+    "longitude": 10.373602,
+    "id": "NSR:Quay:72210"
+  },
+  {
+    "latitude": 63.430071,
+    "name": "Skansen",
+    "longitude": 10.373602,
+    "id": "NSR:Quay:104113"
+  },
+  {
+    "latitude": 63.429914,
+    "name": "Skansen",
+    "longitude": 10.373859,
+    "id": "NSR:Quay:101522"
+  },
+  {
+    "latitude": 63.43626,
+    "name": "Buran",
+    "longitude": 10.42491,
+    "id": "NSR:Quay:103007"
+  },
+  {
+    "latitude": 63.439073,
+    "name": "Dora",
+    "longitude": 10.422327,
+    "id": "NSR:Quay:74589"
+  },
+  {
+    "latitude": 63.429731,
+    "name": "Skansen",
+    "longitude": 10.371861,
+    "id": "NSR:Quay:72212"
+  },
+  {
+    "latitude": 63.429731,
+    "name": "Skansen",
+    "longitude": 10.371861,
+    "id": "NSR:Quay:104112"
+  },
+  {
+    "latitude": 63.428185,
+    "name": "Festningsgata",
+    "longitude": 10.416337,
+    "id": "NSR:Quay:75156"
+  },
+  {
+    "latitude": 63.43711,
+    "name": "Buran",
+    "longitude": 10.42678,
+    "id": "NSR:Quay:103008"
+  },
+  {
+    "latitude": 63.42279,
+    "name": "Studentersamfundet",
+    "longitude": 10.395173,
+    "id": "NSR:Quay:73100"
+  },
+  {
+    "latitude": 63.430714,
+    "name": "Gyldenløves gate",
+    "longitude": 10.41999,
+    "id": "NSR:Quay:72405"
+  },
+  {
+    "latitude": 63.430283,
+    "name": "Gyldenløves gate",
+    "longitude": 10.419227,
+    "id": "NSR:Quay:72406"
+  },
+  {
+    "latitude": 63.42873,
+    "name": "Arilds gate",
+    "longitude": 10.371154,
+    "id": "NSR:Quay:74635"
+  },
+  {
+    "latitude": 63.42758,
+    "name": "Festningsgata",
+    "longitude": 10.416348,
+    "id": "NSR:Quay:75155"
+  },
+  {
+    "latitude": 63.422596,
+    "name": "Studentersamfundet",
+    "longitude": 10.394623,
+    "id": "NSR:Quay:73101"
+  },
+  {
+    "latitude": 63.422665,
+    "name": "Studentersamfundet",
+    "longitude": 10.395227,
+    "id": "NSR:Quay:73102"
+  },
+  {
+    "latitude": 63.425182,
+    "name": "Gudruns gate",
+    "longitude": 10.382566,
+    "id": "NSR:Quay:72344"
+  },
+  {
+    "latitude": 63.42519,
+    "name": "Gudruns gate",
+    "longitude": 10.382767,
+    "id": "NSR:Quay:72343"
+  },
+  {
+    "latitude": 63.430283,
+    "name": "Gyldenløves gate",
+    "longitude": 10.419227,
+    "id": "NSR:Quay:72406"
+  },
+  {
+    "latitude": 63.422222,
+    "name": "Studentersamfundet",
+    "longitude": 10.394384,
+    "id": "NSR:Quay:73103"
+  },
+  {
+    "latitude": 63.429281,
+    "name": "Ila",
+    "longitude": 10.368342,
+    "id": "NSR:Quay:72052"
+  },
+  {
+    "latitude": 63.429281,
+    "name": "Ila",
+    "longitude": 10.368342,
+    "id": "NSR:Quay:104110"
+  },
+  {
+    "latitude": 63.431473,
+    "name": "Sig.Berg alle",
+    "longitude": 10.422071,
+    "id": "NSR:Quay:72054"
+  },
+  {
+    "latitude": 63.429267,
+    "name": "Ila",
+    "longitude": 10.367671,
+    "id": "NSR:Quay:72051"
+  },
+  {
+    "latitude": 63.429267,
+    "name": "Ila",
+    "longitude": 10.367671,
+    "id": "NSR:Quay:104111"
+  },
+  {
+    "latitude": 63.436737,
+    "name": "Rosendal",
+    "longitude": 10.42993,
+    "id": "NSR:Quay:71498"
+  },
+  {
+    "latitude": 63.426685,
+    "name": "Nidarø",
+    "longitude": 10.377632,
+    "id": "NSR:Quay:71438"
+  },
+  {
+    "latitude": 63.426628,
+    "name": "Nidarø",
+    "longitude": 10.377404,
+    "id": "NSR:Quay:71434"
+  },
+  {
+    "latitude": 63.4314,
+    "name": "Sig.Berg alle",
+    "longitude": 10.422189,
+    "id": "NSR:Quay:72055"
+  },
+  {
+    "latitude": 63.438366,
+    "name": "Anders Buens gate",
+    "longitude": 10.42949,
+    "id": "NSR:Quay:74588"
+  },
+  {
+    "latitude": 63.43846,
+    "name": "Anders Buens gate",
+    "longitude": 10.429855,
+    "id": "NSR:Quay:74587"
+  },
+  {
+    "latitude": 63.42087,
+    "name": "Olav Kyrres gate",
+    "longitude": 10.39552,
+    "id": "NSR:Quay:102749"
+  },
+  {
+    "latitude": 63.42799,
+    "name": "Bergsli gate",
+    "longitude": 10.367518,
+    "id": "NSR:Quay:75008"
+  },
+  {
+    "latitude": 63.429268,
+    "name": "Hanskemakerbakken",
+    "longitude": 10.365748,
+    "id": "NSR:Quay:72657"
+  },
+  {
+    "latitude": 63.42069,
+    "name": "Olav Kyrres gate",
+    "longitude": 10.39507,
+    "id": "NSR:Quay:102750"
+  },
+  {
+    "latitude": 63.426674,
+    "name": "Arilds gate",
+    "longitude": 10.369633,
+    "id": "NSR:Quay:74636"
+  },
+  {
+    "latitude": 63.429436,
+    "name": "Hanskemakerbakken",
+    "longitude": 10.365055,
+    "id": "NSR:Quay:72658"
+  },
+  {
+    "latitude": 63.42375,
+    "name": "Margretes gate",
+    "longitude": 10.386825,
+    "id": "NSR:Quay:72656"
+  },
+  {
+    "latitude": 63.42174,
+    "name": "Vollabakken",
+    "longitude": 10.400472,
+    "id": "NSR:Quay:72407"
+  },
+  {
+    "latitude": 63.43677,
+    "name": "Rosendal",
+    "longitude": 10.432778,
+    "id": "NSR:Quay:71497"
+  },
+  {
+    "latitude": 63.42279,
+    "name": "Ragnhilds gate",
+    "longitude": 10.388641,
+    "id": "NSR:Quay:71213"
+  },
+  {
+    "latitude": 63.42182,
+    "name": "Vollabakken",
+    "longitude": 10.400496,
+    "id": "NSR:Quay:72408"
+  },
+  {
+    "latitude": 63.430847,
+    "name": "Christian Monsens gate",
+    "longitude": 10.424686,
+    "id": "NSR:Quay:75599"
+  },
+  {
+    "latitude": 63.44269,
+    "name": "Strandveikaia",
+    "longitude": 10.426979,
+    "id": "NSR:Quay:73016"
+  },
+  {
+    "latitude": 63.422604,
+    "name": "Ragnhilds gate",
+    "longitude": 10.388392,
+    "id": "NSR:Quay:71214"
+  },
+  {
+    "latitude": 63.42486,
+    "name": "Ankers gate",
+    "longitude": 10.416655,
+    "id": "NSR:Quay:74606"
+  },
+  {
+    "latitude": 63.42739,
+    "name": "Bergsli gate",
+    "longitude": 10.367481,
+    "id": "NSR:Quay:101523"
+  },
+  {
+    "latitude": 63.43319,
+    "name": "Weidemannsveien",
+    "longitude": 10.426646,
+    "id": "NSR:Quay:72616"
+  },
+  {
+    "latitude": 63.419647,
+    "name": "Einar Tambarskjelves gate",
+    "longitude": 10.396123,
+    "id": "NSR:Quay:74823"
+  },
+  {
+    "latitude": 63.433506,
+    "name": "Weidemannsveien",
+    "longitude": 10.428145,
+    "id": "NSR:Quay:72617"
+  },
+  {
+    "latitude": 63.42338,
+    "name": "Margretes gate",
+    "longitude": 10.387769,
+    "id": "NSR:Quay:72655"
+  },
+  {
+    "latitude": 63.42486,
+    "name": "Ankers gate",
+    "longitude": 10.416855,
+    "id": "NSR:Quay:74605"
+  },
+  {
+    "latitude": 63.420773,
+    "name": "St. Olavs Hospital",
+    "longitude": 10.390441,
+    "id": "NSR:Quay:98579"
+  },
+  {
+    "latitude": 63.442913,
+    "name": "Strandveikaia",
+    "longitude": 10.427271,
+    "id": "NSR:Quay:73017"
+  },
+  {
+    "latitude": 63.427029,
+    "name": "Bergsli gate",
+    "longitude": 10.367945,
+    "id": "NSR:Quay:75007"
+  },
+  {
+    "latitude": 63.427503,
+    "name": "Bergsli gate",
+    "longitude": 10.367172,
+    "id": "NSR:Quay:101524"
+  },
+  {
+    "latitude": 63.420837,
+    "name": "St. Olavs Hospital",
+    "longitude": 10.39011,
+    "id": "NSR:Quay:71189"
+  },
+  {
+    "latitude": 63.420757,
+    "name": "St. Olavs Hospital",
+    "longitude": 10.390046,
+    "id": "NSR:Quay:71190"
+  },
+  {
+    "latitude": 63.420506,
+    "name": "St. Olavs Hospital",
+    "longitude": 10.390234,
+    "id": "NSR:Quay:71191"
+  },
+  {
+    "latitude": 63.439906,
+    "name": "Lilleby stasjon",
+    "longitude": 10.43238,
+    "id": "NSR:Quay:644"
+  },
+  {
+    "latitude": 63.439883,
+    "name": "Lilleby stasjon",
+    "longitude": 10.432905,
+    "id": "NSR:Quay:646"
+  },
+  {
+    "latitude": 63.437153,
+    "name": "Rønningsbakken",
+    "longitude": 10.436787,
+    "id": "NSR:Quay:71687"
+  },
+  {
+    "latitude": 63.427197,
+    "name": "Asbjørnsens gate",
+    "longitude": 10.422761,
+    "id": "NSR:Quay:74664"
+  },
+  {
+    "latitude": 63.418594,
+    "name": "Einar Tambarskjelves gate",
+    "longitude": 10.396312,
+    "id": "NSR:Quay:74824"
+  },
+  {
+    "latitude": 63.43705,
+    "name": "Rønningsbakken",
+    "longitude": 10.437202,
+    "id": "NSR:Quay:71686"
+  },
+  {
+    "latitude": 63.43942,
+    "name": "Laugsand",
+    "longitude": 10.433612,
+    "id": "NSR:Quay:73263"
+  },
+  {
+    "latitude": 63.43957,
+    "name": "Laugsand",
+    "longitude": 10.433681,
+    "id": "NSR:Quay:73265"
+  },
+  {
+    "latitude": 63.42271,
+    "name": "Jonsvannsveien",
+    "longitude": 10.413242,
+    "id": "NSR:Quay:73880"
+  },
+  {
+    "latitude": 63.420877,
+    "name": "Høgskoleringen",
+    "longitude": 10.404214,
+    "id": "NSR:Quay:71939"
+  },
+  {
+    "latitude": 63.42261,
+    "name": "Jonsvannsveien",
+    "longitude": 10.413398,
+    "id": "NSR:Quay:73881"
+  },
+  {
+    "latitude": 63.429848,
+    "name": "Bynesveien 16",
+    "longitude": 10.358641,
+    "id": "NSR:Quay:75522"
+  },
+  {
+    "latitude": 63.42014,
+    "name": "St. Olavs Hospital vest",
+    "longitude": 10.38639,
+    "id": "NSR:Quay:74058"
+  },
+  {
+    "latitude": 63.42024,
+    "name": "St. Olavs Hospital vest",
+    "longitude": 10.386214,
+    "id": "NSR:Quay:74057"
+  },
+  {
+    "latitude": 63.420296,
+    "name": "Høgskoleringen",
+    "longitude": 10.404992,
+    "id": "NSR:Quay:71940"
+  },
+  {
+    "latitude": 63.43,
+    "name": "Bynesveien 16",
+    "longitude": 10.357726,
+    "id": "NSR:Quay:75523"
+  },
+  {
+    "latitude": 63.424614,
+    "name": "Nyveibakken",
+    "longitude": 10.370736,
+    "id": "NSR:Quay:74330"
+  },
+  {
+    "latitude": 63.431091,
+    "name": "Ilsvika",
+    "longitude": 10.357364,
+    "id": "NSR:Quay:72068"
+  },
+  {
+    "latitude": 63.445084,
+    "name": "Ladejarlen vgs.",
+    "longitude": 10.423929,
+    "id": "NSR:Quay:73148"
+  },
+  {
+    "latitude": 63.4168,
+    "name": "Hesthagen",
+    "longitude": 10.39713,
+    "id": "NSR:Quay:102719"
+  },
+  {
+    "latitude": 63.44507,
+    "name": "Ladejarlen vgs.",
+    "longitude": 10.423648,
+    "id": "NSR:Quay:73146"
+  },
+  {
+    "latitude": 63.429356,
+    "name": "Møllebakken",
+    "longitude": 10.358337,
+    "id": "NSR:Quay:73678"
+  },
+  {
+    "latitude": 63.437897,
+    "name": "Saxenborg allé",
+    "longitude": 10.442317,
+    "id": "NSR:Quay:71920"
+  },
+  {
+    "latitude": 63.415535,
+    "name": "Hesthagen",
+    "longitude": 10.398126,
+    "id": "NSR:Quay:71204"
+  },
+  {
+    "latitude": 63.424038,
+    "name": "Nyveibakken",
+    "longitude": 10.37119,
+    "id": "NSR:Quay:74329"
+  },
+  {
+    "latitude": 63.43776,
+    "name": "Saxenborg allé",
+    "longitude": 10.442711,
+    "id": "NSR:Quay:71919"
+  },
+  {
+    "latitude": 63.443783,
+    "name": "Ladeveien",
+    "longitude": 10.435514,
+    "id": "NSR:Quay:73154"
+  },
+  {
+    "latitude": 63.424038,
+    "name": "Nyveibakken",
+    "longitude": 10.37119,
+    "id": "NSR:Quay:74329"
+  },
+  {
+    "latitude": 63.424038,
+    "name": "Nyveibakken",
+    "longitude": 10.37119,
+    "id": "NSR:Quay:74329"
+  },
+  {
+    "latitude": 63.444088,
+    "name": "Ladeveien",
+    "longitude": 10.436412,
+    "id": "NSR:Quay:73152"
+  },
+  {
+    "latitude": 63.418429,
+    "name": "Marienborg",
+    "longitude": 10.382349,
+    "id": "NSR:Quay:1018"
+  },
+  {
+    "latitude": 63.42893,
+    "name": "Christian Jelstrups vei",
+    "longitude": 10.356032,
+    "id": "NSR:Quay:75598"
+  },
+  {
+    "latitude": 63.418429,
+    "name": "Marienborg",
+    "longitude": 10.382349,
+    "id": "NSR:Quay:1018"
+  },
+  {
+    "latitude": 63.418656,
+    "name": "Marienborg stasjon",
+    "longitude": 10.382633,
+    "id": "NSR:Quay:1012"
+  },
+  {
+    "latitude": 63.418672,
+    "name": "Marienborg stasjon",
+    "longitude": 10.382735,
+    "id": "NSR:Quay:1011"
+  },
+  {
+    "latitude": 63.418056,
+    "name": "Marienborg stasjon",
+    "longitude": 10.382563,
+    "id": "NSR:Quay:72677"
+  },
+  {
+    "latitude": 63.414295,
+    "name": "Hesthagen",
+    "longitude": 10.398206,
+    "id": "NSR:Quay:71195"
+  },
+  {
+    "latitude": 63.445957,
+    "name": "Ladehammeren",
+    "longitude": 10.426299,
+    "id": "NSR:Quay:73143"
+  },
+  {
+    "latitude": 63.41882,
+    "name": "Marienborg stasjon",
+    "longitude": 10.38211,
+    "id": "NSR:Quay:103522"
+  },
+  {
+    "latitude": 63.446114,
+    "name": "Ladehammeren",
+    "longitude": 10.426768,
+    "id": "NSR:Quay:73144"
+  },
+  {
+    "latitude": 63.417816,
+    "name": "Marienborg stasjon",
+    "longitude": 10.382431,
+    "id": "NSR:Quay:72678"
+  },
+  {
+    "latitude": 63.422733,
+    "name": "Kvilhaugen",
+    "longitude": 10.424543,
+    "id": "NSR:Quay:73026"
+  },
+  {
+    "latitude": 63.437515,
+    "name": "Dalen Hageby",
+    "longitude": 10.448172,
+    "id": "NSR:Quay:74497"
+  },
+  {
+    "latitude": 63.416835,
+    "name": "Gløshaugen",
+    "longitude": 10.407556,
+    "id": "NSR:Quay:75708"
+  },
+  {
+    "latitude": 63.427475,
+    "name": "Tyholt",
+    "longitude": 10.432574,
+    "id": "NSR:Quay:71658"
+  },
+  {
+    "latitude": 63.4214,
+    "name": "Magnus Blindes veg",
+    "longitude": 10.420931,
+    "id": "NSR:Quay:72618"
+  },
+  {
+    "latitude": 63.42782,
+    "name": "Tyholt",
+    "longitude": 10.433093,
+    "id": "NSR:Quay:71659"
+  },
+  {
+    "latitude": 63.419857,
+    "name": "Marienborg",
+    "longitude": 10.37734,
+    "id": "NSR:Quay:72667"
+  },
+  {
+    "latitude": 63.416499,
+    "name": "Gløshaugen",
+    "longitude": 10.407687,
+    "id": "NSR:Quay:75707"
+  },
+  {
+    "latitude": 63.434329,
+    "name": "Rønningen aldersbolig",
+    "longitude": 10.44101,
+    "id": "NSR:Quay:71679"
+  },
+  {
+    "latitude": 63.434215,
+    "name": "Rønningen aldersbolig",
+    "longitude": 10.441201,
+    "id": "NSR:Quay:71680"
+  },
+  {
+    "latitude": 63.41269,
+    "name": "Lerkendal",
+    "longitude": 10.39983,
+    "id": "NSR:Quay:73421"
+  },
+  {
+    "latitude": 63.41921,
+    "name": "Marienborg",
+    "longitude": 10.37757,
+    "id": "NSR:Quay:72666"
+  },
+  {
+    "latitude": 63.444855,
+    "name": "Harald Hårfagres gate",
+    "longitude": 10.439379,
+    "id": "NSR:Quay:72674"
+  },
+  {
+    "latitude": 63.41219,
+    "name": "Lerkendal",
+    "longitude": 10.39896,
+    "id": "NSR:Quay:102720"
+  },
+  {
+    "latitude": 63.41755,
+    "name": "Berg Prestegård",
+    "longitude": 10.414991,
+    "id": "NSR:Quay:74949"
+  },
+  {
+    "latitude": 63.412506,
+    "name": "Lerkendal",
+    "longitude": 10.400402,
+    "id": "NSR:Quay:73420"
+  },
+  {
+    "latitude": 63.437233,
+    "name": "Dalen Hageby",
+    "longitude": 10.450062,
+    "id": "NSR:Quay:74498"
+  },
+  {
+    "latitude": 63.412003,
+    "name": "Lerkendal",
+    "longitude": 10.399536,
+    "id": "NSR:Quay:73729"
+  },
+  {
+    "latitude": 63.444412,
+    "name": "Harald Hårfagres gate",
+    "longitude": 10.440599,
+    "id": "NSR:Quay:72673"
+  },
+  {
+    "latitude": 63.428894,
+    "name": "Clara Holsts veg",
+    "longitude": 10.43525,
+    "id": "NSR:Quay:75615"
+  },
+  {
+    "latitude": 63.419605,
+    "name": "Harald Gilles veg",
+    "longitude": 10.418678,
+    "id": "NSR:Quay:72668"
+  },
+  {
+    "latitude": 63.42742,
+    "name": "Fagerliveien",
+    "longitude": 10.355861,
+    "id": "NSR:Quay:75082"
+  },
+  {
+    "latitude": 63.42734,
+    "name": "Fagerliveien",
+    "longitude": 10.355837,
+    "id": "NSR:Quay:75083"
+  },
+  {
+    "latitude": 63.422047,
+    "name": "Strinda vgs.",
+    "longitude": 10.427575,
+    "id": "NSR:Quay:73030"
+  },
+  {
+    "latitude": 63.42901,
+    "name": "Clara Holsts veg",
+    "longitude": 10.436278,
+    "id": "NSR:Quay:75616"
+  },
+  {
+    "latitude": 63.416973,
+    "name": "Cecilienborg",
+    "longitude": 10.379466,
+    "id": "NSR:Quay:75586"
+  },
+  {
+    "latitude": 63.41693,
+    "name": "Cecilienborg",
+    "longitude": 10.379264,
+    "id": "NSR:Quay:75587"
+  },
+  {
+    "latitude": 63.43485,
+    "name": "Brian Smiths gate",
+    "longitude": 10.447956,
+    "id": "NSR:Quay:75370"
+  },
+  {
+    "latitude": 63.447872,
+    "name": "Krutthusbakken",
+    "longitude": 10.43215,
+    "id": "NSR:Quay:74386"
+  },
+  {
+    "latitude": 63.411353,
+    "name": "Scandic Lerkendal hotell",
+    "longitude": 10.402301,
+    "id": "NSR:Quay:99507"
+  },
+  {
+    "latitude": 63.447533,
+    "name": "Lade gård",
+    "longitude": 10.439914,
+    "id": "NSR:Quay:73133"
+  },
+  {
+    "latitude": 63.44631,
+    "name": "Ingemann Torps vei",
+    "longitude": 10.442279,
+    "id": "NSR:Quay:72108"
+  },
+  {
+    "latitude": 63.44616,
+    "name": "Ingemann Torps vei",
+    "longitude": 10.442733,
+    "id": "NSR:Quay:72107"
+  },
+  {
+    "latitude": 63.44766,
+    "name": "Lade gård",
+    "longitude": 10.440161,
+    "id": "NSR:Quay:73132"
+  },
+  {
+    "latitude": 63.431572,
+    "name": "Persaunet leir",
+    "longitude": 10.442079,
+    "id": "NSR:Quay:74990"
+  },
+  {
+    "latitude": 63.418824,
+    "name": "Bygrensen",
+    "longitude": 10.37568,
+    "id": "NSR:Quay:75517"
+  },
+  {
+    "latitude": 63.434258,
+    "name": "Brian Smiths gate",
+    "longitude": 10.447927,
+    "id": "NSR:Quay:75371"
+  },
+  {
+    "latitude": 63.418773,
+    "name": "Bygrensen",
+    "longitude": 10.37556,
+    "id": "NSR:Quay:75518"
+  },
+  {
+    "latitude": 63.44771,
+    "name": "Krutthusbakken",
+    "longitude": 10.433225,
+    "id": "NSR:Quay:74385"
+  },
+  {
+    "latitude": 63.42738,
+    "name": "Cecilie Thoresens veg",
+    "longitude": 10.440305,
+    "id": "NSR:Quay:75585"
+  },
+  {
+    "latitude": 63.431515,
+    "name": "Persaunet leir",
+    "longitude": 10.441475,
+    "id": "NSR:Quay:74991"
+  },
+  {
+    "latitude": 63.427277,
+    "name": "Cecilie Thoresens veg",
+    "longitude": 10.44048,
+    "id": "NSR:Quay:75582"
+  },
+  {
+    "latitude": 63.4145,
+    "name": "Prestegårdsjordet",
+    "longitude": 10.41174,
+    "id": "NSR:Quay:71153"
+  },
+  {
+    "latitude": 63.410374,
+    "name": "Valgrindvegen",
+    "longitude": 10.402581,
+    "id": "NSR:Quay:71907"
+  },
+  {
+    "latitude": 63.413874,
+    "name": "Lerkendal stasjon",
+    "longitude": 10.409237,
+    "id": "NSR:Quay:783"
+  },
+  {
+    "latitude": 63.409447,
+    "name": "Valøyvegen",
+    "longitude": 10.399251,
+    "id": "NSR:Quay:71981"
+  },
+  {
+    "latitude": 63.418026,
+    "name": "Tvetestien",
+    "longitude": 10.372726,
+    "id": "NSR:Quay:71634"
+  },
+  {
+    "latitude": 63.4356,
+    "name": "Strindheim",
+    "longitude": 10.455391,
+    "id": "NSR:Quay:73034"
+  },
+  {
+    "latitude": 63.443966,
+    "name": "City Lade",
+    "longitude": 10.445008,
+    "id": "NSR:Quay:75605"
+  },
+  {
+    "latitude": 63.421852,
+    "name": "Oscar Wistings vei",
+    "longitude": 10.368841,
+    "id": "NSR:Quay:74872"
+  },
+  {
+    "latitude": 63.425854,
+    "name": "Schiøtz' vei",
+    "longitude": 10.355607,
+    "id": "NSR:Quay:71931"
+  },
+  {
+    "latitude": 63.435755,
+    "name": "Killingdal",
+    "longitude": 10.34907,
+    "id": "NSR:Quay:74034"
+  },
+  {
+    "latitude": 63.435253,
+    "name": "Strindheim",
+    "longitude": 10.456015,
+    "id": "NSR:Quay:73033"
+  },
+  {
+    "latitude": 63.4094,
+    "name": "Valgrindvegen",
+    "longitude": 10.402934,
+    "id": "NSR:Quay:71906"
+  },
+  {
+    "latitude": 63.417908,
+    "name": "Tvetestien",
+    "longitude": 10.372079,
+    "id": "NSR:Quay:71633"
+  },
+  {
+    "latitude": 63.412782,
+    "name": "Lerkendal gård",
+    "longitude": 10.407832,
+    "id": "NSR:Quay:73414"
+  },
+  {
+    "latitude": 63.435403,
+    "name": "Killingdal",
+    "longitude": 10.348848,
+    "id": "NSR:Quay:74033"
+  },
+  {
+    "latitude": 63.435403,
+    "name": "Killingdal",
+    "longitude": 10.348848,
+    "id": "NSR:Quay:74033"
+  },
+  {
+    "latitude": 63.41983,
+    "name": "Thora Storms vei",
+    "longitude": 10.370708,
+    "id": "NSR:Quay:73750"
+  },
+  {
+    "latitude": 63.4444,
+    "name": "City Lade",
+    "longitude": 10.445331,
+    "id": "NSR:Quay:75604"
+  },
+  {
+    "latitude": 63.42678,
+    "name": "Tyholtveien",
+    "longitude": 10.441976,
+    "id": "NSR:Quay:71678"
+  },
+  {
+    "latitude": 63.4385,
+    "name": "Fagervika",
+    "longitude": 10.348346,
+    "id": "NSR:Quay:75092"
+  },
+  {
+    "latitude": 63.43544,
+    "name": "Strindheim 2",
+    "longitude": 10.457207,
+    "id": "NSR:Quay:73038"
+  },
+  {
+    "latitude": 63.412853,
+    "name": "Thaulowbakken",
+    "longitude": 10.382253,
+    "id": "NSR:Quay:73744"
+  },
+  {
+    "latitude": 63.413593,
+    "name": "Berg studentby",
+    "longitude": 10.414095,
+    "id": "NSR:Quay:74954"
+  },
+  {
+    "latitude": 63.438538,
+    "name": "Fagervika",
+    "longitude": 10.347987,
+    "id": "NSR:Quay:75091"
+  },
+  {
+    "latitude": 63.41872,
+    "name": "Valentinlystvegen",
+    "longitude": 10.430214,
+    "id": "NSR:Quay:71902"
+  },
+  {
+    "latitude": 63.416226,
+    "name": "Belvedere",
+    "longitude": 10.37634,
+    "id": "NSR:Quay:74896"
+  },
+  {
+    "latitude": 63.413006,
+    "name": "Lerkendal gård",
+    "longitude": 10.409538,
+    "id": "NSR:Quay:73415"
+  },
+  {
+    "latitude": 63.413006,
+    "name": "Lerkendal gård",
+    "longitude": 10.409538,
+    "id": "NSR:Quay:73415"
+  },
+  {
+    "latitude": 63.412666,
+    "name": "Thaulowbakken",
+    "longitude": 10.382123,
+    "id": "NSR:Quay:73745"
+  },
+  {
+    "latitude": 63.416109,
+    "name": "Belvedere",
+    "longitude": 10.376399,
+    "id": "NSR:Quay:74894"
+  },
+  {
+    "latitude": 63.407852,
+    "name": "Valøyvegen",
+    "longitude": 10.398032,
+    "id": "NSR:Quay:71982"
+  },
+  {
+    "latitude": 63.408085,
+    "name": "Tempevegen 11",
+    "longitude": 10.397182,
+    "id": "NSR:Quay:73735"
+  },
+  {
+    "latitude": 63.42578,
+    "name": "Schiøtz' vei",
+    "longitude": 10.354822,
+    "id": "NSR:Quay:71932"
+  },
+  {
+    "latitude": 63.412968,
+    "name": "Dybdahls veg",
+    "longitude": 10.413564,
+    "id": "NSR:Quay:74661"
+  },
+  {
+    "latitude": 63.42358,
+    "name": "Hjalmar Johansens vei",
+    "longitude": 10.366239,
+    "id": "NSR:Quay:71399"
+  },
+  {
+    "latitude": 63.435642,
+    "name": "Strindheim 2",
+    "longitude": 10.458179,
+    "id": "NSR:Quay:73036"
+  },
+  {
+    "latitude": 63.40819,
+    "name": "Sorgenfri",
+    "longitude": 10.403856,
+    "id": "NSR:Quay:74013"
+  },
+  {
+    "latitude": 63.42383,
+    "name": "Hammersborg",
+    "longitude": 10.357234,
+    "id": "NSR:Quay:72625"
+  },
+  {
+    "latitude": 63.424496,
+    "name": "Valentinlyst",
+    "longitude": 10.440261,
+    "id": "NSR:Quay:71897"
+  },
+  {
+    "latitude": 63.427383,
+    "name": "Kaptein Roosens vei",
+    "longitude": 10.350509,
+    "id": "NSR:Quay:73977"
+  },
+  {
+    "latitude": 63.42467,
+    "name": "Valentinlyst",
+    "longitude": 10.44073,
+    "id": "NSR:Quay:71898"
+  },
+  {
+    "latitude": 63.40777,
+    "name": "Tempevegen 11",
+    "longitude": 10.396707,
+    "id": "NSR:Quay:73734"
+  },
+  {
+    "latitude": 63.423683,
+    "name": "Hammersborg",
+    "longitude": 10.357267,
+    "id": "NSR:Quay:72626"
+  },
+  {
+    "latitude": 63.41287,
+    "name": "Dybdahls veg",
+    "longitude": 10.414761,
+    "id": "NSR:Quay:74662"
+  },
+  {
+    "latitude": 63.443783,
+    "name": "Lade idrettsanlegg",
+    "longitude": 10.449631,
+    "id": "NSR:Quay:72460"
+  },
+  {
+    "latitude": 63.420868,
+    "name": "Magnus Berrføtts veg",
+    "longitude": 10.437895,
+    "id": "NSR:Quay:72610"
+  },
+  {
+    "latitude": 63.449738,
+    "name": "Ringve skole",
+    "longitude": 10.444757,
+    "id": "NSR:Quay:71384"
+  },
+  {
+    "latitude": 63.43356,
+    "name": "Strindheim skole",
+    "longitude": 10.456511,
+    "id": "NSR:Quay:73048"
+  },
+  {
+    "latitude": 63.44411,
+    "name": "Lade idrettsanlegg",
+    "longitude": 10.449106,
+    "id": "NSR:Quay:72461"
+  },
+  {
+    "latitude": 63.40766,
+    "name": "Sorgenfri",
+    "longitude": 10.403871,
+    "id": "NSR:Quay:74012"
+  },
+  {
+    "latitude": 63.43127,
+    "name": "Kong Øysteins veg",
+    "longitude": 10.449619,
+    "id": "NSR:Quay:74261"
+  },
+  {
+    "latitude": 63.419254,
+    "name": "Sigurd Jorsalfars veg",
+    "longitude": 10.43597,
+    "id": "NSR:Quay:72060"
+  },
+  {
+    "latitude": 63.416109,
+    "name": "Belvedere",
+    "longitude": 10.376399,
+    "id": "NSR:Quay:74894"
+  },
+  {
+    "latitude": 63.416226,
+    "name": "Belvedere",
+    "longitude": 10.37634,
+    "id": "NSR:Quay:74896"
+  },
+  {
+    "latitude": 63.449654,
+    "name": "Ringve skole",
+    "longitude": 10.446037,
+    "id": "NSR:Quay:71385"
+  },
+  {
+    "latitude": 63.411118,
+    "name": "Breidablikkveien",
+    "longitude": 10.38275,
+    "id": "NSR:Quay:75329"
+  },
+  {
+    "latitude": 63.41102,
+    "name": "Breidablikkveien",
+    "longitude": 10.382605,
+    "id": "NSR:Quay:75330"
+  },
+  {
+    "latitude": 63.41102,
+    "name": "Breidablikkveien",
+    "longitude": 10.382605,
+    "id": "NSR:Quay:75330"
+  },
+  {
+    "latitude": 63.414307,
+    "name": "Bugges veg",
+    "longitude": 10.4206,
+    "id": "NSR:Quay:75462"
+  },
+  {
+    "latitude": 63.440288,
+    "name": "Biologen",
+    "longitude": 10.347254,
+    "id": "NSR:Quay:75063"
+  },
+  {
+    "latitude": 63.406845,
+    "name": "Sorgenfriveien",
+    "longitude": 10.400557,
+    "id": "NSR:Quay:99902"
+  },
+  {
+    "latitude": 63.413494,
+    "name": "Berg studentby",
+    "longitude": 10.416874,
+    "id": "NSR:Quay:74952"
+  },
+  {
+    "latitude": 63.430386,
+    "name": "Kong Øysteins veg",
+    "longitude": 10.450076,
+    "id": "NSR:Quay:74260"
+  },
+  {
+    "latitude": 63.406975,
+    "name": "Sorgenfriveien",
+    "longitude": 10.400693,
+    "id": "NSR:Quay:74016"
+  },
+  {
+    "latitude": 63.43388,
+    "name": "Gildheim",
+    "longitude": 10.461437,
+    "id": "NSR:Quay:75658"
+  },
+  {
+    "latitude": 63.42179,
+    "name": "Magnus Berrføtts veg",
+    "longitude": 10.439023,
+    "id": "NSR:Quay:72609"
+  },
+  {
+    "latitude": 63.432438,
+    "name": "Strindheim skole",
+    "longitude": 10.455531,
+    "id": "NSR:Quay:73049"
+  },
+  {
+    "latitude": 63.43418,
+    "name": "Gildheim",
+    "longitude": 10.461733,
+    "id": "NSR:Quay:75657"
+  },
+  {
+    "latitude": 63.440739,
+    "name": "Biologen",
+    "longitude": 10.347048,
+    "id": "NSR:Quay:75064"
+  },
+  {
+    "latitude": 63.437518,
+    "name": "Leangen stasjon",
+    "longitude": 10.461575,
+    "id": "NSR:Quay:654"
+  },
+  {
+    "latitude": 63.437638,
+    "name": "Leangen stasjon",
+    "longitude": 10.461747,
+    "id": "NSR:Quay:652"
+  },
+  {
+    "latitude": 63.437585,
+    "name": "Leangen stasjon",
+    "longitude": 10.461683,
+    "id": "NSR:Quay:651"
+  },
+  {
+    "latitude": 63.415234,
+    "name": "Åsveien skole",
+    "longitude": 10.368125,
+    "id": "NSR:Quay:72800"
+  },
+  {
+    "latitude": 63.40977,
+    "name": "Stavnebrua",
+    "longitude": 10.383466,
+    "id": "NSR:Quay:74131"
+  },
+  {
+    "latitude": 63.40522,
+    "name": "Bratsbergvegen",
+    "longitude": 10.397464,
+    "id": "NSR:Quay:75300"
+  },
+  {
+    "latitude": 63.449776,
+    "name": "Østmarkveien",
+    "longitude": 10.448951,
+    "id": "NSR:Quay:72848"
+  },
+  {
+    "latitude": 63.42149,
+    "name": "Trøndelag Folkemuseum",
+    "longitude": 10.356683,
+    "id": "NSR:Quay:71500"
+  },
+  {
+    "latitude": 63.430307,
+    "name": "Bromstadvegen",
+    "longitude": 10.452314,
+    "id": "NSR:Quay:75377"
+  },
+  {
+    "latitude": 63.437638,
+    "name": "Leangen stasjon",
+    "longitude": 10.461747,
+    "id": "NSR:Quay:652"
+  },
+  {
+    "latitude": 63.437585,
+    "name": "Leangen stasjon",
+    "longitude": 10.461683,
+    "id": "NSR:Quay:651"
+  },
+  {
+    "latitude": 63.43017,
+    "name": "Bromstadvegen",
+    "longitude": 10.452759,
+    "id": "NSR:Quay:75378"
+  },
+  {
+    "latitude": 63.416046,
+    "name": "Østre Berg",
+    "longitude": 10.430121,
+    "id": "NSR:Quay:72852"
+  },
+  {
+    "latitude": 63.42095,
+    "name": "Trøndelag Folkemuseum",
+    "longitude": 10.355936,
+    "id": "NSR:Quay:71502"
+  },
+  {
+    "latitude": 63.404736,
+    "name": "Sluppen",
+    "longitude": 10.396539,
+    "id": "NSR:Quay:73782"
+  },
+  {
+    "latitude": 63.436586,
+    "name": "Leangen stasjon",
+    "longitude": 10.464478,
+    "id": "NSR:Quay:658"
+  },
+  {
+    "latitude": 63.414463,
+    "name": "Åsveien skole",
+    "longitude": 10.366185,
+    "id": "NSR:Quay:72799"
+  },
+  {
+    "latitude": 63.44989,
+    "name": "Østmarkveien",
+    "longitude": 10.451103,
+    "id": "NSR:Quay:72849"
+  },
+  {
+    "latitude": 63.416071,
+    "name": "Østre Berg",
+    "longitude": 10.432234,
+    "id": "NSR:Quay:72853"
+  },
+  {
+    "latitude": 63.41512,
+    "name": "Åsveien skole",
+    "longitude": 10.365836,
+    "id": "NSR:Quay:72798"
+  },
+  {
+    "latitude": 63.414588,
+    "name": "Åsveien skole",
+    "longitude": 10.365847,
+    "id": "NSR:Quay:72801"
+  },
+  {
+    "latitude": 63.41512,
+    "name": "Østre Berg",
+    "longitude": 10.43129,
+    "id": "NSR:Quay:102730"
+  },
+  {
+    "latitude": 63.439857,
+    "name": "Haakon VII gate 25",
+    "longitude": 10.461441,
+    "id": "NSR:Quay:72453"
+  },
+  {
+    "latitude": 63.414463,
+    "name": "Åsveien skole",
+    "longitude": 10.366185,
+    "id": "NSR:Quay:72799"
+  },
+  {
+    "latitude": 63.433823,
+    "name": "Leangen allé",
+    "longitude": 10.465222,
+    "id": "NSR:Quay:73276"
+  },
+  {
+    "latitude": 63.42964,
+    "name": "Strindheim Hageby",
+    "longitude": 10.454508,
+    "id": "NSR:Quay:73042"
+  },
+  {
+    "latitude": 63.40377,
+    "name": "Siemens",
+    "longitude": 10.398834,
+    "id": "NSR:Quay:72049"
+  },
+  {
+    "latitude": 63.412383,
+    "name": "Breidablikk",
+    "longitude": 10.37671,
+    "id": "NSR:Quay:75324"
+  },
+  {
+    "latitude": 63.429176,
+    "name": "Strindheim Hageby",
+    "longitude": 10.454284,
+    "id": "NSR:Quay:73044"
+  },
+  {
+    "latitude": 63.41235,
+    "name": "Breidablikk",
+    "longitude": 10.37666,
+    "id": "NSR:Quay:75323"
+  },
+  {
+    "latitude": 63.40336,
+    "name": "Bratsbergvegen",
+    "longitude": 10.395951,
+    "id": "NSR:Quay:75301"
+  },
+  {
+    "latitude": 63.4039,
+    "name": "Siemens",
+    "longitude": 10.399121,
+    "id": "NSR:Quay:72050"
+  },
+  {
+    "latitude": 63.44475,
+    "name": "Jørgen B. Lysholms vei",
+    "longitude": 10.456779,
+    "id": "NSR:Quay:75066"
+  },
+  {
+    "latitude": 63.433395,
+    "name": "Leangen allé",
+    "longitude": 10.467526,
+    "id": "NSR:Quay:73277"
+  },
+  {
+    "latitude": 63.403408,
+    "name": "Sluppen",
+    "longitude": 10.395554,
+    "id": "NSR:Quay:73783"
+  },
+  {
+    "latitude": 63.412207,
+    "name": "Breidablikk",
+    "longitude": 10.376791,
+    "id": "NSR:Quay:75321"
+  },
+  {
+    "latitude": 63.444523,
+    "name": "Jørgen B. Lysholms vei",
+    "longitude": 10.457007,
+    "id": "NSR:Quay:75065"
+  },
+  {
+    "latitude": 63.440624,
+    "name": "Lade allé 73",
+    "longitude": 10.464979,
+    "id": "NSR:Quay:98649"
+  },
+  {
+    "latitude": 63.440575,
+    "name": "Haakon VII gate 25",
+    "longitude": 10.459734,
+    "id": "NSR:Quay:72455"
+  },
+  {
+    "latitude": 63.413914,
+    "name": "Moholt studentby",
+    "longitude": 10.432098,
+    "id": "NSR:Quay:73260"
+  },
+  {
+    "latitude": 63.444233,
+    "name": "Jørgen B. Lysholms vei",
+    "longitude": 10.458236,
+    "id": "NSR:Quay:73914"
+  },
+  {
+    "latitude": 63.44064,
+    "name": "Lade allé 73",
+    "longitude": 10.46536,
+    "id": "NSR:Quay:21401"
+  },
+  {
+    "latitude": 63.4093,
+    "name": "Fiolsvingen",
+    "longitude": 10.420533,
+    "id": "NSR:Quay:75050"
+  },
+  {
+    "latitude": 63.446915,
+    "name": "Olav Engelbrektssons allé",
+    "longitude": 10.45749,
+    "id": "NSR:Quay:74555"
+  },
+  {
+    "latitude": 63.41578,
+    "name": "Framveien",
+    "longitude": 10.362682,
+    "id": "NSR:Quay:75450"
+  },
+  {
+    "latitude": 63.44708,
+    "name": "Olav Engelbrektssons allé",
+    "longitude": 10.457458,
+    "id": "NSR:Quay:74554"
+  },
+  {
+    "latitude": 63.409016,
+    "name": "Fiolsvingen",
+    "longitude": 10.420198,
+    "id": "NSR:Quay:75049"
+  },
+  {
+    "latitude": 63.44948,
+    "name": "Ringve museum",
+    "longitude": 10.456436,
+    "id": "NSR:Quay:71383"
+  },
+  {
+    "latitude": 63.415764,
+    "name": "Framveien",
+    "longitude": 10.362161,
+    "id": "NSR:Quay:75451"
+  },
+  {
+    "latitude": 63.42164,
+    "name": "Brøset Hageby",
+    "longitude": 10.449393,
+    "id": "NSR:Quay:75430"
+  },
+  {
+    "latitude": 63.449356,
+    "name": "Ringve museum",
+    "longitude": 10.456772,
+    "id": "NSR:Quay:71382"
+  },
+  {
+    "latitude": 63.415764,
+    "name": "Framveien",
+    "longitude": 10.362161,
+    "id": "NSR:Quay:75451"
+  },
+  {
+    "latitude": 63.42203,
+    "name": "Brøset Hageby",
+    "longitude": 10.450656,
+    "id": "NSR:Quay:75429"
+  },
+  {
+    "latitude": 63.441544,
+    "name": "Lade allé 80",
+    "longitude": 10.464254,
+    "id": "NSR:Quay:73128"
+  },
+  {
+    "latitude": 63.40386,
+    "name": "Anton Grevskotts veg",
+    "longitude": 10.405286,
+    "id": "NSR:Quay:74625"
+  },
+  {
+    "latitude": 63.435272,
+    "name": "Rotvoll alle",
+    "longitude": 10.469106,
+    "id": "NSR:Quay:71550"
+  },
+  {
+    "latitude": 63.417892,
+    "name": "Byåsen Butikksenter",
+    "longitude": 10.353668,
+    "id": "NSR:Quay:75525"
+  },
+  {
+    "latitude": 63.443375,
+    "name": "Jørgen B. Lysholms vei",
+    "longitude": 10.460498,
+    "id": "NSR:Quay:73913"
+  },
+  {
+    "latitude": 63.41265,
+    "name": "Moholt studentby",
+    "longitude": 10.432897,
+    "id": "NSR:Quay:73261"
+  },
+  {
+    "latitude": 63.43515,
+    "name": "Rotvoll alle",
+    "longitude": 10.468719,
+    "id": "NSR:Quay:71551"
+  },
+  {
+    "latitude": 63.433147,
+    "name": "Travbanevegen",
+    "longitude": 10.471422,
+    "id": "NSR:Quay:71373"
+  },
+  {
+    "latitude": 63.435272,
+    "name": "Rotvoll alle",
+    "longitude": 10.469106,
+    "id": "NSR:Quay:71550"
+  },
+  {
+    "latitude": 63.403484,
+    "name": "Anton Grevskotts veg",
+    "longitude": 10.406089,
+    "id": "NSR:Quay:74626"
+  },
+  {
+    "latitude": 63.442043,
+    "name": "Lade allé 80",
+    "longitude": 10.463437,
+    "id": "NSR:Quay:73125"
+  },
+  {
+    "latitude": 63.433254,
+    "name": "Travbanevegen",
+    "longitude": 10.469944,
+    "id": "NSR:Quay:71374"
+  },
+  {
+    "latitude": 63.41833,
+    "name": "Teglverkskrysset",
+    "longitude": 10.448025,
+    "id": "NSR:Quay:73716"
+  },
+  {
+    "latitude": 63.40104,
+    "name": "Sluppen",
+    "longitude": 10.39494,
+    "id": "NSR:Quay:103405"
+  },
+  {
+    "latitude": 63.427456,
+    "name": "Bromstadsvingen",
+    "longitude": 10.459367,
+    "id": "NSR:Quay:75376"
+  },
+  {
+    "latitude": 63.418297,
+    "name": "Teglverkskrysset",
+    "longitude": 10.448183,
+    "id": "NSR:Quay:73718"
+  },
+  {
+    "latitude": 63.41757,
+    "name": "Gamle Oslovei",
+    "longitude": 10.352812,
+    "id": "NSR:Quay:75626"
+  },
+  {
+    "latitude": 63.423466,
+    "name": "Brøsetflata",
+    "longitude": 10.454556,
+    "id": "NSR:Quay:75433"
+  },
+  {
+    "latitude": 63.412155,
+    "name": "Johan Falkbergets vei",
+    "longitude": 10.362391,
+    "id": "NSR:Quay:73843"
+  },
+  {
+    "latitude": 63.417892,
+    "name": "Byåsen Butikksenter",
+    "longitude": 10.353668,
+    "id": "NSR:Quay:75525"
+  },
+  {
+    "latitude": 63.41723,
+    "name": "Byåsen Butikksenter",
+    "longitude": 10.353657,
+    "id": "NSR:Quay:75524"
+  },
+  {
+    "latitude": 63.423656,
+    "name": "Brøsetflata",
+    "longitude": 10.455046,
+    "id": "NSR:Quay:75434"
+  },
+  {
+    "latitude": 63.417496,
+    "name": "Gamle Oslovei",
+    "longitude": 10.354832,
+    "id": "NSR:Quay:75627"
+  },
+  {
+    "latitude": 63.404568,
+    "name": "Nydalen",
+    "longitude": 10.386919,
+    "id": "NSR:Quay:74229"
+  },
+  {
+    "latitude": 63.45462,
+    "name": "Østmarka",
+    "longitude": 10.450981,
+    "id": "NSR:Quay:72844"
+  },
+  {
+    "latitude": 63.41723,
+    "name": "Byåsen Butikksenter",
+    "longitude": 10.353657,
+    "id": "NSR:Quay:75524"
+  },
+  {
+    "latitude": 63.417496,
+    "name": "Gamle Oslovei",
+    "longitude": 10.354832,
+    "id": "NSR:Quay:75627"
+  },
+  {
+    "latitude": 63.454384,
+    "name": "Birkehaug",
+    "longitude": 10.448623,
+    "id": "NSR:Quay:75067"
+  },
+  {
+    "latitude": 63.41757,
+    "name": "Gamle Oslovei",
+    "longitude": 10.352812,
+    "id": "NSR:Quay:75626"
+  },
+  {
+    "latitude": 63.40719,
+    "name": "Nardo omkjøringsvei",
+    "longitude": 10.420689,
+    "id": "NSR:Quay:74657"
+  },
+  {
+    "latitude": 63.416564,
+    "name": "Odenseveien",
+    "longitude": 10.353391,
+    "id": "NSR:Quay:22719"
+  },
+  {
+    "latitude": 63.416042,
+    "name": "Henrik Ourens veg",
+    "longitude": 10.446286,
+    "id": "NSR:Quay:71224"
+  },
+  {
+    "latitude": 63.41132,
+    "name": "Moholt",
+    "longitude": 10.434813,
+    "id": "NSR:Quay:73241"
+  },
+  {
+    "latitude": 63.411263,
+    "name": "Johan Falkbergets vei",
+    "longitude": 10.360986,
+    "id": "NSR:Quay:73845"
+  },
+  {
+    "latitude": 63.407528,
+    "name": "Nardo omkjøringsvei",
+    "longitude": 10.423469,
+    "id": "NSR:Quay:74658"
+  },
+  {
+    "latitude": 63.416564,
+    "name": "Odenseveien",
+    "longitude": 10.353391,
+    "id": "NSR:Quay:22719"
+  },
+  {
+    "latitude": 63.40698,
+    "name": "Nardokrysset",
+    "longitude": 10.423842,
+    "id": "NSR:Quay:73741"
+  },
+  {
+    "latitude": 63.416462,
+    "name": "Odenseveien",
+    "longitude": 10.35316,
+    "id": "NSR:Quay:74393"
+  },
+  {
+    "latitude": 63.43644,
+    "name": "Leangen gård",
+    "longitude": 10.474378,
+    "id": "NSR:Quay:73283"
+  },
+  {
+    "latitude": 63.42504,
+    "name": "Solvollvegen",
+    "longitude": 10.45736,
+    "id": "NSR:Quay:73990"
+  },
+  {
+    "latitude": 63.40343,
+    "name": "Nydalen",
+    "longitude": 10.387666,
+    "id": "NSR:Quay:74230"
+  },
+  {
+    "latitude": 63.42564,
+    "name": "Solvollvegen",
+    "longitude": 10.458714,
+    "id": "NSR:Quay:73989"
+  },
+  {
+    "latitude": 63.436417,
+    "name": "Leangen gård",
+    "longitude": 10.473795,
+    "id": "NSR:Quay:73282"
+  },
+  {
+    "latitude": 63.401535,
+    "name": "Karl Jonssons veg",
+    "longitude": 10.408796,
+    "id": "NSR:Quay:73983"
+  },
+  {
+    "latitude": 63.40141,
+    "name": "Karl Jonssons veg",
+    "longitude": 10.40865,
+    "id": "NSR:Quay:73982"
+  },
+  {
+    "latitude": 63.43186,
+    "name": "Travbanen",
+    "longitude": 10.476146,
+    "id": "NSR:Quay:71365"
+  },
+  {
+    "latitude": 63.402313,
+    "name": "Klæbuveien omkjøringsvei",
+    "longitude": 10.407414,
+    "id": "NSR:Quay:74638"
+  },
+  {
+    "latitude": 63.415012,
+    "name": "Henrik Ourens veg",
+    "longitude": 10.445394,
+    "id": "NSR:Quay:71222"
+  },
+  {
+    "latitude": 63.4064,
+    "name": "Nardokrysset",
+    "longitude": 10.424294,
+    "id": "NSR:Quay:73740"
+  },
+  {
+    "latitude": 63.445465,
+    "name": "Høvringen",
+    "longitude": 10.336896,
+    "id": "NSR:Quay:72000"
+  },
+  {
+    "latitude": 63.436707,
+    "name": "Statoil Rotvoll",
+    "longitude": 10.47806,
+    "id": "NSR:Quay:74109"
+  },
+  {
+    "latitude": 63.409863,
+    "name": "Moholt",
+    "longitude": 10.437043,
+    "id": "NSR:Quay:73242"
+  },
+  {
+    "latitude": 63.39916,
+    "name": "Nidarvoll skole",
+    "longitude": 10.404857,
+    "id": "NSR:Quay:73979"
+  },
+  {
+    "latitude": 63.446044,
+    "name": "Høvringen",
+    "longitude": 10.335748,
+    "id": "NSR:Quay:71999"
+  },
+  {
+    "latitude": 63.409725,
+    "name": "Brøsetvegen",
+    "longitude": 10.438298,
+    "id": "NSR:Quay:75435"
+  },
+  {
+    "latitude": 63.43149,
+    "name": "Travbanen",
+    "longitude": 10.477049,
+    "id": "NSR:Quay:71363"
+  },
+  {
+    "latitude": 63.398693,
+    "name": "Nidarvoll skole",
+    "longitude": 10.404894,
+    "id": "NSR:Quay:73978"
+  },
+  {
+    "latitude": 63.425167,
+    "name": "Gartnerhallen",
+    "longitude": 10.464541,
+    "id": "NSR:Quay:75653"
+  },
+  {
+    "latitude": 63.425236,
+    "name": "Gartnerhallen",
+    "longitude": 10.464805,
+    "id": "NSR:Quay:75652"
+  },
+  {
+    "latitude": 63.436732,
+    "name": "Rotvoll stasjon",
+    "longitude": 10.480316,
+    "id": "NSR:Quay:92"
+  },
+  {
+    "latitude": 63.405587,
+    "name": "Nordre Hoem",
+    "longitude": 10.381037,
+    "id": "NSR:Quay:74088"
+  },
+  {
+    "latitude": 63.436733,
+    "name": "Statoil Rotvoll",
+    "longitude": 10.480467,
+    "id": "NSR:Quay:74110"
+  },
+  {
+    "latitude": 63.397522,
+    "name": "Sluppenvegen",
+    "longitude": 10.389682,
+    "id": "NSR:Quay:73794"
+  },
+  {
+    "latitude": 63.404846,
+    "name": "Tors veg",
+    "longitude": 10.42714,
+    "id": "NSR:Quay:71285"
+  },
+  {
+    "latitude": 63.405409,
+    "name": "Nordre Hoem",
+    "longitude": 10.380962,
+    "id": "NSR:Quay:74090"
+  },
+  {
+    "latitude": 63.436634,
+    "name": "Rotvoll stasjon",
+    "longitude": 10.480708,
+    "id": "NSR:Quay:91"
+  },
+  {
+    "latitude": 63.39749,
+    "name": "Sluppenvegen",
+    "longitude": 10.389921,
+    "id": "NSR:Quay:73792"
+  },
+  {
+    "latitude": 63.409885,
+    "name": "Moholt Storsenter",
+    "longitude": 10.440088,
+    "id": "NSR:Quay:73251"
+  },
+  {
+    "latitude": 63.398705,
+    "name": "E-verket",
+    "longitude": 10.401051,
+    "id": "NSR:Quay:74730"
+  },
+  {
+    "latitude": 63.41278,
+    "name": "Strinda kirke",
+    "longitude": 10.44482,
+    "id": "NSR:Quay:73028"
+  },
+  {
+    "latitude": 63.412933,
+    "name": "Strinda kirke",
+    "longitude": 10.444928,
+    "id": "NSR:Quay:73027"
+  },
+  {
+    "latitude": 63.410515,
+    "name": "Moholt Storsenter",
+    "longitude": 10.440881,
+    "id": "NSR:Quay:73250"
+  },
+  {
+    "latitude": 63.39849,
+    "name": "E-verket",
+    "longitude": 10.399758,
+    "id": "NSR:Quay:74731"
+  },
+  {
+    "latitude": 63.41389,
+    "name": "Nyborg",
+    "longitude": 10.352398,
+    "id": "NSR:Quay:74213"
+  },
+  {
+    "latitude": 63.411835,
+    "name": "Brøsetvegen 168",
+    "longitude": 10.444232,
+    "id": "NSR:Quay:75438"
+  },
+  {
+    "latitude": 63.41835,
+    "name": "Granåsvegen",
+    "longitude": 10.459485,
+    "id": "NSR:Quay:75732"
+  },
+  {
+    "latitude": 63.407734,
+    "name": "Havstadsenteret",
+    "longitude": 10.359918,
+    "id": "NSR:Quay:72856"
+  },
+  {
+    "latitude": 63.41139,
+    "name": "Brøsetvegen 168",
+    "longitude": 10.442467,
+    "id": "NSR:Quay:75439"
+  },
+  {
+    "latitude": 63.398136,
+    "name": "Nygård Klæbuveien",
+    "longitude": 10.407409,
+    "id": "NSR:Quay:74236"
+  },
+  {
+    "latitude": 63.413143,
+    "name": "Nyborg",
+    "longitude": 10.351782,
+    "id": "NSR:Quay:74214"
+  },
+  {
+    "latitude": 63.417324,
+    "name": "Granåsvegen",
+    "longitude": 10.45805,
+    "id": "NSR:Quay:75731"
+  },
+  {
+    "latitude": 63.407642,
+    "name": "Havstadsenteret",
+    "longitude": 10.359333,
+    "id": "NSR:Quay:72855"
+  },
+  {
+    "latitude": 63.39833,
+    "name": "Nygård Klæbuveien",
+    "longitude": 10.407879,
+    "id": "NSR:Quay:74235"
+  },
+  {
+    "latitude": 63.423996,
+    "name": "Iskremfabrikken",
+    "longitude": 10.467486,
+    "id": "NSR:Quay:73775"
+  },
+  {
+    "latitude": 63.39833,
+    "name": "Nygård Klæbuveien",
+    "longitude": 10.407879,
+    "id": "NSR:Quay:74235"
+  },
+  {
+    "latitude": 63.434856,
+    "name": "Rotvoll",
+    "longitude": 10.483417,
+    "id": "NSR:Quay:71543"
+  },
+  {
+    "latitude": 63.40358,
+    "name": "Nardosenteret",
+    "longitude": 10.426957,
+    "id": "NSR:Quay:73748"
+  },
+  {
+    "latitude": 63.41156,
+    "name": "Moholt omkjøringsvei",
+    "longitude": 10.445621,
+    "id": "NSR:Quay:74646"
+  },
+  {
+    "latitude": 63.42284,
+    "name": "Tungasletta",
+    "longitude": 10.46372,
+    "id": "NSR:Quay:71546"
+  },
+  {
+    "latitude": 63.4231,
+    "name": "Tungasletta",
+    "longitude": 10.463934,
+    "id": "NSR:Quay:71548"
+  },
+  {
+    "latitude": 63.398136,
+    "name": "Nygård Klæbuveien",
+    "longitude": 10.407409,
+    "id": "NSR:Quay:74236"
+  },
+  {
+    "latitude": 63.403824,
+    "name": "Bjarne Ness' veg",
+    "longitude": 10.429692,
+    "id": "NSR:Quay:75081"
+  },
+  {
+    "latitude": 63.410683,
+    "name": "Moholt omkjøringsvei",
+    "longitude": 10.444574,
+    "id": "NSR:Quay:74645"
+  },
+  {
+    "latitude": 63.423706,
+    "name": "Iskremfabrikken",
+    "longitude": 10.467711,
+    "id": "NSR:Quay:73774"
+  },
+  {
+    "latitude": 63.41684,
+    "name": "Angelltrøvegen",
+    "longitude": 10.461391,
+    "id": "NSR:Quay:74599"
+  },
+  {
+    "latitude": 63.403328,
+    "name": "Nardosenteret",
+    "longitude": 10.427125,
+    "id": "NSR:Quay:73749"
+  },
+  {
+    "latitude": 63.435036,
+    "name": "Rotvoll",
+    "longitude": 10.484247,
+    "id": "NSR:Quay:71542"
+  },
+  {
+    "latitude": 63.41797,
+    "name": "Opland",
+    "longitude": 10.33993,
+    "id": "NSR:Quay:74703"
+  },
+  {
+    "latitude": 63.417458,
+    "name": "Angelltrøvegen",
+    "longitude": 10.461623,
+    "id": "NSR:Quay:74601"
+  },
+  {
+    "latitude": 63.397236,
+    "name": "Postterminalen",
+    "longitude": 10.397716,
+    "id": "NSR:Quay:71148"
+  },
+  {
+    "latitude": 63.438187,
+    "name": "Rotvoll Nedre",
+    "longitude": 10.483408,
+    "id": "NSR:Quay:71545"
+  },
+  {
+    "latitude": 63.410576,
+    "name": "Voll gård",
+    "longitude": 10.446312,
+    "id": "NSR:Quay:72392"
+  },
+  {
+    "latitude": 63.40927,
+    "name": "Voll studentby",
+    "longitude": 10.443923,
+    "id": "NSR:Quay:72401"
+  },
+  {
+    "latitude": 63.438328,
+    "name": "Rotvoll Nedre",
+    "longitude": 10.483596,
+    "id": "NSR:Quay:71544"
+  },
+  {
+    "latitude": 63.417942,
+    "name": "Opland",
+    "longitude": 10.34069,
+    "id": "NSR:Quay:74704"
+  },
+  {
+    "latitude": 63.396748,
+    "name": "Nidarvoll",
+    "longitude": 10.404398,
+    "id": "NSR:Quay:73973"
+  },
+  {
+    "latitude": 63.403207,
+    "name": "Søndre Hoem",
+    "longitude": 10.381654,
+    "id": "NSR:Quay:73561"
+  },
+  {
+    "latitude": 63.446209,
+    "name": "Brænne",
+    "longitude": 10.327513,
+    "id": "NSR:Quay:75424"
+  },
+  {
+    "latitude": 63.40335,
+    "name": "Søndre Hoem",
+    "longitude": 10.381672,
+    "id": "NSR:Quay:73562"
+  },
+  {
+    "latitude": 63.409515,
+    "name": "Voll studentby",
+    "longitude": 10.444656,
+    "id": "NSR:Quay:72402"
+  },
+  {
+    "latitude": 63.395992,
+    "name": "Nidarvoll",
+    "longitude": 10.403721,
+    "id": "NSR:Quay:73974"
+  },
+  {
+    "latitude": 63.39688,
+    "name": "Postterminalen",
+    "longitude": 10.396338,
+    "id": "NSR:Quay:71147"
+  },
+  {
+    "latitude": 63.41082,
+    "name": "Voll gård",
+    "longitude": 10.447866,
+    "id": "NSR:Quay:72391"
+  },
+  {
+    "latitude": 63.3954,
+    "name": "Kroppanbrua",
+    "longitude": 10.38988,
+    "id": "NSR:Quay:74370"
+  },
+  {
+    "latitude": 63.39614,
+    "name": "Kroppanbrua",
+    "longitude": 10.392057,
+    "id": "NSR:Quay:74369"
+  },
+  {
+    "latitude": 63.39809,
+    "name": "Elvheim",
+    "longitude": 10.387507,
+    "id": "NSR:Quay:74898"
+  },
+  {
+    "latitude": 63.39538,
+    "name": "Dalsaunevegen",
+    "longitude": 10.408615,
+    "id": "NSR:Quay:74513"
+  },
+  {
+    "latitude": 63.446837,
+    "name": "Brænne",
+    "longitude": 10.326247,
+    "id": "NSR:Quay:75425"
+  },
+  {
+    "latitude": 63.39755,
+    "name": "Elvheim",
+    "longitude": 10.386781,
+    "id": "NSR:Quay:74899"
+  },
+  {
+    "latitude": 63.40509,
+    "name": "Einar Øfstis veg",
+    "longitude": 10.4331,
+    "id": "NSR:Quay:74828"
+  },
+  {
+    "latitude": 63.405018,
+    "name": "Einar Øfstis veg",
+    "longitude": 10.433256,
+    "id": "NSR:Quay:74829"
+  },
+  {
+    "latitude": 63.3947,
+    "name": "Dalsaunevegen",
+    "longitude": 10.409222,
+    "id": "NSR:Quay:74512"
+  },
+  {
+    "latitude": 63.4045,
+    "name": "Stabells veg",
+    "longitude": 10.358684,
+    "id": "NSR:Quay:74073"
+  },
+  {
+    "latitude": 63.3947,
+    "name": "Dalsaunevegen",
+    "longitude": 10.409222,
+    "id": "NSR:Quay:74512"
+  },
+  {
+    "latitude": 63.41603,
+    "name": "Sildråpevegen",
+    "longitude": 10.465196,
+    "id": "NSR:Quay:72072"
+  },
+  {
+    "latitude": 63.41585,
+    "name": "Sildråpevegen",
+    "longitude": 10.465227,
+    "id": "NSR:Quay:72071"
+  },
+  {
+    "latitude": 63.406162,
+    "name": "Havstad",
+    "longitude": 10.355298,
+    "id": "NSR:Quay:72851"
+  },
+  {
+    "latitude": 63.406254,
+    "name": "Havstad",
+    "longitude": 10.355302,
+    "id": "NSR:Quay:72850"
+  },
+  {
+    "latitude": 63.401157,
+    "name": "Steindalsvegen",
+    "longitude": 10.428579,
+    "id": "NSR:Quay:74183"
+  },
+  {
+    "latitude": 63.40117,
+    "name": "Steindalsvegen",
+    "longitude": 10.428399,
+    "id": "NSR:Quay:74184"
+  },
+  {
+    "latitude": 63.393467,
+    "name": "Sluppen bru",
+    "longitude": 10.383641,
+    "id": "NSR:Quay:73789"
+  },
+  {
+    "latitude": 63.41968,
+    "name": "Hallfred Høyems veg",
+    "longitude": 10.467105,
+    "id": "NSR:Quay:72532"
+  },
+  {
+    "latitude": 63.39366,
+    "name": "Hornebergvegen",
+    "longitude": 10.401645,
+    "id": "NSR:Quay:71645"
+  },
+  {
+    "latitude": 63.421844,
+    "name": "Tunga kretsfengsel",
+    "longitude": 10.471724,
+    "id": "NSR:Quay:71539"
+  },
+  {
+    "latitude": 63.408108,
+    "name": "Heggdalen",
+    "longitude": 10.448991,
+    "id": "NSR:Quay:72872"
+  },
+  {
+    "latitude": 63.393215,
+    "name": "Sluppen bru",
+    "longitude": 10.383109,
+    "id": "NSR:Quay:73788"
+  },
+  {
+    "latitude": 63.421276,
+    "name": "Tunga kretsfengsel",
+    "longitude": 10.471113,
+    "id": "NSR:Quay:71538"
+  },
+  {
+    "latitude": 63.41982,
+    "name": "Hallfred Høyems veg",
+    "longitude": 10.467773,
+    "id": "NSR:Quay:72531"
+  },
+  {
+    "latitude": 63.406685,
+    "name": "K.O. Thornæs' veg",
+    "longitude": 10.436864,
+    "id": "NSR:Quay:73923"
+  },
+  {
+    "latitude": 63.393406,
+    "name": "Astronomvegen",
+    "longitude": 10.410239,
+    "id": "NSR:Quay:74700"
+  },
+  {
+    "latitude": 63.407707,
+    "name": "Heggdalen",
+    "longitude": 10.450313,
+    "id": "NSR:Quay:72870"
+  },
+  {
+    "latitude": 63.411057,
+    "name": "Åsvang skole",
+    "longitude": 10.454648,
+    "id": "NSR:Quay:72785"
+  },
+  {
+    "latitude": 63.43335,
+    "name": "Charlottenlund nedre",
+    "longitude": 10.492559,
+    "id": "NSR:Quay:75593"
+  },
+  {
+    "latitude": 63.392628,
+    "name": "Hornebergvegen",
+    "longitude": 10.399754,
+    "id": "NSR:Quay:71648"
+  },
+  {
+    "latitude": 63.411007,
+    "name": "Åsvang skole",
+    "longitude": 10.455046,
+    "id": "NSR:Quay:72787"
+  },
+  {
+    "latitude": 63.392918,
+    "name": "Astronomvegen",
+    "longitude": 10.409615,
+    "id": "NSR:Quay:74699"
+  },
+  {
+    "latitude": 63.42945,
+    "name": "Churchills veg",
+    "longitude": 10.487866,
+    "id": "NSR:Quay:75601"
+  },
+  {
+    "latitude": 63.406708,
+    "name": "K.O. Thornæs' veg",
+    "longitude": 10.438167,
+    "id": "NSR:Quay:73924"
+  },
+  {
+    "latitude": 63.403053,
+    "name": "Stabells veg",
+    "longitude": 10.357814,
+    "id": "NSR:Quay:74072"
+  },
+  {
+    "latitude": 63.429226,
+    "name": "Churchills veg",
+    "longitude": 10.486973,
+    "id": "NSR:Quay:75600"
+  },
+  {
+    "latitude": 63.409863,
+    "name": "Bergheim",
+    "longitude": 10.453826,
+    "id": "NSR:Quay:74981"
+  },
+  {
+    "latitude": 63.436158,
+    "name": "Hasselbakken",
+    "longitude": 10.493195,
+    "id": "NSR:Quay:72696"
+  },
+  {
+    "latitude": 63.42972,
+    "name": "Skovgård",
+    "longitude": 10.49325,
+    "id": "NSR:Quay:102732"
+  },
+  {
+    "latitude": 63.40696,
+    "name": "Othilienborg",
+    "longitude": 10.442885,
+    "id": "NSR:Quay:74931"
+  },
+  {
+    "latitude": 63.40696,
+    "name": "Othilienborg",
+    "longitude": 10.442885,
+    "id": "NSR:Quay:74932"
+  },
+  {
+    "latitude": 63.436161,
+    "name": "Hasselbakken",
+    "longitude": 10.493525,
+    "id": "NSR:Quay:72695"
+  },
+  {
+    "latitude": 63.40823,
+    "name": "Bukkvollan",
+    "longitude": 10.348626,
+    "id": "NSR:Quay:75464"
+  },
+  {
+    "latitude": 63.42955,
+    "name": "Grilstadvegen",
+    "longitude": 10.494746,
+    "id": "NSR:Quay:72176"
+  },
+  {
+    "latitude": 63.429214,
+    "name": "Skovgård",
+    "longitude": 10.494908,
+    "id": "NSR:Quay:72463"
+  },
+  {
+    "latitude": 63.401363,
+    "name": "Hoeggen skole",
+    "longitude": 10.433354,
+    "id": "NSR:Quay:71427"
+  },
+  {
+    "latitude": 63.406708,
+    "name": "K.O. Thornæs' veg",
+    "longitude": 10.438167,
+    "id": "NSR:Quay:73924"
+  },
+  {
+    "latitude": 63.429424,
+    "name": "Grilstadvegen",
+    "longitude": 10.4954,
+    "id": "NSR:Quay:72178"
+  },
+  {
+    "latitude": 63.41491,
+    "name": "Granåsen gård",
+    "longitude": 10.469585,
+    "id": "NSR:Quay:75729"
+  },
+  {
+    "latitude": 63.401234,
+    "name": "Hoeggen skole",
+    "longitude": 10.433748,
+    "id": "NSR:Quay:71426"
+  },
+  {
+    "latitude": 63.43278,
+    "name": "Charlottenlund nedre",
+    "longitude": 10.493711,
+    "id": "NSR:Quay:75592"
+  },
+  {
+    "latitude": 63.399277,
+    "name": "Sollia",
+    "longitude": 10.428326,
+    "id": "NSR:Quay:73969"
+  },
+  {
+    "latitude": 63.428776,
+    "name": "Skovgård",
+    "longitude": 10.495768,
+    "id": "NSR:Quay:72462"
+  },
+  {
+    "latitude": 63.4066,
+    "name": "Gryta",
+    "longitude": 10.451638,
+    "id": "NSR:Quay:72256"
+  },
+  {
+    "latitude": 63.402058,
+    "name": "Munkvoll gård",
+    "longitude": 10.357727,
+    "id": "NSR:Quay:73456"
+  },
+  {
+    "latitude": 63.4294,
+    "name": "Skovgård",
+    "longitude": 10.49644,
+    "id": "NSR:Quay:102731"
+  },
+  {
+    "latitude": 63.406593,
+    "name": "Gryta",
+    "longitude": 10.451418,
+    "id": "NSR:Quay:72255"
+  },
+  {
+    "latitude": 63.40173,
+    "name": "Munkvoll gård",
+    "longitude": 10.357291,
+    "id": "NSR:Quay:73457"
+  },
+  {
+    "latitude": 63.399419,
+    "name": "Rognheim",
+    "longitude": 10.373403,
+    "id": "NSR:Quay:71448"
+  },
+  {
+    "latitude": 63.449178,
+    "name": "Munkaunet",
+    "longitude": 10.319134,
+    "id": "NSR:Quay:73416"
+  },
+  {
+    "latitude": 63.41426,
+    "name": "Granåsen gård",
+    "longitude": 10.471255,
+    "id": "NSR:Quay:75730"
+  },
+  {
+    "latitude": 63.399377,
+    "name": "Rognheim",
+    "longitude": 10.372837,
+    "id": "NSR:Quay:71447"
+  },
+  {
+    "latitude": 63.407036,
+    "name": "Bukkvollan",
+    "longitude": 10.34765,
+    "id": "NSR:Quay:75463"
+  },
+  {
+    "latitude": 63.39048,
+    "name": "Selsbakk",
+    "longitude": 10.380735,
+    "id": "NSR:Quay:71984"
+  },
+  {
+    "latitude": 63.424908,
+    "name": "Tunvegen",
+    "longitude": 10.484405,
+    "id": "NSR:Quay:71577"
+  },
+  {
+    "latitude": 63.40155,
+    "name": "Sluppen",
+    "longitude": 10.39577,
+    "id": "NSR:Quay:103404"
+  },
+  {
+    "latitude": 63.41049,
+    "name": "Bergheim",
+    "longitude": 10.457562,
+    "id": "NSR:Quay:74980"
+  },
+  {
+    "latitude": 63.397453,
+    "name": "Sollia",
+    "longitude": 10.428454,
+    "id": "NSR:Quay:73970"
+  },
+  {
+    "latitude": 63.428432,
+    "name": "Jakobslivegen nedre",
+    "longitude": 10.494307,
+    "id": "NSR:Quay:73791"
+  },
+  {
+    "latitude": 63.428486,
+    "name": "Jakobslivegen nedre",
+    "longitude": 10.49437,
+    "id": "NSR:Quay:73790"
+  },
+  {
+    "latitude": 63.40059,
+    "name": "Edgar B. Schieldrops veg",
+    "longitude": 10.435158,
+    "id": "NSR:Quay:74740"
+  },
+  {
+    "latitude": 63.42411,
+    "name": "Tunvegen",
+    "longitude": 10.484243,
+    "id": "NSR:Quay:71576"
+  },
+  {
+    "latitude": 63.40056,
+    "name": "Edgar B. Schieldrops veg",
+    "longitude": 10.434815,
+    "id": "NSR:Quay:74741"
+  },
+  {
+    "latitude": 63.41198,
+    "name": "Høyset",
+    "longitude": 10.462966,
+    "id": "NSR:Quay:71959"
+  },
+  {
+    "latitude": 63.411938,
+    "name": "Høyset",
+    "longitude": 10.463224,
+    "id": "NSR:Quay:71957"
+  },
+  {
+    "latitude": 63.405809,
+    "name": "Lohove",
+    "longitude": 10.454784,
+    "id": "NSR:Quay:73582"
+  },
+  {
+    "latitude": 63.408802,
+    "name": "Bergheim snuplass",
+    "longitude": 10.456556,
+    "id": "NSR:Quay:74986"
+  },
+  {
+    "latitude": 63.408785,
+    "name": "Bergheim snuplass",
+    "longitude": 10.45653,
+    "id": "NSR:Quay:74994"
+  },
+  {
+    "latitude": 63.389694,
+    "name": "Fossegrenda",
+    "longitude": 10.396889,
+    "id": "NSR:Quay:75406"
+  },
+  {
+    "latitude": 63.388893,
+    "name": "Selsbakk",
+    "longitude": 10.378919,
+    "id": "NSR:Quay:71983"
+  },
+  {
+    "latitude": 63.390064,
+    "name": "Utleirmark",
+    "longitude": 10.412157,
+    "id": "NSR:Quay:71847"
+  },
+  {
+    "latitude": 63.399384,
+    "name": "Byåsen skole",
+    "longitude": 10.358381,
+    "id": "NSR:Quay:75528"
+  },
+  {
+    "latitude": 63.43354,
+    "name": "Grilstadkleiva",
+    "longitude": 10.500185,
+    "id": "NSR:Quay:72171"
+  },
+  {
+    "latitude": 63.450432,
+    "name": "Brukseier Olsens vei 1",
+    "longitude": 10.314781,
+    "id": "NSR:Quay:75397"
+  },
+  {
+    "latitude": 63.433834,
+    "name": "Grilstadkleiva",
+    "longitude": 10.500261,
+    "id": "NSR:Quay:72172"
+  },
+  {
+    "latitude": 63.450485,
+    "name": "Brukseier Olsens vei 1",
+    "longitude": 10.314375,
+    "id": "NSR:Quay:75396"
+  },
+  {
+    "latitude": 63.405333,
+    "name": "Lohove",
+    "longitude": 10.456686,
+    "id": "NSR:Quay:73583"
+  },
+  {
+    "latitude": 63.45062,
+    "name": "Brukseier Olsens vei",
+    "longitude": 10.314261,
+    "id": "NSR:Quay:75393"
+  },
+  {
+    "latitude": 63.399426,
+    "name": "Arne Bergsgårds veg",
+    "longitude": 10.437802,
+    "id": "NSR:Quay:74641"
+  },
+  {
+    "latitude": 63.389687,
+    "name": "Utleirmark",
+    "longitude": 10.413459,
+    "id": "NSR:Quay:71846"
+  },
+  {
+    "latitude": 63.416218,
+    "name": "Baklia",
+    "longitude": 10.322721,
+    "id": "NSR:Quay:74821"
+  },
+  {
+    "latitude": 63.416153,
+    "name": "Baklia",
+    "longitude": 10.322638,
+    "id": "NSR:Quay:74820"
+  },
+  {
+    "latitude": 63.449482,
+    "name": "Munkaunet",
+    "longitude": 10.318284,
+    "id": "NSR:Quay:73417"
+  },
+  {
+    "latitude": 63.38912,
+    "name": "Fossegrenda",
+    "longitude": 10.399002,
+    "id": "NSR:Quay:75408"
+  },
+  {
+    "latitude": 63.399323,
+    "name": "Arne Bergsgårds veg",
+    "longitude": 10.438217,
+    "id": "NSR:Quay:74640"
+  },
+  {
+    "latitude": 63.451046,
+    "name": "Brukseier Olsens vei",
+    "longitude": 10.313659,
+    "id": "NSR:Quay:75392"
+  },
+  {
+    "latitude": 63.395638,
+    "name": "Søndre Risvolltun",
+    "longitude": 10.427684,
+    "id": "NSR:Quay:73565"
+  },
+  {
+    "latitude": 63.39851,
+    "name": "Byåsen skole",
+    "longitude": 10.357619,
+    "id": "NSR:Quay:75529"
+  },
+  {
+    "latitude": 63.412254,
+    "name": "Ramstad",
+    "longitude": 10.476119,
+    "id": "NSR:Quay:71226"
+  },
+  {
+    "latitude": 63.389305,
+    "name": "Utleirmark",
+    "longitude": 10.41198,
+    "id": "NSR:Quay:71848"
+  },
+  {
+    "latitude": 63.38897,
+    "name": "Fossegrenda",
+    "longitude": 10.399635,
+    "id": "NSR:Quay:75407"
+  },
+  {
+    "latitude": 63.405333,
+    "name": "Lohove",
+    "longitude": 10.456686,
+    "id": "NSR:Quay:73583"
+  },
+  {
+    "latitude": 63.412174,
+    "name": "Ramstad",
+    "longitude": 10.476035,
+    "id": "NSR:Quay:71225"
+  },
+  {
+    "latitude": 63.397802,
+    "name": "Munkvoll",
+    "longitude": 10.359767,
+    "id": "NSR:Quay:73440"
+  },
+  {
+    "latitude": 63.397756,
+    "name": "Munkvoll",
+    "longitude": 10.359984,
+    "id": "NSR:Quay:73442"
+  },
+  {
+    "latitude": 63.40516,
+    "name": "Lohove",
+    "longitude": 10.459314,
+    "id": "NSR:Quay:73590"
+  },
+  {
+    "latitude": 63.39551,
+    "name": "Asbjørn Øverås veg",
+    "longitude": 10.425956,
+    "id": "NSR:Quay:74660"
+  },
+  {
+    "latitude": 63.405125,
+    "name": "Loholtbakken",
+    "longitude": 10.459814,
+    "id": "NSR:Quay:73581"
+  },
+  {
+    "latitude": 63.404903,
+    "name": "Loholtbakken",
+    "longitude": 10.459622,
+    "id": "NSR:Quay:73593"
+  },
+  {
+    "latitude": 63.397194,
+    "name": "Munkvoll",
+    "longitude": 10.359219,
+    "id": "NSR:Quay:73441"
+  },
+  {
+    "latitude": 63.386864,
+    "name": "Kroppan",
+    "longitude": 10.375859,
+    "id": "NSR:Quay:74365"
+  },
+  {
+    "latitude": 63.387955,
+    "name": "Haugnessvingen",
+    "longitude": 10.394002,
+    "id": "NSR:Quay:72766"
+  },
+  {
+    "latitude": 63.40516,
+    "name": "Lohove",
+    "longitude": 10.459314,
+    "id": "NSR:Quay:73590"
+  },
+  {
+    "latitude": 63.451443,
+    "name": "Trolla",
+    "longitude": 10.310548,
+    "id": "NSR:Quay:71380"
+  },
+  {
+    "latitude": 63.397398,
+    "name": "Munkvoll",
+    "longitude": 10.359322,
+    "id": "NSR:Quay:73443"
+  },
+  {
+    "latitude": 63.395267,
+    "name": "Asbjørn Øverås veg",
+    "longitude": 10.424502,
+    "id": "NSR:Quay:74659"
+  },
+  {
+    "latitude": 63.386913,
+    "name": "Kroppan",
+    "longitude": 10.375462,
+    "id": "NSR:Quay:74366"
+  },
+  {
+    "latitude": 63.405125,
+    "name": "Loholtbakken",
+    "longitude": 10.459814,
+    "id": "NSR:Quay:73581"
+  },
+  {
+    "latitude": 63.394485,
+    "name": "Risvollvegen",
+    "longitude": 10.423483,
+    "id": "NSR:Quay:71425"
+  },
+  {
+    "latitude": 63.42294,
+    "name": "Konglevegen",
+    "longitude": 10.489973,
+    "id": "NSR:Quay:74274"
+  },
+  {
+    "latitude": 63.387924,
+    "name": "Haugnessvingen",
+    "longitude": 10.394521,
+    "id": "NSR:Quay:72765"
+  },
+  {
+    "latitude": 63.387886,
+    "name": "Ratesvingen",
+    "longitude": 10.399337,
+    "id": "NSR:Quay:102716"
+  },
+  {
+    "latitude": 63.451885,
+    "name": "Trolla",
+    "longitude": 10.309324,
+    "id": "NSR:Quay:71381"
+  },
+  {
+    "latitude": 63.404903,
+    "name": "Loholtbakken",
+    "longitude": 10.459622,
+    "id": "NSR:Quay:73593"
+  },
+  {
+    "latitude": 63.387886,
+    "name": "Ratesvingen",
+    "longitude": 10.399337,
+    "id": "NSR:Quay:102716"
+  },
+  {
+    "latitude": 63.422955,
+    "name": "Konglevegen",
+    "longitude": 10.490816,
+    "id": "NSR:Quay:74276"
+  },
+  {
+    "latitude": 63.38782,
+    "name": "Ratesvingen",
+    "longitude": 10.3994,
+    "id": "NSR:Quay:102715"
+  },
+  {
+    "latitude": 63.38782,
+    "name": "Ratesvingen",
+    "longitude": 10.3994,
+    "id": "NSR:Quay:102715"
+  },
+  {
+    "latitude": 63.43565,
+    "name": "Strindfjordvegen",
+    "longitude": 10.50487,
+    "id": "NSR:Quay:102725"
+  },
+  {
+    "latitude": 63.38776,
+    "name": "Einbakken",
+    "longitude": 10.416726,
+    "id": "NSR:Quay:74840"
+  },
+  {
+    "latitude": 63.39689,
+    "name": "Arnt Smistads veg",
+    "longitude": 10.355401,
+    "id": "NSR:Quay:74651"
+  },
+  {
+    "latitude": 63.4104,
+    "name": "Edvard Bulls veg",
+    "longitude": 10.470716,
+    "id": "NSR:Quay:73724"
+  },
+  {
+    "latitude": 63.410576,
+    "name": "Edvard Bulls veg",
+    "longitude": 10.470265,
+    "id": "NSR:Quay:73723"
+  },
+  {
+    "latitude": 63.42606,
+    "name": "Askeladdvegen",
+    "longitude": 10.50803,
+    "id": "NSR:Quay:74672"
+  },
+  {
+    "latitude": 63.425938,
+    "name": "Askeladdvegen",
+    "longitude": 10.507843,
+    "id": "NSR:Quay:74673"
+  },
+  {
+    "latitude": 63.43508,
+    "name": "Strindfjordvegen",
+    "longitude": 10.50556,
+    "id": "NSR:Quay:102724"
+  },
+  {
+    "latitude": 63.419453,
+    "name": "Charlottenlund vgs",
+    "longitude": 10.484804,
+    "id": "NSR:Quay:75405"
+  },
+  {
+    "latitude": 63.43374,
+    "name": "Skonnertvegen",
+    "longitude": 10.50723,
+    "id": "NSR:Quay:102726"
+  },
+  {
+    "latitude": 63.403137,
+    "name": "Skavlans veg",
+    "longitude": 10.341981,
+    "id": "NSR:Quay:72278"
+  },
+  {
+    "latitude": 63.450447,
+    "name": "Gogstadbakken",
+    "longitude": 10.308818,
+    "id": "NSR:Quay:75710"
+  },
+  {
+    "latitude": 63.450375,
+    "name": "Gogstadbakken",
+    "longitude": 10.308714,
+    "id": "NSR:Quay:75709"
+  },
+  {
+    "latitude": 63.39616,
+    "name": "Arnt Smistads veg",
+    "longitude": 10.353025,
+    "id": "NSR:Quay:74652"
+  },
+  {
+    "latitude": 63.41005,
+    "name": "Stokkhaugen",
+    "longitude": 10.479471,
+    "id": "NSR:Quay:74296"
+  },
+  {
+    "latitude": 63.399616,
+    "name": "Ferstad",
+    "longitude": 10.348903,
+    "id": "NSR:Quay:75147"
+  },
+  {
+    "latitude": 63.403694,
+    "name": "Skavlans veg",
+    "longitude": 10.343087,
+    "id": "NSR:Quay:72279"
+  },
+  {
+    "latitude": 63.401283,
+    "name": "Steinan",
+    "longitude": 10.445663,
+    "id": "NSR:Quay:74175"
+  },
+  {
+    "latitude": 63.387135,
+    "name": "Nordslettvegen",
+    "longitude": 10.406469,
+    "id": "NSR:Quay:74173"
+  },
+  {
+    "latitude": 63.399498,
+    "name": "Ferstad",
+    "longitude": 10.349037,
+    "id": "NSR:Quay:75148"
+  },
+  {
+    "latitude": 63.39583,
+    "name": "Arnt Smistads veg",
+    "longitude": 10.3558,
+    "id": "NSR:Quay:102734"
+  },
+  {
+    "latitude": 63.38714,
+    "name": "Nordslettvegen",
+    "longitude": 10.40675,
+    "id": "NSR:Quay:74172"
+  },
+  {
+    "latitude": 63.410965,
+    "name": "Stokkan",
+    "longitude": 10.482682,
+    "id": "NSR:Quay:74282"
+  },
+  {
+    "latitude": 63.388972,
+    "name": "Selsbakk stasjon",
+    "longitude": 10.372043,
+    "id": "NSR:Quay:1060"
+  },
+  {
+    "latitude": 63.397236,
+    "name": "Vestlia endeholdeplass",
+    "longitude": 10.440115,
+    "id": "NSR:Quay:72101"
+  },
+  {
+    "latitude": 63.39721,
+    "name": "Vestlia endeholdeplass",
+    "longitude": 10.440133,
+    "id": "NSR:Quay:72105"
+  },
+  {
+    "latitude": 63.386642,
+    "name": "Leirøya",
+    "longitude": 10.389716,
+    "id": "NSR:Quay:73352"
+  },
+  {
+    "latitude": 63.400883,
+    "name": "Steinan",
+    "longitude": 10.445263,
+    "id": "NSR:Quay:74174"
+  },
+  {
+    "latitude": 63.420216,
+    "name": "Charlottenlund vgs",
+    "longitude": 10.484843,
+    "id": "NSR:Quay:75404"
+  },
+  {
+    "latitude": 63.41792,
+    "name": "Brundalen",
+    "longitude": 10.485586,
+    "id": "NSR:Quay:75402"
+  },
+  {
+    "latitude": 63.410904,
+    "name": "Stokkan",
+    "longitude": 10.4834,
+    "id": "NSR:Quay:74280"
+  },
+  {
+    "latitude": 63.417374,
+    "name": "Brundalen",
+    "longitude": 10.485578,
+    "id": "NSR:Quay:75403"
+  },
+  {
+    "latitude": 63.386875,
+    "name": "Einbakken",
+    "longitude": 10.419745,
+    "id": "NSR:Quay:74839"
+  },
+  {
+    "latitude": 63.396122,
+    "name": "Arnt Smistads veg",
+    "longitude": 10.354844,
+    "id": "NSR:Quay:74357"
+  },
+  {
+    "latitude": 63.43262,
+    "name": "Anders Søyseths veg",
+    "longitude": 10.5104,
+    "id": "NSR:Quay:102723"
+  },
+  {
+    "latitude": 63.4013,
+    "name": "Steintrøvegen",
+    "longitude": 10.448728,
+    "id": "NSR:Quay:74190"
+  },
+  {
+    "latitude": 63.389437,
+    "name": "Selsbakk stasjon",
+    "longitude": 10.37315,
+    "id": "NSR:Quay:245"
+  },
+  {
+    "latitude": 63.389484,
+    "name": "Selsbakk stasjon",
+    "longitude": 10.373054,
+    "id": "NSR:Quay:244"
+  },
+  {
+    "latitude": 63.4013,
+    "name": "Steintrøvegen",
+    "longitude": 10.448728,
+    "id": "NSR:Quay:74190"
+  },
+  {
+    "latitude": 63.401188,
+    "name": "Steintrøvegen",
+    "longitude": 10.448782,
+    "id": "NSR:Quay:74189"
+  },
+  {
+    "latitude": 63.392017,
+    "name": "Venusvegen",
+    "longitude": 10.426103,
+    "id": "NSR:Quay:72092"
+  },
+  {
+    "latitude": 63.38604,
+    "name": "Leirøya",
+    "longitude": 10.389708,
+    "id": "NSR:Quay:73353"
+  },
+  {
+    "latitude": 63.383522,
+    "name": "Leirfossvegen",
+    "longitude": 10.37742,
+    "id": "NSR:Quay:73341"
+  },
+  {
+    "latitude": 63.416794,
+    "name": "Tungavegen",
+    "longitude": 10.313853,
+    "id": "NSR:Quay:71557"
+  },
+  {
+    "latitude": 63.416748,
+    "name": "Tungavegen",
+    "longitude": 10.313891,
+    "id": "NSR:Quay:71556"
+  },
+  {
+    "latitude": 63.39566,
+    "name": "Steinaunet",
+    "longitude": 10.440777,
+    "id": "NSR:Quay:74178"
+  },
+  {
+    "latitude": 63.38577,
+    "name": "Slakthuset",
+    "longitude": 10.408204,
+    "id": "NSR:Quay:72534"
+  },
+  {
+    "latitude": 63.400601,
+    "name": "Ugla",
+    "longitude": 10.343952,
+    "id": "NSR:Quay:110141"
+  },
+  {
+    "latitude": 63.4324,
+    "name": "Anders Søyseths veg",
+    "longitude": 10.51107,
+    "id": "NSR:Quay:102722"
+  },
+  {
+    "latitude": 63.400533,
+    "name": "Ugla",
+    "longitude": 10.343923,
+    "id": "NSR:Quay:71779"
+  },
+  {
+    "latitude": 63.3919,
+    "name": "Venusvegen",
+    "longitude": 10.426578,
+    "id": "NSR:Quay:72093"
+  },
+  {
+    "latitude": 63.387026,
+    "name": "Rate",
+    "longitude": 10.397674,
+    "id": "NSR:Quay:71275"
+  },
+  {
+    "latitude": 63.40393,
+    "name": "Kyvannet",
+    "longitude": 10.338053,
+    "id": "NSR:Quay:73098"
+  },
+  {
+    "latitude": 63.41619,
+    "name": "Brundalen sykehjem",
+    "longitude": 10.486177,
+    "id": "NSR:Quay:75409"
+  },
+  {
+    "latitude": 63.3938,
+    "name": "Blakli",
+    "longitude": 10.437421,
+    "id": "NSR:Quay:75203"
+  },
+  {
+    "latitude": 63.416092,
+    "name": "Brundalen sykehjem",
+    "longitude": 10.486133,
+    "id": "NSR:Quay:75410"
+  },
+  {
+    "latitude": 63.401016,
+    "name": "Steinåsen",
+    "longitude": 10.452437,
+    "id": "NSR:Quay:74198"
+  },
+  {
+    "latitude": 63.398365,
+    "name": "Olaf Bulls veg",
+    "longitude": 10.345581,
+    "id": "NSR:Quay:74539"
+  },
+  {
+    "latitude": 63.400997,
+    "name": "Steinåsen",
+    "longitude": 10.452477,
+    "id": "NSR:Quay:74199"
+  },
+  {
+    "latitude": 63.421593,
+    "name": "Charlottenlund kirke",
+    "longitude": 10.494892,
+    "id": "NSR:Quay:75594"
+  },
+  {
+    "latitude": 63.39405,
+    "name": "Hallset",
+    "longitude": 10.368978,
+    "id": "NSR:Quay:73031"
+  },
+  {
+    "latitude": 63.396057,
+    "name": "Steinaunet",
+    "longitude": 10.442478,
+    "id": "NSR:Quay:74179"
+  },
+  {
+    "latitude": 63.383076,
+    "name": "Okstadvegen",
+    "longitude": 10.37898,
+    "id": "NSR:Quay:74468"
+  },
+  {
+    "latitude": 63.40075,
+    "name": "Ugla",
+    "longitude": 10.341028,
+    "id": "NSR:Quay:71774"
+  },
+  {
+    "latitude": 63.400433,
+    "name": "Ugla",
+    "longitude": 10.341434,
+    "id": "NSR:Quay:71773"
+  },
+  {
+    "latitude": 63.383125,
+    "name": "Forsøket",
+    "longitude": 10.371018,
+    "id": "NSR:Quay:75362"
+  },
+  {
+    "latitude": 63.382954,
+    "name": "Okstadvegen",
+    "longitude": 10.379234,
+    "id": "NSR:Quay:74469"
+  },
+  {
+    "latitude": 63.393913,
+    "name": "Hallset",
+    "longitude": 10.369091,
+    "id": "NSR:Quay:73032"
+  },
+  {
+    "latitude": 63.410854,
+    "name": "Jakobsli",
+    "longitude": 10.487364,
+    "id": "NSR:Quay:73785"
+  },
+  {
+    "latitude": 63.382637,
+    "name": "Leirfossvegen",
+    "longitude": 10.376818,
+    "id": "NSR:Quay:73340"
+  },
+  {
+    "latitude": 63.38473,
+    "name": "Slakthuset",
+    "longitude": 10.406913,
+    "id": "NSR:Quay:72533"
+  },
+  {
+    "latitude": 63.398308,
+    "name": "Olaf Bulls veg",
+    "longitude": 10.344818,
+    "id": "NSR:Quay:74538"
+  },
+  {
+    "latitude": 63.404106,
+    "name": "Kyvannet",
+    "longitude": 10.337581,
+    "id": "NSR:Quay:73099"
+  },
+  {
+    "latitude": 63.385563,
+    "name": "Øvre Tvereggen",
+    "longitude": 10.422761,
+    "id": "NSR:Quay:72901"
+  },
+  {
+    "latitude": 63.38283,
+    "name": "Kroppanmarka snuplass",
+    "longitude": 10.378087,
+    "id": "NSR:Quay:74379"
+  },
+  {
+    "latitude": 63.38283,
+    "name": "Kroppanmarka snuplass",
+    "longitude": 10.378087,
+    "id": "NSR:Quay:74380"
+  },
+  {
+    "latitude": 63.41007,
+    "name": "Stokkhaugen",
+    "longitude": 10.481795,
+    "id": "NSR:Quay:74297"
+  },
+  {
+    "latitude": 63.39347,
+    "name": "Blakli",
+    "longitude": 10.437924,
+    "id": "NSR:Quay:75201"
+  },
+  {
+    "latitude": 63.38566,
+    "name": "Øvre Tvereggen",
+    "longitude": 10.423006,
+    "id": "NSR:Quay:72902"
+  },
+  {
+    "latitude": 63.40792,
+    "name": "Dragvoll",
+    "longitude": 10.471711,
+    "id": "NSR:Quay:74610"
+  },
+  {
+    "latitude": 63.39411,
+    "name": "Hallset",
+    "longitude": 10.36708,
+    "id": "NSR:Quay:102729"
+  },
+  {
+    "latitude": 63.382446,
+    "name": "Okstad skole",
+    "longitude": 10.378109,
+    "id": "NSR:Quay:74440"
+  },
+  {
+    "latitude": 63.394215,
+    "name": "Blakli",
+    "longitude": 10.439023,
+    "id": "NSR:Quay:75202"
+  },
+  {
+    "latitude": 63.420864,
+    "name": "Charlottenlund kirke",
+    "longitude": 10.495135,
+    "id": "NSR:Quay:75595"
+  },
+  {
+    "latitude": 63.4077,
+    "name": "Dragvoll",
+    "longitude": 10.471399,
+    "id": "NSR:Quay:74609"
+  },
+  {
+    "latitude": 63.42474,
+    "name": "Presthus",
+    "longitude": 10.515956,
+    "id": "NSR:Quay:71161"
+  },
+  {
+    "latitude": 63.382725,
+    "name": "Forsøket",
+    "longitude": 10.37056,
+    "id": "NSR:Quay:75365"
+  },
+  {
+    "latitude": 63.400533,
+    "name": "Ugla",
+    "longitude": 10.343923,
+    "id": "NSR:Quay:71779"
+  },
+  {
+    "latitude": 63.400601,
+    "name": "Ugla",
+    "longitude": 10.343952,
+    "id": "NSR:Quay:110141"
+  },
+  {
+    "latitude": 63.382637,
+    "name": "Leirfossvegen",
+    "longitude": 10.376818,
+    "id": "NSR:Quay:73340"
+  },
+  {
+    "latitude": 63.390717,
+    "name": "Risvollan senter",
+    "longitude": 10.429041,
+    "id": "NSR:Quay:71414"
+  },
+  {
+    "latitude": 63.382725,
+    "name": "Forsøket",
+    "longitude": 10.37056,
+    "id": "NSR:Quay:75365"
+  },
+  {
+    "latitude": 63.392204,
+    "name": "Martin Stokkens veg",
+    "longitude": 10.370531,
+    "id": "NSR:Quay:72729"
+  },
+  {
+    "latitude": 63.381767,
+    "name": "Okstad skole",
+    "longitude": 10.378556,
+    "id": "NSR:Quay:74441"
+  },
+  {
+    "latitude": 63.392654,
+    "name": "Marie Sørdals veg",
+    "longitude": 10.437143,
+    "id": "NSR:Quay:72661"
+  },
+  {
+    "latitude": 63.450497,
+    "name": "Brukseier Olsens vei 40",
+    "longitude": 10.30515,
+    "id": "NSR:Quay:75398"
+  },
+  {
+    "latitude": 63.452183,
+    "name": "Trollahaugen 64",
+    "longitude": 10.304464,
+    "id": "NSR:Quay:71407"
+  },
+  {
+    "latitude": 63.390575,
+    "name": "Risvollan senter",
+    "longitude": 10.429554,
+    "id": "NSR:Quay:71413"
+  },
+  {
+    "latitude": 63.391956,
+    "name": "Martin Stokkens veg",
+    "longitude": 10.369939,
+    "id": "NSR:Quay:72730"
+  },
+  {
+    "latitude": 63.4197,
+    "name": "Presthusaunet",
+    "longitude": 10.494934,
+    "id": "NSR:Quay:71166"
+  },
+  {
+    "latitude": 63.4197,
+    "name": "Presthusaunet",
+    "longitude": 10.494934,
+    "id": "NSR:Quay:71166"
+  },
+  {
+    "latitude": 63.39195,
+    "name": "Marie Sørdals veg",
+    "longitude": 10.435967,
+    "id": "NSR:Quay:72662"
+  },
+  {
+    "latitude": 63.392456,
+    "name": "Olav Nygards veg",
+    "longitude": 10.348527,
+    "id": "NSR:Quay:74564"
+  },
+  {
+    "latitude": 63.411343,
+    "name": "Jakobslivegen øvre",
+    "longitude": 10.491534,
+    "id": "NSR:Quay:73795"
+  },
+  {
+    "latitude": 63.38513,
+    "name": "Stubbanvegen",
+    "longitude": 10.427202,
+    "id": "NSR:Quay:73096"
+  },
+  {
+    "latitude": 63.385265,
+    "name": "Stubbanvegen",
+    "longitude": 10.427129,
+    "id": "NSR:Quay:73094"
+  },
+  {
+    "latitude": 63.391224,
+    "name": "Ada Arnfinsens veg",
+    "longitude": 10.43469,
+    "id": "NSR:Quay:74514"
+  },
+  {
+    "latitude": 63.382694,
+    "name": "Kroppanmarka",
+    "longitude": 10.385024,
+    "id": "NSR:Quay:74376"
+  },
+  {
+    "latitude": 63.44984,
+    "name": "Brukseier Olsens vei 50",
+    "longitude": 10.304137,
+    "id": "NSR:Quay:75399"
+  },
+  {
+    "latitude": 63.410267,
+    "name": "Jakobsli",
+    "longitude": 10.491439,
+    "id": "NSR:Quay:73784"
+  },
+  {
+    "latitude": 63.418346,
+    "name": "Presthusaunet",
+    "longitude": 10.494844,
+    "id": "NSR:Quay:71167"
+  },
+  {
+    "latitude": 63.42373,
+    "name": "Presthus",
+    "longitude": 10.518848,
+    "id": "NSR:Quay:71160"
+  },
+  {
+    "latitude": 63.38401,
+    "name": "Nordslettvegen snuplass",
+    "longitude": 10.404496,
+    "id": "NSR:Quay:74180"
+  },
+  {
+    "latitude": 63.38401,
+    "name": "Nordslettvegen snuplass",
+    "longitude": 10.404496,
+    "id": "NSR:Quay:74180"
+  },
+  {
+    "latitude": 63.3823,
+    "name": "Kroppanmarka",
+    "longitude": 10.386445,
+    "id": "NSR:Quay:74375"
+  },
+  {
+    "latitude": 63.412193,
+    "name": "Jakobslivegen øvre",
+    "longitude": 10.49242,
+    "id": "NSR:Quay:73793"
+  },
+  {
+    "latitude": 63.391575,
+    "name": "Olav Nygards veg",
+    "longitude": 10.348025,
+    "id": "NSR:Quay:74563"
+  },
+  {
+    "latitude": 63.415512,
+    "name": "Grønlia",
+    "longitude": 10.303579,
+    "id": "NSR:Quay:72271"
+  },
+  {
+    "latitude": 63.383915,
+    "name": "Gammel-lina",
+    "longitude": 10.365233,
+    "id": "NSR:Quay:75629"
+  },
+  {
+    "latitude": 63.383953,
+    "name": "Gammel-lina",
+    "longitude": 10.365075,
+    "id": "NSR:Quay:75628"
+  },
+  {
+    "latitude": 63.406467,
+    "name": "Vestmarka",
+    "longitude": 10.324915,
+    "id": "NSR:Quay:72109"
+  },
+  {
+    "latitude": 63.41529,
+    "name": "Grønlia",
+    "longitude": 10.302327,
+    "id": "NSR:Quay:72274"
+  },
+  {
+    "latitude": 63.406483,
+    "name": "Vestmarka",
+    "longitude": 10.325116,
+    "id": "NSR:Quay:72110"
+  },
+  {
+    "latitude": 63.388794,
+    "name": "Selsbakkflata",
+    "longitude": 10.365525,
+    "id": "NSR:Quay:71987"
+  },
+  {
+    "latitude": 63.39598,
+    "name": "Dalgård",
+    "longitude": 10.338384,
+    "id": "NSR:Quay:74501"
+  },
+  {
+    "latitude": 63.379509,
+    "name": "Romolslia",
+    "longitude": 10.368245,
+    "id": "NSR:Quay:71480"
+  },
+  {
+    "latitude": 63.379914,
+    "name": "Romolslia",
+    "longitude": 10.369297,
+    "id": "NSR:Quay:71484"
+  },
+  {
+    "latitude": 63.406467,
+    "name": "Vestmarka",
+    "longitude": 10.324915,
+    "id": "NSR:Quay:72109"
+  },
+  {
+    "latitude": 63.406483,
+    "name": "Vestmarka",
+    "longitude": 10.325116,
+    "id": "NSR:Quay:72110"
+  },
+  {
+    "latitude": 63.451912,
+    "name": "Trollahaugen 46",
+    "longitude": 10.302587,
+    "id": "NSR:Quay:71404"
+  },
+  {
+    "latitude": 63.38194,
+    "name": "Maskinistboligene",
+    "longitude": 10.397832,
+    "id": "NSR:Quay:72741"
+  },
+  {
+    "latitude": 63.39598,
+    "name": "Dalgård",
+    "longitude": 10.338384,
+    "id": "NSR:Quay:74501"
+  },
+  {
+    "latitude": 63.383385,
+    "name": "Tverregga",
+    "longitude": 10.432378,
+    "id": "NSR:Quay:71622"
+  },
+  {
+    "latitude": 63.38885,
+    "name": "Selsbakkflata",
+    "longitude": 10.365308,
+    "id": "NSR:Quay:71988"
+  },
+  {
+    "latitude": 63.42252,
+    "name": "Olderdalen",
+    "longitude": 10.525336,
+    "id": "NSR:Quay:74604"
+  },
+  {
+    "latitude": 63.388924,
+    "name": "Fjøslia",
+    "longitude": 10.359608,
+    "id": "NSR:Quay:75120"
+  },
+  {
+    "latitude": 63.38316,
+    "name": "Tverregga",
+    "longitude": 10.433367,
+    "id": "NSR:Quay:71623"
+  },
+  {
+    "latitude": 63.422432,
+    "name": "Olderdalen",
+    "longitude": 10.524991,
+    "id": "NSR:Quay:74603"
+  },
+  {
+    "latitude": 63.39542,
+    "name": "Dalgård",
+    "longitude": 10.336896,
+    "id": "NSR:Quay:74500"
+  },
+  {
+    "latitude": 63.388294,
+    "name": "Rydningen",
+    "longitude": 10.353314,
+    "id": "NSR:Quay:71580"
+  },
+  {
+    "latitude": 63.42795,
+    "name": "Ranheim idrettsplass",
+    "longitude": 10.522719,
+    "id": "NSR:Quay:71249"
+  },
+  {
+    "latitude": 63.381306,
+    "name": "Maskinistboligene",
+    "longitude": 10.397661,
+    "id": "NSR:Quay:72740"
+  },
+  {
+    "latitude": 63.415607,
+    "name": "Jakobsli idrettsplass",
+    "longitude": 10.493839,
+    "id": "NSR:Quay:72034"
+  },
+  {
+    "latitude": 63.41545,
+    "name": "Jakobsli idrettsplass",
+    "longitude": 10.493571,
+    "id": "NSR:Quay:72033"
+  },
+  {
+    "latitude": 63.38816,
+    "name": "Rydningen",
+    "longitude": 10.353929,
+    "id": "NSR:Quay:71581"
+  },
+  {
+    "latitude": 63.428806,
+    "name": "Ranheim skole",
+    "longitude": 10.521783,
+    "id": "NSR:Quay:71257"
+  },
+  {
+    "latitude": 63.388695,
+    "name": "Fjøslia",
+    "longitude": 10.358296,
+    "id": "NSR:Quay:75119"
+  },
+  {
+    "latitude": 63.388775,
+    "name": "Kystad",
+    "longitude": 10.343891,
+    "id": "NSR:Quay:73093"
+  },
+  {
+    "latitude": 63.387238,
+    "name": "Lillerydningen",
+    "longitude": 10.351964,
+    "id": "NSR:Quay:73532"
+  },
+  {
+    "latitude": 63.4502,
+    "name": "Trollahaugen 2",
+    "longitude": 10.301166,
+    "id": "NSR:Quay:71398"
+  },
+  {
+    "latitude": 63.37862,
+    "name": "Skårgangen",
+    "longitude": 10.365182,
+    "id": "NSR:Quay:72512"
+  },
+  {
+    "latitude": 63.380596,
+    "name": "Nedre Leirfoss",
+    "longitude": 10.393946,
+    "id": "NSR:Quay:73805"
+  },
+  {
+    "latitude": 63.378777,
+    "name": "Skårgangen",
+    "longitude": 10.36551,
+    "id": "NSR:Quay:72513"
+  },
+  {
+    "latitude": 63.388386,
+    "name": "Kystad",
+    "longitude": 10.341672,
+    "id": "NSR:Quay:73092"
+  },
+  {
+    "latitude": 63.405132,
+    "name": "Herlofsenløypa",
+    "longitude": 10.319332,
+    "id": "NSR:Quay:71254"
+  },
+  {
+    "latitude": 63.386562,
+    "name": "Lillerydningen",
+    "longitude": 10.351953,
+    "id": "NSR:Quay:73533"
+  },
+  {
+    "latitude": 63.427452,
+    "name": "Ranheim idrettsplass",
+    "longitude": 10.525699,
+    "id": "NSR:Quay:71250"
+  },
+  {
+    "latitude": 63.408096,
+    "name": "Karlsheim",
+    "longitude": 10.501279,
+    "id": "NSR:Quay:74004"
+  },
+  {
+    "latitude": 63.375744,
+    "name": "Okstad",
+    "longitude": 10.379937,
+    "id": "NSR:Quay:74421"
+  },
+  {
+    "latitude": 63.405185,
+    "name": "Herlofsenløypa",
+    "longitude": 10.320049,
+    "id": "NSR:Quay:71253"
+  },
+  {
+    "latitude": 63.378925,
+    "name": "Okstadplassen",
+    "longitude": 10.384862,
+    "id": "NSR:Quay:74460"
+  },
+  {
+    "latitude": 63.37896,
+    "name": "Okstadvegen 35",
+    "longitude": 10.384804,
+    "id": "NSR:Quay:74478"
+  },
+  {
+    "latitude": 63.381943,
+    "name": "Romolslia nedre",
+    "longitude": 10.368921,
+    "id": "NSR:Quay:71486"
+  },
+  {
+    "latitude": 63.38046,
+    "name": "Nedre Leirfoss",
+    "longitude": 10.394959,
+    "id": "NSR:Quay:73804"
+  },
+  {
+    "latitude": 63.381813,
+    "name": "Romolslia nedre",
+    "longitude": 10.369255,
+    "id": "NSR:Quay:71485"
+  },
+  {
+    "latitude": 63.451275,
+    "name": "Trollahaugen 10",
+    "longitude": 10.300472,
+    "id": "NSR:Quay:71393"
+  },
+  {
+    "latitude": 63.407707,
+    "name": "Karlsheim",
+    "longitude": 10.502461,
+    "id": "NSR:Quay:74005"
+  },
+  {
+    "latitude": 63.383385,
+    "name": "Tverregga",
+    "longitude": 10.432378,
+    "id": "NSR:Quay:71622"
+  },
+  {
+    "latitude": 63.379112,
+    "name": "Okstadplassen",
+    "longitude": 10.384912,
+    "id": "NSR:Quay:74459"
+  },
+  {
+    "latitude": 63.38316,
+    "name": "Tverregga",
+    "longitude": 10.433367,
+    "id": "NSR:Quay:71623"
+  },
+  {
+    "latitude": 63.380596,
+    "name": "Nedre Leirfoss",
+    "longitude": 10.393946,
+    "id": "NSR:Quay:73805"
+  },
+  {
+    "latitude": 63.37534,
+    "name": "Okstad",
+    "longitude": 10.379875,
+    "id": "NSR:Quay:74422"
+  },
+  {
+    "latitude": 63.393932,
+    "name": "Vådanvegen 5",
+    "longitude": 10.331943,
+    "id": "NSR:Quay:72520"
+  },
+  {
+    "latitude": 63.394016,
+    "name": "Vådanvegen 5",
+    "longitude": 10.331697,
+    "id": "NSR:Quay:72516"
+  },
+  {
+    "latitude": 63.37951,
+    "name": "Bjørkmyr",
+    "longitude": 10.434905,
+    "id": "NSR:Quay:75144"
+  },
+  {
+    "latitude": 63.385014,
+    "name": "Buenget",
+    "longitude": 10.357222,
+    "id": "NSR:Quay:75459"
+  },
+  {
+    "latitude": 63.385006,
+    "name": "Buenget",
+    "longitude": 10.357202,
+    "id": "NSR:Quay:75458"
+  },
+  {
+    "latitude": 63.3793,
+    "name": "Bjørkmyr",
+    "longitude": 10.435075,
+    "id": "NSR:Quay:75143"
+  },
+  {
+    "latitude": 63.379528,
+    "name": "Okstad østre",
+    "longitude": 10.389953,
+    "id": "NSR:Quay:74450"
+  },
+  {
+    "latitude": 63.37697,
+    "name": "Romolslia Øvre",
+    "longitude": 10.362503,
+    "id": "NSR:Quay:71496"
+  },
+  {
+    "latitude": 63.37697,
+    "name": "Romolslia øvre",
+    "longitude": 10.362483,
+    "id": "NSR:Quay:71491"
+  },
+  {
+    "latitude": 63.402909,
+    "name": "Lian",
+    "longitude": 10.31425,
+    "id": "NSR:Quay:73481"
+  },
+  {
+    "latitude": 63.37985,
+    "name": "Okstad østre",
+    "longitude": 10.388668,
+    "id": "NSR:Quay:74451"
+  },
+  {
+    "latitude": 63.379776,
+    "name": "Okstadvegen 35",
+    "longitude": 10.388804,
+    "id": "NSR:Quay:74477"
+  },
+  {
+    "latitude": 63.379776,
+    "name": "Okstadvegen 35",
+    "longitude": 10.388804,
+    "id": "NSR:Quay:74477"
+  },
+  {
+    "latitude": 63.37985,
+    "name": "Okstad østre",
+    "longitude": 10.388668,
+    "id": "NSR:Quay:74451"
+  },
+  {
+    "latitude": 63.421942,
+    "name": "Ranheim fabrikker E6",
+    "longitude": 10.535543,
+    "id": "NSR:Quay:71246"
+  },
+  {
+    "latitude": 63.392046,
+    "name": "Ola Setroms veg",
+    "longitude": 10.331724,
+    "id": "NSR:Quay:74529"
+  },
+  {
+    "latitude": 63.385006,
+    "name": "Buenget",
+    "longitude": 10.357202,
+    "id": "NSR:Quay:75458"
+  },
+  {
+    "latitude": 63.385014,
+    "name": "Buenget",
+    "longitude": 10.357222,
+    "id": "NSR:Quay:75459"
+  },
+  {
+    "latitude": 63.42336,
+    "name": "Vestre Ranheim",
+    "longitude": 10.534117,
+    "id": "NSR:Quay:72115"
+  },
+  {
+    "latitude": 63.37534,
+    "name": "Okstad",
+    "longitude": 10.379875,
+    "id": "NSR:Quay:74422"
+  },
+  {
+    "latitude": 63.427837,
+    "name": "Ranheim stasjon",
+    "longitude": 10.532573,
+    "id": "NSR:Quay:71259"
+  },
+  {
+    "latitude": 63.391495,
+    "name": "Ola Setroms veg",
+    "longitude": 10.330689,
+    "id": "NSR:Quay:74528"
+  },
+  {
+    "latitude": 63.424988,
+    "name": "Ranheim",
+    "longitude": 10.533843,
+    "id": "NSR:Quay:74982"
+  },
+  {
+    "latitude": 63.42518,
+    "name": "Ranheim",
+    "longitude": 10.533673,
+    "id": "NSR:Quay:74983"
+  },
+  {
+    "latitude": 63.421858,
+    "name": "Ranheim fabrikker",
+    "longitude": 10.536074,
+    "id": "NSR:Quay:71247"
+  },
+  {
+    "latitude": 63.421675,
+    "name": "Ranheim fabrikker",
+    "longitude": 10.535848,
+    "id": "NSR:Quay:71248"
+  },
+  {
+    "latitude": 63.42792,
+    "name": "Ranheim stasjon",
+    "longitude": 10.534405,
+    "id": "NSR:Quay:56"
+  },
+  {
+    "latitude": 63.427855,
+    "name": "Ranheim stasjon",
+    "longitude": 10.534497,
+    "id": "NSR:Quay:55"
+  },
+  {
+    "latitude": 63.423294,
+    "name": "Vestre Ranheim",
+    "longitude": 10.534374,
+    "id": "NSR:Quay:72116"
+  },
+  {
+    "latitude": 63.427902,
+    "name": "Ranheim stasjon",
+    "longitude": 10.532476,
+    "id": "NSR:Quay:71258"
+  },
+  {
+    "latitude": 63.373444,
+    "name": "Okstadøy",
+    "longitude": 10.367617,
+    "id": "NSR:Quay:74487"
+  },
+  {
+    "latitude": 63.374237,
+    "name": "Okstadøy",
+    "longitude": 10.366534,
+    "id": "NSR:Quay:74493"
+  },
+  {
+    "latitude": 63.416775,
+    "name": "Kobberdammen",
+    "longitude": 10.288092,
+    "id": "NSR:Quay:74217"
+  },
+  {
+    "latitude": 63.41672,
+    "name": "Kobberdammen",
+    "longitude": 10.28803,
+    "id": "NSR:Quay:74215"
+  },
+  {
+    "latitude": 63.37951,
+    "name": "Bjørkmyr",
+    "longitude": 10.434905,
+    "id": "NSR:Quay:75144"
+  },
+  {
+    "latitude": 63.376648,
+    "name": "Leira skole",
+    "longitude": 10.431922,
+    "id": "NSR:Quay:73327"
+  },
+  {
+    "latitude": 63.37665,
+    "name": "Leira skole",
+    "longitude": 10.432222,
+    "id": "NSR:Quay:73326"
+  },
+  {
+    "latitude": 63.3793,
+    "name": "Bjørkmyr",
+    "longitude": 10.435075,
+    "id": "NSR:Quay:75143"
+  },
+  {
+    "latitude": 63.428753,
+    "name": "Ranheim kirke",
+    "longitude": 10.536069,
+    "id": "NSR:Quay:71256"
+  },
+  {
+    "latitude": 63.387896,
+    "name": "Stavset senter nord",
+    "longitude": 10.330214,
+    "id": "NSR:Quay:74146"
+  },
+  {
+    "latitude": 63.428898,
+    "name": "Ranheim kirke",
+    "longitude": 10.536778,
+    "id": "NSR:Quay:71255"
+  },
+  {
+    "latitude": 63.389356,
+    "name": "Stavsetvegen",
+    "longitude": 10.328264,
+    "id": "NSR:Quay:74158"
+  },
+  {
+    "latitude": 63.45144,
+    "name": "Løften",
+    "longitude": 10.279221,
+    "id": "NSR:Quay:73715"
+  },
+  {
+    "latitude": 63.42683,
+    "name": "Nedre Humlehaugen vest",
+    "longitude": 10.535165,
+    "id": "NSR:Quay:73776"
+  },
+  {
+    "latitude": 63.45157,
+    "name": "Løften",
+    "longitude": 10.278826,
+    "id": "NSR:Quay:73717"
+  },
+  {
+    "latitude": 63.395351,
+    "name": "Haukåsen",
+    "longitude": 10.321615,
+    "id": "NSR:Quay:72827"
+  },
+  {
+    "latitude": 63.42699,
+    "name": "Nedre Humlehaugen vest",
+    "longitude": 10.535494,
+    "id": "NSR:Quay:73777"
+  },
+  {
+    "latitude": 63.387803,
+    "name": "Stavset senter nord",
+    "longitude": 10.330434,
+    "id": "NSR:Quay:74147"
+  },
+  {
+    "latitude": 63.42836,
+    "name": "Nedre Humlehaugen øst",
+    "longitude": 10.537351,
+    "id": "NSR:Quay:73786"
+  },
+  {
+    "latitude": 63.42341,
+    "name": "Vikelvveien",
+    "longitude": 10.541153,
+    "id": "NSR:Quay:72220"
+  },
+  {
+    "latitude": 63.42824,
+    "name": "Nedre Humlehaugen øst",
+    "longitude": 10.537524,
+    "id": "NSR:Quay:73787"
+  },
+  {
+    "latitude": 63.42378,
+    "name": "Vikelvveien",
+    "longitude": 10.541093,
+    "id": "NSR:Quay:72219"
+  },
+  {
+    "latitude": 63.38696,
+    "name": "Stavset senter syd",
+    "longitude": 10.329758,
+    "id": "NSR:Quay:74142"
+  },
+  {
+    "latitude": 63.388241,
+    "name": "Stavsetvegen",
+    "longitude": 10.327916,
+    "id": "NSR:Quay:74159"
+  },
+  {
+    "latitude": 63.387253,
+    "name": "Stavset senter syd",
+    "longitude": 10.329648,
+    "id": "NSR:Quay:74143"
+  },
+  {
+    "latitude": 63.40308,
+    "name": "Sæterbakken",
+    "longitude": 10.508245,
+    "id": "NSR:Quay:73483"
+  },
+  {
+    "latitude": 63.384266,
+    "name": "Stavsetsvingen",
+    "longitude": 10.337778,
+    "id": "NSR:Quay:74153"
+  },
+  {
+    "latitude": 63.38531,
+    "name": "Stavset",
+    "longitude": 10.342889,
+    "id": "NSR:Quay:74134"
+  },
+  {
+    "latitude": 63.385303,
+    "name": "Stavset",
+    "longitude": 10.342889,
+    "id": "NSR:Quay:74139"
+  },
+  {
+    "latitude": 63.374073,
+    "name": "Kvamshaugen",
+    "longitude": 10.429994,
+    "id": "NSR:Quay:74489"
+  },
+  {
+    "latitude": 63.376648,
+    "name": "Leira skole",
+    "longitude": 10.431922,
+    "id": "NSR:Quay:73327"
+  },
+  {
+    "latitude": 63.37665,
+    "name": "Leira skole",
+    "longitude": 10.432222,
+    "id": "NSR:Quay:73326"
+  },
+  {
+    "latitude": 63.370132,
+    "name": "Granhaugan",
+    "longitude": 10.386318,
+    "id": "NSR:Quay:75721"
+  },
+  {
+    "latitude": 63.383873,
+    "name": "Stavsetsvingen",
+    "longitude": 10.336679,
+    "id": "NSR:Quay:74152"
+  },
+  {
+    "latitude": 63.40321,
+    "name": "Sæterbakken",
+    "longitude": 10.508432,
+    "id": "NSR:Quay:73482"
+  },
+  {
+    "latitude": 63.423264,
+    "name": "Reppevegen",
+    "longitude": 10.543009,
+    "id": "NSR:Quay:71341"
+  },
+  {
+    "latitude": 63.37386,
+    "name": "Kvamshaugen",
+    "longitude": 10.430463,
+    "id": "NSR:Quay:74490"
+  },
+  {
+    "latitude": 63.423515,
+    "name": "Reppevegen",
+    "longitude": 10.543122,
+    "id": "NSR:Quay:71342"
+  },
+  {
+    "latitude": 63.429337,
+    "name": "Engstrømbakken",
+    "longitude": 10.541792,
+    "id": "NSR:Quay:74934"
+  },
+  {
+    "latitude": 63.37075,
+    "name": "Tonstadkrysset",
+    "longitude": 10.38236,
+    "id": "NSR:Quay:71206"
+  },
+  {
+    "latitude": 63.37076,
+    "name": "Tonstadkrysset",
+    "longitude": 10.38226,
+    "id": "NSR:Quay:102733"
+  },
+  {
+    "latitude": 63.387896,
+    "name": "Stavset senter nord",
+    "longitude": 10.330214,
+    "id": "NSR:Quay:74146"
+  },
+  {
+    "latitude": 63.38696,
+    "name": "Stavset senter syd",
+    "longitude": 10.329758,
+    "id": "NSR:Quay:74142"
+  },
+  {
+    "latitude": 63.402138,
+    "name": "Tjønnlia",
+    "longitude": 10.509677,
+    "id": "NSR:Quay:71173"
+  },
+  {
+    "latitude": 63.386861,
+    "name": "Rønningstad",
+    "longitude": 10.32702,
+    "id": "NSR:Quay:71690"
+  },
+  {
+    "latitude": 63.42951,
+    "name": "Engstrømbakken",
+    "longitude": 10.543244,
+    "id": "NSR:Quay:74935"
+  },
+  {
+    "latitude": 63.369946,
+    "name": "Granhaugan",
+    "longitude": 10.38585,
+    "id": "NSR:Quay:75722"
+  },
+  {
+    "latitude": 63.368786,
+    "name": "Kolstaddalen",
+    "longitude": 10.367183,
+    "id": "NSR:Quay:74246"
+  },
+  {
+    "latitude": 63.401722,
+    "name": "Tjønnlia",
+    "longitude": 10.509975,
+    "id": "NSR:Quay:71172"
+  },
+  {
+    "latitude": 63.387803,
+    "name": "Stavset senter nord",
+    "longitude": 10.330434,
+    "id": "NSR:Quay:74147"
+  },
+  {
+    "latitude": 63.368643,
+    "name": "Kolstaddalen",
+    "longitude": 10.366963,
+    "id": "NSR:Quay:74241"
+  },
+  {
+    "latitude": 63.369104,
+    "name": "Tonstadkrysset E6",
+    "longitude": 10.37968,
+    "id": "NSR:Quay:71230"
+  },
+  {
+    "latitude": 63.387253,
+    "name": "Stavset senter syd",
+    "longitude": 10.329648,
+    "id": "NSR:Quay:74143"
+  },
+  {
+    "latitude": 63.37243,
+    "name": "Lialøkken",
+    "longitude": 10.432812,
+    "id": "NSR:Quay:73476"
+  },
+  {
+    "latitude": 63.37223,
+    "name": "Lialøkken",
+    "longitude": 10.432862,
+    "id": "NSR:Quay:73477"
+  },
+  {
+    "latitude": 63.384256,
+    "name": "Alfheimsvingen",
+    "longitude": 10.327256,
+    "id": "NSR:Quay:74540"
+  },
+  {
+    "latitude": 63.37075,
+    "name": "Tonstadkrysset",
+    "longitude": 10.38236,
+    "id": "NSR:Quay:71206"
+  },
+  {
+    "latitude": 63.37076,
+    "name": "Tonstadkrysset",
+    "longitude": 10.38226,
+    "id": "NSR:Quay:102733"
+  },
+  {
+    "latitude": 63.379265,
+    "name": "Nordre Flatåsen",
+    "longitude": 10.350228,
+    "id": "NSR:Quay:74082"
+  },
+  {
+    "latitude": 63.3689,
+    "name": "Tonstadkrysset E6",
+    "longitude": 10.379022,
+    "id": "NSR:Quay:71229"
+  },
+  {
+    "latitude": 63.382697,
+    "name": "Leirelva",
+    "longitude": 10.332524,
+    "id": "NSR:Quay:73337"
+  },
+  {
+    "latitude": 63.379147,
+    "name": "Nordre Flatåsen",
+    "longitude": 10.349503,
+    "id": "NSR:Quay:74083"
+  },
+  {
+    "latitude": 63.374073,
+    "name": "Kvamshaugen",
+    "longitude": 10.429994,
+    "id": "NSR:Quay:74489"
+  },
+  {
+    "latitude": 63.382789,
+    "name": "Leirelva",
+    "longitude": 10.331877,
+    "id": "NSR:Quay:73336"
+  },
+  {
+    "latitude": 63.37198,
+    "name": "Mikkelvegen",
+    "longitude": 10.390888,
+    "id": "NSR:Quay:73047"
+  },
+  {
+    "latitude": 63.371582,
+    "name": "Mikkelvegen",
+    "longitude": 10.391389,
+    "id": "NSR:Quay:73046"
+  },
+  {
+    "latitude": 63.383449,
+    "name": "Alfheimsvingen",
+    "longitude": 10.327862,
+    "id": "NSR:Quay:74542"
+  },
+  {
+    "latitude": 63.37386,
+    "name": "Kvamshaugen",
+    "longitude": 10.430463,
+    "id": "NSR:Quay:74490"
+  },
+  {
+    "latitude": 63.369074,
+    "name": "Tonstadkrysset",
+    "longitude": 10.376276,
+    "id": "NSR:Quay:71215"
+  },
+  {
+    "latitude": 63.370392,
+    "name": "Tonstadkrysset",
+    "longitude": 10.37405,
+    "id": "NSR:Quay:71209"
+  },
+  {
+    "latitude": 63.370647,
+    "name": "Storhaugen",
+    "longitude": 10.410543,
+    "id": "NSR:Quay:74356"
+  },
+  {
+    "latitude": 63.36963,
+    "name": "Paul Skolemesters veg",
+    "longitude": 10.394458,
+    "id": "NSR:Quay:103580"
+  },
+  {
+    "latitude": 63.37081,
+    "name": "Bjørndalsbrua",
+    "longitude": 10.364235,
+    "id": "NSR:Quay:75176"
+  },
+  {
+    "latitude": 63.38485,
+    "name": "Leirbrua gård",
+    "longitude": 10.324088,
+    "id": "NSR:Quay:73330"
+  },
+  {
+    "latitude": 63.41777,
+    "name": "Dolpa",
+    "longitude": 10.539668,
+    "id": "NSR:Quay:74580"
+  },
+  {
+    "latitude": 63.370956,
+    "name": "Bjørndalsbrua",
+    "longitude": 10.363111,
+    "id": "NSR:Quay:75175"
+  },
+  {
+    "latitude": 63.37086,
+    "name": "Hagen",
+    "longitude": 10.404493,
+    "id": "NSR:Quay:72486"
+  },
+  {
+    "latitude": 63.369682,
+    "name": "Paul Skolemesters veg",
+    "longitude": 10.394716,
+    "id": "NSR:Quay:74959"
+  },
+  {
+    "latitude": 63.384256,
+    "name": "Alfheimsvingen",
+    "longitude": 10.327256,
+    "id": "NSR:Quay:74540"
+  },
+  {
+    "latitude": 63.417393,
+    "name": "Dolpa",
+    "longitude": 10.539748,
+    "id": "NSR:Quay:74579"
+  },
+  {
+    "latitude": 63.37692,
+    "name": "Søndre Flatåsen",
+    "longitude": 10.352279,
+    "id": "NSR:Quay:73552"
+  },
+  {
+    "latitude": 63.414818,
+    "name": "Fjellsæter",
+    "longitude": 10.275064,
+    "id": "NSR:Quay:75080"
+  },
+  {
+    "latitude": 63.414757,
+    "name": "Fjellsæter",
+    "longitude": 10.275042,
+    "id": "NSR:Quay:75079"
+  },
+  {
+    "latitude": 63.370136,
+    "name": "Alf Godagers veg",
+    "longitude": 10.394838,
+    "id": "NSR:Quay:74532"
+  },
+  {
+    "latitude": 63.417213,
+    "name": "Vikåsen nedre",
+    "longitude": 10.533689,
+    "id": "NSR:Quay:72305"
+  },
+  {
+    "latitude": 63.417095,
+    "name": "Vikåsen nedre",
+    "longitude": 10.533862,
+    "id": "NSR:Quay:72303"
+  },
+  {
+    "latitude": 63.428707,
+    "name": "Klokkerplassen",
+    "longitude": 10.550997,
+    "id": "NSR:Quay:74160"
+  },
+  {
+    "latitude": 63.42143,
+    "name": "Osvegen",
+    "longitude": 10.54844,
+    "id": "NSR:Quay:74914"
+  },
+  {
+    "latitude": 63.42854,
+    "name": "Klokkerplassen",
+    "longitude": 10.551409,
+    "id": "NSR:Quay:74161"
+  },
+  {
+    "latitude": 63.401287,
+    "name": "Osbakken",
+    "longitude": 10.517962,
+    "id": "NSR:Quay:74845"
+  },
+  {
+    "latitude": 63.383747,
+    "name": "Leirbrua gård",
+    "longitude": 10.321856,
+    "id": "NSR:Quay:73331"
+  },
+  {
+    "latitude": 63.365978,
+    "name": "Rostengrenda",
+    "longitude": 10.381981,
+    "id": "NSR:Quay:71517"
+  },
+  {
+    "latitude": 63.37243,
+    "name": "Lialøkken",
+    "longitude": 10.432812,
+    "id": "NSR:Quay:73476"
+  },
+  {
+    "latitude": 63.37223,
+    "name": "Lialøkken",
+    "longitude": 10.432862,
+    "id": "NSR:Quay:73477"
+  },
+  {
+    "latitude": 63.369125,
+    "name": "Sjetnhaugan",
+    "longitude": 10.396589,
+    "id": "NSR:Quay:72164"
+  },
+  {
+    "latitude": 63.415684,
+    "name": "Vikåsen",
+    "longitude": 10.530862,
+    "id": "NSR:Quay:72300"
+  },
+  {
+    "latitude": 63.42109,
+    "name": "Osvegen",
+    "longitude": 10.548923,
+    "id": "NSR:Quay:74913"
+  },
+  {
+    "latitude": 63.37622,
+    "name": "Søndre Flatåsen",
+    "longitude": 10.352206,
+    "id": "NSR:Quay:73554"
+  },
+  {
+    "latitude": 63.383449,
+    "name": "Alfheimsvingen",
+    "longitude": 10.327862,
+    "id": "NSR:Quay:74542"
+  },
+  {
+    "latitude": 63.401257,
+    "name": "Osbakken",
+    "longitude": 10.51838,
+    "id": "NSR:Quay:74846"
+  },
+  {
+    "latitude": 63.414818,
+    "name": "Fjellsæter",
+    "longitude": 10.275064,
+    "id": "NSR:Quay:75080"
+  },
+  {
+    "latitude": 63.414757,
+    "name": "Fjellsæter",
+    "longitude": 10.275042,
+    "id": "NSR:Quay:75079"
+  },
+  {
+    "latitude": 63.370136,
+    "name": "Alf Godagers veg",
+    "longitude": 10.394838,
+    "id": "NSR:Quay:74532"
+  },
+  {
+    "latitude": 63.365978,
+    "name": "Rostengrenda",
+    "longitude": 10.381981,
+    "id": "NSR:Quay:71517"
+  },
+  {
+    "latitude": 63.365245,
+    "name": "Rostengrenda",
+    "longitude": 10.382018,
+    "id": "NSR:Quay:71518"
+  },
+  {
+    "latitude": 63.369682,
+    "name": "Paul Skolemesters veg",
+    "longitude": 10.394716,
+    "id": "NSR:Quay:74959"
+  },
+  {
+    "latitude": 63.38485,
+    "name": "Leirbrua gård",
+    "longitude": 10.324088,
+    "id": "NSR:Quay:73330"
+  },
+  {
+    "latitude": 63.36636,
+    "name": "Maskinagentur",
+    "longitude": 10.374458,
+    "id": "NSR:Quay:72735"
+  },
+  {
+    "latitude": 63.41468,
+    "name": "Vikåsen",
+    "longitude": 10.530568,
+    "id": "NSR:Quay:72299"
+  },
+  {
+    "latitude": 63.42109,
+    "name": "Osvegen",
+    "longitude": 10.548923,
+    "id": "NSR:Quay:74913"
+  },
+  {
+    "latitude": 63.370558,
+    "name": "Bjørndalstoppen",
+    "longitude": 10.353316,
+    "id": "NSR:Quay:75178"
+  },
+  {
+    "latitude": 63.371292,
+    "name": "Carl Schjetnans veg",
+    "longitude": 10.398695,
+    "id": "NSR:Quay:75576"
+  },
+  {
+    "latitude": 63.36623,
+    "name": "Maskinagentur",
+    "longitude": 10.373713,
+    "id": "NSR:Quay:72734"
+  },
+  {
+    "latitude": 63.371296,
+    "name": "Carl Schjetnans veg",
+    "longitude": 10.398595,
+    "id": "NSR:Quay:75579"
+  },
+  {
+    "latitude": 63.368656,
+    "name": "Halstein gård",
+    "longitude": 10.403186,
+    "id": "NSR:Quay:72572"
+  },
+  {
+    "latitude": 63.41521,
+    "name": "Markaplassen",
+    "longitude": 10.536346,
+    "id": "NSR:Quay:72683"
+  },
+  {
+    "latitude": 63.373543,
+    "name": "Flatåsen senter",
+    "longitude": 10.345759,
+    "id": "NSR:Quay:75227"
+  },
+  {
+    "latitude": 63.373543,
+    "name": "Flatåsen senter",
+    "longitude": 10.345759,
+    "id": "NSR:Quay:75228"
+  },
+  {
+    "latitude": 63.415665,
+    "name": "Markaplassen",
+    "longitude": 10.53583,
+    "id": "NSR:Quay:72684"
+  },
+  {
+    "latitude": 63.365245,
+    "name": "Rostengrenda",
+    "longitude": 10.382018,
+    "id": "NSR:Quay:71518"
+  },
+  {
+    "latitude": 63.402233,
+    "name": "Solbakken skole",
+    "longitude": 10.523758,
+    "id": "NSR:Quay:73912"
+  },
+  {
+    "latitude": 63.413895,
+    "name": "Markaplassen skole",
+    "longitude": 10.529505,
+    "id": "NSR:Quay:72692"
+  },
+  {
+    "latitude": 63.370582,
+    "name": "Bjørndalstoppen",
+    "longitude": 10.356669,
+    "id": "NSR:Quay:75179"
+  },
+  {
+    "latitude": 63.413784,
+    "name": "Markaplassen skole",
+    "longitude": 10.529639,
+    "id": "NSR:Quay:72691"
+  },
+  {
+    "latitude": 63.402122,
+    "name": "Solbakken skole",
+    "longitude": 10.523832,
+    "id": "NSR:Quay:73911"
+  },
+  {
+    "latitude": 63.366302,
+    "name": "Lykkmarka",
+    "longitude": 10.397892,
+    "id": "NSR:Quay:73679"
+  },
+  {
+    "latitude": 63.453041,
+    "name": "Storsteinan",
+    "longitude": 10.257344,
+    "id": "NSR:Quay:74423"
+  },
+  {
+    "latitude": 63.452914,
+    "name": "Storsteinan",
+    "longitude": 10.256987,
+    "id": "NSR:Quay:74424"
+  },
+  {
+    "latitude": 63.363293,
+    "name": "John Aaes veg",
+    "longitude": 10.38057,
+    "id": "NSR:Quay:73869"
+  },
+  {
+    "latitude": 63.367767,
+    "name": "Casper Lundes veg",
+    "longitude": 10.356729,
+    "id": "NSR:Quay:75580"
+  },
+  {
+    "latitude": 63.362308,
+    "name": "Rosten",
+    "longitude": 10.362672,
+    "id": "NSR:Quay:71511"
+  },
+  {
+    "latitude": 63.367867,
+    "name": "Casper Lundes veg",
+    "longitude": 10.358672,
+    "id": "NSR:Quay:75581"
+  },
+  {
+    "latitude": 63.362222,
+    "name": "Rosten",
+    "longitude": 10.362999,
+    "id": "NSR:Quay:71512"
+  },
+  {
+    "latitude": 63.412827,
+    "name": "Vikåsen skole",
+    "longitude": 10.537781,
+    "id": "NSR:Quay:72310"
+  },
+  {
+    "latitude": 63.36186,
+    "name": "Tonstadgrenda",
+    "longitude": 10.38488,
+    "id": "NSR:Quay:71202"
+  },
+  {
+    "latitude": 63.367573,
+    "name": "Gisvold",
+    "longitude": 10.44245,
+    "id": "NSR:Quay:75674"
+  },
+  {
+    "latitude": 63.361794,
+    "name": "Tonstadgrenda",
+    "longitude": 10.387116,
+    "id": "NSR:Quay:71203"
+  },
+  {
+    "latitude": 63.412666,
+    "name": "Vikåsen skole",
+    "longitude": 10.537772,
+    "id": "NSR:Quay:72309"
+  },
+  {
+    "latitude": 63.362335,
+    "name": "Østre Rosten",
+    "longitude": 10.38175,
+    "id": "NSR:Quay:72861"
+  },
+  {
+    "latitude": 63.420116,
+    "name": "Fykenborg",
+    "longitude": 10.55494,
+    "id": "NSR:Quay:75577"
+  },
+  {
+    "latitude": 63.420055,
+    "name": "Fykenborg",
+    "longitude": 10.554957,
+    "id": "NSR:Quay:75578"
+  },
+  {
+    "latitude": 63.363517,
+    "name": "Stor-Rosta",
+    "longitude": 10.372542,
+    "id": "NSR:Quay:74325"
+  },
+  {
+    "latitude": 63.361328,
+    "name": "City Syd E6",
+    "longitude": 10.374261,
+    "id": "NSR:Quay:75610"
+  },
+  {
+    "latitude": 63.363193,
+    "name": "Stor-Rosta",
+    "longitude": 10.372545,
+    "id": "NSR:Quay:74326"
+  },
+  {
+    "latitude": 63.361272,
+    "name": "City Syd",
+    "longitude": 10.380205,
+    "id": "NSR:Quay:75612"
+  },
+  {
+    "latitude": 63.36743,
+    "name": "Gisvold",
+    "longitude": 10.442222,
+    "id": "NSR:Quay:75673"
+  },
+  {
+    "latitude": 63.361122,
+    "name": "City Syd",
+    "longitude": 10.379307,
+    "id": "NSR:Quay:75611"
+  },
+  {
+    "latitude": 63.361355,
+    "name": "Torvmyra",
+    "longitude": 10.389915,
+    "id": "NSR:Quay:71309"
+  },
+  {
+    "latitude": 63.360615,
+    "name": "KVT",
+    "longitude": 10.380822,
+    "id": "NSR:Quay:73931"
+  },
+  {
+    "latitude": 63.39967,
+    "name": "Osbrua",
+    "longitude": 10.524082,
+    "id": "NSR:Quay:74851"
+  },
+  {
+    "latitude": 63.430294,
+    "name": "Være Ranheimsvegen",
+    "longitude": 10.564271,
+    "id": "NSR:Quay:72571"
+  },
+  {
+    "latitude": 63.362584,
+    "name": "Østre Rosten",
+    "longitude": 10.377032,
+    "id": "NSR:Quay:72862"
+  },
+  {
+    "latitude": 63.399677,
+    "name": "Osbrua",
+    "longitude": 10.524263,
+    "id": "NSR:Quay:74853"
+  },
+  {
+    "latitude": 63.37936,
+    "name": "Granåsen VM-anlegget",
+    "longitude": 10.316824,
+    "id": "NSR:Quay:75728"
+  },
+  {
+    "latitude": 63.36743,
+    "name": "Gisvold",
+    "longitude": 10.442222,
+    "id": "NSR:Quay:75673"
+  },
+  {
+    "latitude": 63.3769,
+    "name": "Furuhaugen",
+    "longitude": 10.340246,
+    "id": "NSR:Quay:75561"
+  },
+  {
+    "latitude": 63.366302,
+    "name": "Lykkmarka",
+    "longitude": 10.397892,
+    "id": "NSR:Quay:73679"
+  },
+  {
+    "latitude": 63.368726,
+    "name": "Husebytunet",
+    "longitude": 10.344958,
+    "id": "NSR:Quay:71825"
+  },
+  {
+    "latitude": 63.361336,
+    "name": "Torvmyra",
+    "longitude": 10.391673,
+    "id": "NSR:Quay:71308"
+  },
+  {
+    "latitude": 63.368871,
+    "name": "Husebytunet",
+    "longitude": 10.345149,
+    "id": "NSR:Quay:71824"
+  },
+  {
+    "latitude": 63.36186,
+    "name": "Tonstadgrenda",
+    "longitude": 10.38488,
+    "id": "NSR:Quay:71202"
+  },
+  {
+    "latitude": 63.37875,
+    "name": "Granåsen VM-anlegget",
+    "longitude": 10.317096,
+    "id": "NSR:Quay:75727"
+  },
+  {
+    "latitude": 63.360258,
+    "name": "Tillerterminalen",
+    "longitude": 10.374846,
+    "id": "NSR:Quay:75606"
+  },
+  {
+    "latitude": 63.360615,
+    "name": "KVT",
+    "longitude": 10.380822,
+    "id": "NSR:Quay:73931"
+  }
+]
