@@ -1,5 +1,5 @@
 import {RouteProp} from '@react-navigation/native';
-import React, {useState, useRef, useMemo} from 'react';
+import React, {useState, useRef, useMemo, useEffect} from 'react';
 import {Text, View, TouchableOpacity, Image} from 'react-native';
 
 import MapboxGL, {RegionPayload} from '@react-native-mapbox-gl/maps';
@@ -17,35 +17,27 @@ import LocationBar from './LocationBar';
 import {ArrowLeft} from '../../assets/svg/icons/navigation';
 import {SelectionPin} from '../../assets/svg/map';
 import {StyleSheet} from '../../theme';
-import quaysJson from '../../assets/json/quays.json';
 import shadows from './shadows';
 import {Coordinates} from '@entur/sdk';
+import {StopPlace, nearestStopPlaces} from '../../api/stops';
+import {FeatureCollection, Feature} from 'geojson';
 
-type Quay = {
-  id: string;
-  name: string;
-  latitude: number;
-  longitude: number;
-};
-
-const quays: Quay[] = quaysJson;
 const busIcon = require('../../assets/images/bus.png');
 
-const featureCollection = {
-  type: 'FeatureCollection',
-  features: quays.map((q) => ({
+function mapStopPlaceToFeature(stopPlace: StopPlace): Feature {
+  return {
     type: 'Feature',
-    id: q.id,
+    id: stopPlace.id,
     properties: {
       icon: 'bus',
-      label: q.name,
+      label: stopPlace.name,
     },
     geometry: {
       type: 'Point',
-      coordinates: [q.longitude, q.latitude],
+      coordinates: [stopPlace.longitude ?? 0, stopPlace.latitude ?? 0],
     },
-  })),
-};
+  };
+}
 
 export type RouteParams = {
   callerRouteName: string;
@@ -74,19 +66,41 @@ const MapSelection: React.FC<Props> = ({
   },
 }) => {
   const [regionEvent, setRegionEvent] = useState<RegionEvent>();
+  const [stopPlaceFeatures, setStopPlaceFeatures] = useState<Feature[]>();
 
-  const centeredCoordinates = useMemo<Coordinates | null>(
+  const centeredCoordinates = useMemo<
+    (Coordinates & {zoomLevel: number}) | null
+  >(
     () =>
       (regionEvent?.region?.geometry && {
         latitude: regionEvent.region.geometry.coordinates[1],
-        longitude: regionEvent.region?.geometry?.coordinates[0],
+        longitude: regionEvent.region.geometry.coordinates[0],
+        zoomLevel: regionEvent.region.properties.zoomLevel,
       }) ??
       null,
     [
       regionEvent?.region?.geometry?.coordinates[0],
       regionEvent?.region?.geometry?.coordinates[1],
+      regionEvent?.region?.properties.zoomLevel,
     ],
   );
+
+  useEffect(() => {
+    run();
+
+    async function run() {
+      if (!centeredCoordinates) return;
+      if (centeredCoordinates.zoomLevel > 14) {
+        try {
+          const stopPlaces = await nearestStopPlaces(centeredCoordinates, 500);
+
+          setStopPlaceFeatures(stopPlaces.data.map(mapStopPlaceToFeature));
+        } catch (err) {
+          console.warn(err);
+        }
+      }
+    }
+  }, [centeredCoordinates]);
 
   const locations = useReverseGeocoder(centeredCoordinates);
 
@@ -143,7 +157,13 @@ const MapSelection: React.FC<Props> = ({
         />
         <MapboxGL.UserLocation showsUserHeadingIndicator />
         <MapboxGL.Images images={{bus: busIcon}} />
-        <MapboxGL.ShapeSource id="bus" shape={featureCollection}>
+        <MapboxGL.ShapeSource
+          id="bus"
+          shape={{
+            type: 'FeatureCollection',
+            features: stopPlaceFeatures ?? [],
+          }}
+        >
           <MapboxGL.SymbolLayer
             minZoomLevel={14}
             id="bus"

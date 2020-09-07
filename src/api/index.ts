@@ -7,3 +7,4 @@ export {
   reserve as reserveOffers,
   capture as capturePayment,
 } from './fareContracts';
+export {nearestStopPlaces} from './stops';
