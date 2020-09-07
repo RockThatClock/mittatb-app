@@ -20,7 +20,7 @@ import {StyleSheet} from '../../theme';
 import shadows from './shadows';
 import {Coordinates} from '@entur/sdk';
 import {StopPlace, nearestStopPlaces} from '../../api/stops';
-import {FeatureCollection, Feature} from 'geojson';
+import {Feature} from 'geojson';
 
 const busIcon = require('../../assets/images/bus.png');
 
@@ -29,7 +29,7 @@ function mapStopPlaceToFeature(stopPlace: StopPlace): Feature {
     type: 'Feature',
     id: stopPlace.id,
     properties: {
-      icon: 'bus',
+      icon: 'atbBus',
       label: stopPlace.name,
     },
     geometry: {
@@ -90,7 +90,7 @@ const MapSelection: React.FC<Props> = ({
 
     async function run() {
       if (!centeredCoordinates) return;
-      if (centeredCoordinates.zoomLevel > 14) {
+      if (centeredCoordinates.zoomLevel >= 14) {
         try {
           const stopPlaces = await nearestStopPlaces(centeredCoordinates, 500);
 
@@ -156,7 +156,7 @@ const MapSelection: React.FC<Props> = ({
           animationMode="moveTo"
         />
         <MapboxGL.UserLocation showsUserHeadingIndicator />
-        <MapboxGL.Images images={{bus: busIcon}} />
+        <MapboxGL.Images images={{atbBus: busIcon}} />
         <MapboxGL.ShapeSource
           id="bus"
           shape={{
@@ -168,9 +168,11 @@ const MapSelection: React.FC<Props> = ({
             minZoomLevel={14}
             id="bus"
             style={{
-              iconImage: 'bus',
-              iconSize: 1.2,
+              iconImage: 'atbBus',
+              iconSize: 0.6,
               textField: '{label}',
+              textOffset: [0, 1.5],
+              textSize: 12,
             }}
           />
         </MapboxGL.ShapeSource>
