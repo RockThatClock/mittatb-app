@@ -5,7 +5,7 @@ import {getAxiosErrorType, ErrorType, getAxiosErrorMetadata} from './utils';
 import bugsnag from '../diagnostics/bugsnag';
 import {InstallIdHeaderName, RequestIdHeaderName} from './headers';
 
-export default createClient(API_BASE_URL);
+export default createClient('http://localhost:8080');
 
 export function createClient(baseUrl: string) {
   const client = axios.create({

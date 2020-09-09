@@ -19,17 +19,18 @@ import {SelectionPin} from '../../assets/svg/map';
 import {StyleSheet} from '../../theme';
 import shadows from './shadows';
 import {Coordinates} from '@entur/sdk';
-import {StopPlace, nearestStopPlaces} from '../../api/stops';
+import {NearestStopPlace, nearestStopPlaces} from '../../api/stops';
 import {Feature} from 'geojson';
 
 const busIcon = require('../../assets/images/bus.png');
+const bus2Icon = require('../../assets/images/bus2.png');
 
-function mapStopPlaceToFeature(stopPlace: StopPlace): Feature {
+function mapStopPlaceToFeature(stopPlace: NearestStopPlace): Feature {
   return {
     type: 'Feature',
     id: stopPlace.id,
     properties: {
-      icon: 'atbBus',
+      icon: ['atbBus'],
       label: stopPlace.name,
     },
     geometry: {
@@ -163,7 +164,7 @@ const MapSelection: React.FC<Props> = ({
           animationMode="moveTo"
         />
         <MapboxGL.UserLocation showsUserHeadingIndicator />
-        <MapboxGL.Images images={{atbBus: busIcon}} />
+        <MapboxGL.Images images={{atbBus: busIcon, atbBus2: bus2Icon}} />
         <MapboxGL.ShapeSource
           id="bus"
           shape={{
