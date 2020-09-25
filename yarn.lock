@@ -715,6 +715,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@badrap/result@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@badrap/result/-/result-0.2.6.tgz#868d1bc98145f346c465f3e3be45aea42d87aa66"
+  integrity sha512-YmdWUHsWqsduDKt2sjzR+DFg+NriN+J6GAtDp5GpTC5wjqFnArY4V/00xdYNy9kJ0YlrBpN6OQZeM2dN0Kr1jw==
+
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"

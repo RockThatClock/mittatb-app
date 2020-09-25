@@ -16,6 +16,7 @@
     "generate-svgs": "yarn generate-svg-mono-icons && yarn generate-svg-color"
   },
   "dependencies": {
+    "@badrap/result": "^0.2.6",
     "@bugsnag/react-native": "^7.3.5",
     "@entur/sdk": "^1.5.0",
     "@mapbox/polyline": "^1.1.1",

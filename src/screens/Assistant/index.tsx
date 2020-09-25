@@ -3,7 +3,6 @@ import {StackNavigationProp} from '@react-navigation/stack';
 import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {Text, TouchableOpacity, View, ViewStyle, StyleProp} from 'react-native';
 import {searchTrip} from '../../api';
-import {CancelToken, isCancel} from '../../api/client';
 import {Swap} from '../../assets/svg/icons/actions';
 import {CurrentLocationArrow} from '../../assets/svg/icons/places';
 import DisappearingHeader from '../../components/disappearing-header';
@@ -39,6 +38,7 @@ import {NoResultReason} from './types';
 import FavoriteChips from '../../favorite-chips';
 
 import Animated, {Easing} from 'react-native-reanimated';
+import {Canceller} from '../../api/types';
 
 type AssistantRouteName = 'Assistant';
 const AssistantRouteNameStatic: AssistantRouteName = 'Assistant';
@@ -479,31 +479,30 @@ function useTripPatterns(
 
   const clearPatterns = () => setTripPatterns(null);
   const reload = useCallback(() => {
-    const source = CancelToken.source();
+    if (!fromLocation || !toLocation) return () => {};
+
+    const arriveBy = date?.type === 'arrival';
+    const searchDate = date && date?.type !== 'now' ? date.date : new Date();
+
+    const {doRequest, cancel} = searchTrip(
+      fromLocation,
+      toLocation,
+      searchDate,
+      arriveBy,
+    );
 
     async function search() {
-      if (!fromLocation || !toLocation) return;
       setIsSearching(true);
-      try {
-        const arriveBy = date?.type === 'arrival';
-        const searchDate =
-          date && date?.type !== 'now' ? date.date : new Date();
-        const response = await searchTrip(
-          fromLocation,
-          toLocation,
-          searchDate,
-          arriveBy,
-          {
-            cancelToken: source.token,
-          },
-        );
-        source.token.throwIfRequested();
-        setTripPatterns(response.data);
+
+      const result = await doRequest();
+
+      if (result.isOk) {
+        setTripPatterns(result.value);
         setIsSearching(false);
         setTimeOfSearch(searchDate);
-      } catch (e) {
-        if (!isCancel(e)) {
-          console.warn(e);
+      } else {
+        if (result.error.errorType != 'cancel') {
+          console.warn(result.error);
           setTripPatterns(null);
           setIsSearching(false);
         }
@@ -513,7 +512,7 @@ function useTripPatterns(
     search();
     return () => {
       if (!fromLocation || !toLocation) return;
-      source.cancel('New search to replace previous search');
+      cancel('New search to replace previous search');
     };
   }, [fromLocation, toLocation, date]);
 

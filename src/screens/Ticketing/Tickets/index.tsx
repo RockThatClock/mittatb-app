@@ -15,7 +15,8 @@ import {secondsToDuration} from '../../../utils/date';
 import {ArrowRight} from '../../../assets/svg/icons/navigation';
 import {Expand} from '../../../assets/svg/icons/navigation';
 import {useTicketState} from '../TicketContext';
-import {FareContract, sendReceipt} from '../../../api/fareContracts';
+import {sendReceipt} from '../../../api/';
+import {FareContract} from '../../../api/types';
 
 type Props = {
   navigation: StackNavigationProp<TicketingStackParams, 'Tickets'>;

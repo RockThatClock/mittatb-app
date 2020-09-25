@@ -1,5 +1,4 @@
 import {useEffect} from 'react';
-import {CancelToken, isCancel} from '../api/client';
 import {Coordinates} from '../sdk';
 import {autocomplete} from '../api';
 import useGeocoderReducer, {GeocoderState} from './use-geocoder-reducer';
@@ -12,34 +11,36 @@ export default function useGeocoder(
   const [state, dispatch] = useGeocoderReducer();
 
   useEffect(() => {
-    const source = CancelToken.source();
-    async function textLookup() {
-      if (!text) {
-        dispatch({type: 'SET_LOCATIONS', locations: null});
-      } else {
-        try {
-          dispatch({type: 'SET_IS_SEARCHING'});
-          const response = await autocomplete(text, coords, {
-            cancelToken: source.token,
-          });
-          source.token.throwIfRequested();
+    if (!text) {
+      dispatch({type: 'SET_LOCATIONS', locations: null});
+    } else {
+      const {doRequest, cancel} = autocomplete(text, coords);
+
+      async function textLookup() {
+        dispatch({type: 'SET_IS_SEARCHING'});
+
+        const result = await doRequest();
+
+        if (result.isOk) {
+          const locations = result.value.map(mapFeatureToLocation);
+
           dispatch({
             type: 'SET_LOCATIONS',
-            locations: response?.data?.map(mapFeatureToLocation),
+            locations,
           });
-        } catch (err) {
-          if (!isCancel(err)) {
-            console.warn(err);
-            dispatch({type: 'SET_HAS_ERROR'});
-          } else {
+        } else {
+          if (result.error.errorType === 'cancel') {
             dispatch({type: 'SET_LOCATIONS', locations: null});
+          } else {
+            console.warn(result.error);
+            dispatch({type: 'SET_HAS_ERROR'});
           }
         }
       }
-    }
 
-    textLookup();
-    return () => source.cancel('Cancelling previous autocomplete');
+      textLookup();
+      return () => cancel('Cancelling previous autocomplete');
+    }
   }, [coords?.latitude, coords?.longitude, text]);
 
   return state;

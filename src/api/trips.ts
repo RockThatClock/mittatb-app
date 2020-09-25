@@ -1,41 +1,37 @@
 import {TripPattern} from '../sdk';
-import client from './client';
 import {Location} from '../favorites/types';
-import {AxiosRequestConfig} from 'axios';
+import setupRequester from './requester';
 
-export default async function search(
+export function search(
   from: Location,
   to: Location,
   searchDate?: Date,
   arriveBy: boolean = false,
-  opts?: AxiosRequestConfig,
 ) {
   const url = 'bff/v1/journey/trip';
-  return await client.post<TripPattern[]>(
-    url,
-    {
-      from: {
-        place: from.id,
-        name: from.name,
-        coordinates: from.coordinates,
+  return setupRequester((client, opts) =>
+    client.post<TripPattern[]>(
+      url,
+      {
+        from: {
+          place: from.id,
+          name: from.name,
+          coordinates: from.coordinates,
+        },
+        to: {
+          place: to.id,
+          name: to.name,
+          coordinates: to.coordinates,
+        },
+        searchDate,
+        arriveBy,
       },
-      to: {
-        place: to.id,
-        name: to.name,
-        coordinates: to.coordinates,
-      },
-      searchDate,
-      arriveBy,
-    },
-    opts,
+      opts,
+    ),
   );
 }
 
-export async function getSingleTripPattern(
-  tripPatternId: string,
-  opts?: AxiosRequestConfig,
-) {
+export function getSingleTripPattern(tripPatternId: string) {
   const url = `bff/v1/journey/single-trip?id=${tripPatternId}`;
-  const result = await client.get<TripPattern>(url, opts);
-  return result.data;
+  return setupRequester((client, opts) => client.get<TripPattern>(url, opts));
 }

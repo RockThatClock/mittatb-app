@@ -7,8 +7,6 @@ import React, {useCallback, useState} from 'react';
 import {ActivityIndicator, Text, View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {DetailsModalNavigationProp, DetailsModalStackParams} from '..';
-import {getSingleTripPattern} from '../../../api/trips';
-import {ArrowLeft} from '../../../assets/svg/icons/navigation';
 import {Dot} from '../../../assets/svg/icons/other/';
 import {
   CurrentLocationArrow,
@@ -19,6 +17,8 @@ import {FavoriteIcon, useFavorites} from '../../../favorites';
 import {LocationWithMetadata} from '../../../favorites/types';
 import MessageBox from '../../../message-box';
 import Header from '../../../ScreenHeader';
+import {doRequest} from '../../../api';
+import {getSingleTripPattern} from '../../../api/trips';
 import {Leg, Situation, TripPattern} from '../../../sdk';
 import SituationMessage from '../../../situations';
 import {StyleSheet} from '../../../theme';
@@ -29,8 +29,11 @@ import {getQuayNameFromStartLeg} from '../../../utils/transportation-names';
 import usePollableResource from '../../../utils/use-pollable-resource';
 import LocationRow from '../LocationRow';
 import {CompactMap} from '../Map/CompactMap';
-import TransportDetail from './TransportDetail';
+import BackArrow from '../../../components/map/BackArrow';
+import {ArrowLeft, ArrowRight} from '../../../assets/svg/icons/navigation';
+import {Result} from '@badrap/result';
 import WalkDetail from './WalkDetail';
+import TransportDetail from './TransportDetail';
 
 // @TODO Firebase config?
 const TIME_LIMIT_IN_MINUTES = 3;
@@ -61,10 +64,10 @@ const TripDetailsModal: React.FC<Props> = (props) => {
   const {
     params: {tripPatternId, tripPattern: initialTripPattern, ...passingProps},
   } = props.route;
-  const [tripPattern, , isLoading, error] = useTripPattern(
-    tripPatternId,
-    initialTripPattern,
-  );
+  const [tripPatternResult] = useTripPattern(tripPatternId);
+  const tripPattern = tripPatternResult?.isOk
+    ? tripPatternResult.value
+    : initialTripPattern;
 
   return (
     <View style={styles.container}>
@@ -88,7 +91,7 @@ const TripDetailsModal: React.FC<Props> = (props) => {
         ) : (
           <DetailsContent
             {...passingProps}
-            error={error}
+            hasError={!!tripPatternResult?.isErr}
             tripPattern={tripPattern}
           />
         )}
@@ -99,10 +102,10 @@ const TripDetailsModal: React.FC<Props> = (props) => {
 
 const DetailsContent: React.FC<{
   tripPattern: TripPattern;
+  hasError: boolean;
   from: LocationWithMetadata;
   to: LocationWithMetadata;
-  error: Error | undefined;
-}> = ({tripPattern, from, to, error}) => {
+}> = ({tripPattern, hasError, from, to}) => {
   const styles = useDetailsStyle();
   const {favorites} = useFavorites();
 
@@ -112,6 +115,7 @@ const DetailsContent: React.FC<{
       setShortTime(true);
     }
   };
+
   const lastLegIsFoot =
     tripPattern.legs?.length > 0 &&
     tripPattern.legs[tripPattern.legs.length - 1].mode === 'foot';
@@ -150,7 +154,7 @@ const DetailsContent: React.FC<{
             message="Vær oppmerksom på kort byttetid."
           />
         )}
-        {error && (
+        {hasError && (
           <MessageBox type="warning">
             <Text>
               Kunne ikke hente ut oppdatering for reiseforslaget. Det kan være
@@ -269,18 +273,18 @@ const useDetailsStyle = StyleSheet.createThemeHook((theme) => ({
 
 export default TripDetailsModal;
 
-function useTripPattern(
-  tripPatternId: string,
-  initialTripPattern?: TripPattern,
-) {
+function useTripPattern(tripPatternId: string) {
   const fetchTripPattern = useCallback(
     async function reload() {
-      return await getSingleTripPattern(tripPatternId);
+      return await doRequest(getSingleTripPattern(tripPatternId));
     },
     [tripPatternId],
   );
-  return usePollableResource<TripPattern | null>(fetchTripPattern, {
-    initialValue: initialTripPattern ?? null,
-    pollingTimeInSeconds: 60,
-  });
+  return usePollableResource<Result<TripPattern> | undefined>(
+    fetchTripPattern,
+    {
+      initialValue: undefined,
+      pollingTimeInSeconds: 60,
+    },
+  );
 }

@@ -1,9 +1,6 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {
-  ReserveTicketResponse,
-  VippsRedirectParams,
-} from '../../api/fareContracts';
+import {ReserveTicketResponse, VippsRedirectParams} from '../../api/types';
 import TicketContextProvider from './TicketContext';
 import TicketsScreen from './Tickets';
 import OfferScreen from './Offer';

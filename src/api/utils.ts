@@ -1,38 +1,25 @@
-import {AxiosError} from 'axios';
+import axios, {AxiosError} from 'axios';
 import {RequestIdHeaderName} from './headers';
-
-export enum ErrorType {
-  Unknown,
-  Normal,
-  NetworkError,
-  Timeout,
-}
+import {ErrorMetadata, ErrorType} from './types';
 
 export const getAxiosErrorType = (error: AxiosError): ErrorType => {
   if (error) {
+    if (axios.isCancel(error)) {
+      return 'cancel';
+    }
     if (error.response) {
-      return ErrorType.Normal;
+      return 'normal';
     } else {
       if (error.code === 'ECONNABORTED') {
-        return ErrorType.Timeout;
+        return 'timeout';
       } else {
-        return ErrorType.NetworkError;
+        return 'network-error';
       }
     }
   }
 
-  return ErrorType.Unknown;
+  return 'unknown';
 };
-
-export interface ErrorMetadata {
-  responseStatus?: number;
-  responseStatusText?: string;
-  responseData?: string;
-  requestUrl?: string;
-  requestMessage?: string;
-  requestCode?: string;
-  requestId?: string;
-}
 
 export const getAxiosErrorMetadata = (error: AxiosError): ErrorMetadata => ({
   requestId: error?.config?.headers[RequestIdHeaderName],

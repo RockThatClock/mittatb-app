@@ -14,14 +14,19 @@ import FavoriteChips, {ChipTypeGroup} from '../favorite-chips';
 import LocationResults from './LocationResults';
 import useDebounce from './useDebounce';
 import {LocationSearchNavigationProp} from './';
-import {TRONDHEIM_CENTRAL_STATION} from '../api/geocoder';
 import {Close} from '../assets/svg/icons/actions';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useGeocoder} from '../geocoder';
+import {Coordinates} from '../sdk';
 
 export type Props = {
   navigation: LocationSearchNavigationProp;
   route: RouteProp<RootStackParamList, 'LocationSearch'>;
+};
+
+const TRONDHEIM_CENTRAL_STATION: Coordinates = {
+  latitude: 63.43457,
+  longitude: 10.39844,
 };
 
 export type RouteParams = {

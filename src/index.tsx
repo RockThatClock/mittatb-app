@@ -13,7 +13,6 @@ import SearchHistoryContextProvider from './search-history';
 import RemoteConfigContextProvider from './RemoteConfigContext';
 import {loadLocalConfig} from './local-config';
 import Bugsnag from '@bugsnag/react-native';
-import {setInstallId as setApiInstallId} from './api/client';
 import ErrorBoundary from './error-boundary';
 
 if (!__DEV__) {
@@ -26,12 +25,15 @@ if (!__DEV__) {
 
 import {MAPBOX_API_TOKEN} from 'react-native-dotenv';
 import MapboxGL from '@react-native-mapbox-gl/maps';
+import {configureErrorMiddleware, configureInstallId} from './api';
+import dataErrorLogger from './diagnostics/dataErrorLogger';
 MapboxGL.setAccessToken(MAPBOX_API_TOKEN);
 
 async function setupConfig() {
   const {installId} = await loadLocalConfig();
   Bugsnag.setUser(installId);
-  setApiInstallId(installId);
+  configureErrorMiddleware(dataErrorLogger);
+  configureInstallId(installId);
 }
 
 trackAppState();

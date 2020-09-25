@@ -4,8 +4,8 @@ import {StackNavigationProp} from '@react-navigation/stack';
 import {TouchableHighlight} from 'react-native-gesture-handler';
 import {TicketingStackParams} from '../';
 import {ArrowRight, Expand} from '../../../assets/svg/icons/navigation';
-import {searchOffers} from '../../../api/';
-import {UserType, Offer, OfferPrice} from '../../../api/fareContracts';
+import {doRequest, searchOffers} from '../../../api/';
+import {UserType, Offer, OfferPrice} from '../../../api/types';
 import OfferGroup from './Group';
 import {SINGLE_TICKET_PRODUCT_ID} from 'react-native-dotenv';
 
@@ -109,17 +109,19 @@ const OfferRoot: React.FC<Props> = ({navigation}) => {
 
   useEffect(() => {
     async function getBaseOffers() {
-      try {
-        const offers = await searchOffers(['ATB:TariffZone:1'], groupArr, [
+      const result = await doRequest(
+        searchOffers(['ATB:TariffZone:1'], groupArr, [
           SINGLE_TICKET_PRODUCT_ID,
-        ]);
+        ]),
+      );
 
+      if (result.isOk) {
         dispatch({
           type: 'SET_OFFERS',
-          offers,
+          offers: result.value,
         });
-      } catch (err) {
-        console.warn(err);
+      } else {
+        console.warn(result.error);
       }
     }
     getBaseOffers();

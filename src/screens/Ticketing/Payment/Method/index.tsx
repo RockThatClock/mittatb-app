@@ -4,10 +4,10 @@ import {TouchableHighlight} from 'react-native-gesture-handler';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RouteProp} from '@react-navigation/native';
 import {TicketingStackParams} from '../..';
-import {reserveOffers} from '../../../../api';
+import {doRequest, reserveOffers} from '../../../../api';
 import {ArrowRight} from '../../../../assets/svg/icons/navigation';
-import {PaymentType} from '../../../../api/fareContracts';
-import {AxiosError} from 'axios';
+import {PaymentType} from '../../../../api/types';
+import {getCustomerId} from '../../../../utils/customerId';
 
 type Props = {
   navigation: StackNavigationProp<TicketingStackParams, 'PaymentMethod'>;
@@ -20,24 +20,26 @@ const PaymentMethod: React.FC<Props> = ({navigation, route}) => {
 
   const handlePress = async (paymentType: PaymentType) => {
     setIsLoading(true);
-    try {
-      const response = await reserveOffers(offers, paymentType);
+    const customerId = await getCustomerId();
+    const result = await doRequest(
+      reserveOffers(customerId, offers, paymentType),
+    );
+    if (result.isOk) {
       switch (paymentType) {
         case PaymentType.CreditCard:
-          navigation.push('PaymentCreditCard', response);
+          navigation.push('PaymentCreditCard', result.value);
           break;
         case PaymentType.Vipps:
-          if (await Linking.canOpenURL(response.url)) {
-            Linking.openURL(response.url);
+          if (await Linking.canOpenURL(result.value.url)) {
+            Linking.openURL(result.value.url);
           }
           break;
       }
-    } catch (err) {
-      console.warn(err.response);
-      console.warn(err);
-    } finally {
-      setIsLoading(false);
+    } else {
+      console.warn(result.error);
     }
+
+    setIsLoading(false);
   };
 
   return (

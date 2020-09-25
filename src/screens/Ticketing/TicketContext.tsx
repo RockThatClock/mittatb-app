@@ -5,9 +5,10 @@ import React, {
   useState,
   useEffect,
 } from 'react';
-import {FareContract} from '../../api/fareContracts';
+import {FareContract} from '../../api/types';
 import usePollableResource from '../../utils/use-pollable-resource';
-import {listFareContracts} from '../../api';
+import {doRequest, listFareContracts} from '../../api';
+import {getCustomerId} from '../../utils/customerId';
 
 type TicketState = {
   paymentFailedReason?: PaymentFailedReason;
@@ -33,11 +34,12 @@ const TicketContextProvider: React.FC = ({children}) => {
   >();
 
   const getFareContracts = useCallback(async function () {
-    try {
-      const {fare_contracts} = await listFareContracts();
-      return fare_contracts;
-    } catch (err) {
-      console.warn(err);
+    const customerId = await getCustomerId();
+    const result = await doRequest(listFareContracts(customerId));
+    if (result.isOk) {
+      return result.value.fare_contracts;
+    } else {
+      console.warn(result.error);
     }
   }, []);
 

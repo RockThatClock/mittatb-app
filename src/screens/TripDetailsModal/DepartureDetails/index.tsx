@@ -5,7 +5,7 @@ import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
 import Dash from 'react-native-dash';
 import {ScrollView} from 'react-native-gesture-handler';
 import {DetailsModalNavigationProp, DetailsModalStackParams} from '..';
-import {getDepartures} from '../../../api/serviceJourney';
+import {getDepartures} from '../../../api';
 import {Close} from '../../../assets/svg/icons/actions';
 import {
   ArrowLeft,
@@ -26,6 +26,7 @@ import usePollableResource from '../../../utils/use-pollable-resource';
 import LocationRow from '../LocationRow';
 import SituationRow from '../SituationRow';
 import {getAimedTimeIfLargeDifference} from '../utils';
+import {doRequest} from '../../../api';
 
 export type DepartureDetailsRouteParams = {
   title: string;
@@ -332,7 +333,8 @@ function useDepartureData(
 ): [DepartureData, () => void, boolean, Error?] {
   const getService = useCallback(
     async function getServiceJourneyDepartures(): Promise<DepartureData> {
-      const deps = await getDepartures(serviceJourneyId);
+      const result = await doRequest(getDepartures(serviceJourneyId));
+      const deps = result.map((sj) => sj.value ?? []).unwrap();
       const callGroups = groupAllCallsByQuaysInLeg(deps, fromQuayId, toQuayId);
       const line = callGroups.trip[0]?.serviceJourney?.journeyPattern?.line;
       const parentSituation = callGroups.trip[0]?.situations;

@@ -1,20 +1,25 @@
-import {getCustomerId} from '../utils/customerId';
-import client from './client';
+import setupRequester from './requester';
+import {
+  FareContract,
+  ListTickets,
+  Offer,
+  PaymentType,
+  ReserveOffer,
+  ReserveTicketResponse,
+  UserType,
+} from './types';
 
-export async function list(): Promise<ListTicketsResponse> {
-  const customerId = await getCustomerId();
-
+export function list(customerId: string) {
   const url = 'ticket/v1/ticket/' + customerId;
-  const response = await client.get<ListTicketsResponse>(url);
 
-  return response.data;
+  return setupRequester((client, opts) => client.get<ListTickets>(url, opts));
 }
 
-export async function search(
+export function search(
   zones: string[],
   userTypes: {id: string; user_type: UserType}[],
   products: string[],
-): Promise<Offer[]> {
+) {
   const body = {
     zones,
     travellers: userTypes.map(({id, user_type}) => ({
@@ -26,105 +31,65 @@ export async function search(
   };
 
   const url = 'ticket/v1/search';
-  const response = await client.post<Offer[]>(url, body);
-
-  return response.data;
+  return setupRequester((client, opts) =>
+    client.post<Offer[]>(url, body, opts),
+  );
 }
 
 interface SendReceiptResponse {
   reference: string;
 }
 
-export async function sendReceipt(fc: FareContract, email: string) {
+export function sendReceipt(fc: FareContract, email: string) {
   const url = 'ticket/v1/receipt';
-  const response = await client.post<SendReceiptResponse>(url, {
-    order_id: fc.order_id,
-    order_version: parseInt(fc.order_version, 10),
-    email_address: email,
-  });
-
-  return response.data;
+  return setupRequester((client, opts) =>
+    client.post<SendReceiptResponse>(
+      url,
+      {
+        order_id: fc.order_id,
+        order_version: parseInt(fc.order_version, 10),
+        email_address: email,
+      },
+      opts,
+    ),
+  );
 }
 
-export enum PaymentType {
-  CreditCard = 1,
-  Vipps,
-}
-
-export async function reserve(
+export function reserve(
+  customer_id: string,
   offers: ReserveOffer[],
   paymentType: PaymentType,
 ) {
-  const customer_id = await getCustomerId();
-
   const url = 'ticket/v1/reserve';
-  const response = await client.post<ReserveTicketResponse>(url, {
-    payment_type: paymentType,
-    payment_redirect_url:
-      paymentType == PaymentType.Vipps
-        ? 'atb://payment?transaction_id={transaction_id}&payment_id={payment_id}'
-        : undefined,
-    customer_id,
-    offers,
-  });
-  return response.data;
+  return setupRequester((client, opts) =>
+    client.post<ReserveTicketResponse>(
+      url,
+      {
+        payment_type: paymentType,
+        payment_redirect_url:
+          paymentType == PaymentType.Vipps
+            ? 'atb://payment?transaction_id={transaction_id}&payment_id={payment_id}'
+            : undefined,
+        customer_id,
+        offers,
+      },
+      opts,
+    ),
+  );
 }
 
-export async function capture(payment_id: number, transaction_id: number) {
+export function capture(payment_id: number, transaction_id: number) {
   const url = 'ticket/v1/capture';
-  await client.put(url, {
-    //@ts-ignore
-    payment_id: parseInt(payment_id, 10),
-    //@ts-ignore
-    transaction_id: parseInt(transaction_id, 10),
-  });
+  return setupRequester((client, opts) =>
+    client.put(
+      url,
+      {
+        //@ts-ignore
+        payment_id: parseInt(payment_id, 10),
+        //@ts-ignore
+        transaction_id: parseInt(transaction_id, 10),
+      },
+      opts,
+    ),
+  );
 }
-
-export type UserType = 'ADULT';
-
-export type OfferPrice = {
-  amount: string | null;
-  amount_float: number | null;
-  currency: string;
-  vat_group?: string;
-  tax_amount?: string;
-};
-
-export type Offer = {
-  offer_id: string;
-  traveller_id: string;
-  prices: OfferPrice[];
-};
-
-export type OfferSearchResponse = Offer[];
-
-export type FareContract = {
-  order_id: string;
-  order_version: string;
-  product_name: string;
-  duration: number;
-  usage_valid_from: number;
-  usage_valid_to: number;
-  user_profiles: string[];
-};
-
-export type ListTicketsResponse = {
-  fare_contracts: FareContract[];
-};
-
-export type ReserveOffer = {
-  offer_id: string;
-  count: number;
-};
-
-export type ReserveTicketResponse = {
-  payment_id: number;
-  transaction_id: number;
-  url: string;
-};
-
-export type VippsRedirectParams = {
-  payment_id: string;
-  transaction_id: string;
-  status: string;
-};

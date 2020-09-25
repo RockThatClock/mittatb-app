@@ -1,5 +1,4 @@
 import {useEffect} from 'react';
-import {CancelToken, isCancel} from '../api/client';
 import {Coordinates} from '../sdk';
 import {reverse} from '../api';
 import {mapFeatureToLocation} from './utils';
@@ -11,35 +10,36 @@ export default function useReverseGeocoder(
   const [state, dispatch] = useGeocoderReducer();
 
   useEffect(() => {
-    const source = CancelToken.source();
-    async function reverseCoordLookup() {
-      if (coords) {
-        try {
-          dispatch({type: 'SET_IS_SEARCHING'});
-          const response = await reverse(coords, {
-            cancelToken: source.token,
-          });
-          source.token.throwIfRequested();
+    if (!coords) {
+      dispatch({type: 'SET_LOCATIONS', locations: null});
+    } else {
+      const {doRequest, cancel} = reverse(coords);
+
+      async function reverseCoordLookup() {
+        dispatch({type: 'SET_IS_SEARCHING'});
+
+        const result = await doRequest();
+
+        if (result.isOk) {
+          const locations = result.unwrap().map(mapFeatureToLocation);
 
           dispatch({
             type: 'SET_LOCATIONS',
-            locations: response?.data?.map(mapFeatureToLocation),
+            locations,
           });
-        } catch (err) {
-          if (!isCancel(err)) {
-            console.warn(err);
-            dispatch({type: 'SET_HAS_ERROR'});
-          } else {
+        } else {
+          if (result.error.errorType === 'cancel') {
             dispatch({type: 'SET_LOCATIONS', locations: null});
+          } else {
+            console.warn(result.error);
+            dispatch({type: 'SET_HAS_ERROR'});
           }
         }
-      } else {
-        dispatch({type: 'SET_LOCATIONS', locations: null});
       }
-    }
 
-    reverseCoordLookup();
-    return () => source.cancel('Cancelling previous reverse');
+      reverseCoordLookup();
+      return () => cancel('Cancelling previous reverse');
+    }
   }, [coords?.latitude, coords?.longitude]);
 
   return state;

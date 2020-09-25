@@ -1,18 +1,16 @@
 import {EstimatedCall} from '../sdk';
-import client from './client';
+import setupRequester from './requester';
 
 type ServiceJourneDepartures = {
   value: EstimatedCall[];
 };
 
-export async function getDepartures(
-  id: string,
-  date?: Date,
-): Promise<EstimatedCall[]> {
+export function getDepartures(id: string, date?: Date) {
   let url = `bff/v1/servicejourney/${encodeURIComponent(id)}/departures`;
   if (date) {
     url = url + `?date=${date.toISOString()}`;
   }
-  const response = await client.get<ServiceJourneDepartures>(url);
-  return response.data?.value ?? [];
+  return setupRequester((client, opts) =>
+    client.get<ServiceJourneDepartures>(url, opts),
+  );
 }

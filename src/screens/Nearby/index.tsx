@@ -45,6 +45,8 @@ import TextHiddenSupportPrefix from '../../components/text-hidden-support-prefix
 import {useReverseGeocoder} from '../../geocoder';
 import {useLocationSearchValue} from '../../location-search';
 import {HOME_TAB_NAME} from '../../utils/navigation';
+import {doRequest} from '../../api';
+import {ErrorType} from '../../api/types';
 
 const DEFAULT_NUMBER_OF_DEPARTURES_TO_SHOW = 5;
 
@@ -227,6 +229,7 @@ export default NearbyScreen;
 
 type DepartureDataState = {
   departures: DeparturesWithStopLocal[] | null;
+  error: undefined | ErrorType;
   isLoading: boolean;
   isFetchingMore: boolean;
   queryInput: DeparturesInputQuery;
@@ -244,6 +247,7 @@ const initialPaging = {
 };
 const initialState: DepartureDataState = {
   departures: null,
+  error: undefined,
   isLoading: false,
   isFetchingMore: false,
   paging: initialPaging,
@@ -274,6 +278,7 @@ type DepartureDataActions =
       reset?: boolean;
       paginationData: Paginated<DeparturesWithStop[]>;
     }
+  | {type: 'UPDATE_ERROR'; error: ErrorType}
   | {
       type: 'UPDATE_REALTIME';
       realtimeData: DeparturesRealtimeData;
@@ -299,16 +304,25 @@ const reducer: ReducerWithSideEffects<
         async (_, dispatch) => {
           try {
             // Fresh fetch, reset paging and use new query input with new startTime
-            const paginationData = await getDepartures(action.location!, {
-              ...initialPaging,
-              ...queryInput,
-            });
+            const result = await doRequest(
+              getDepartures(action.location!, {
+                ...initialPaging,
+                ...queryInput,
+              }),
+            );
 
-            dispatch({
-              type: 'UPDATE_DEPARTURES',
-              reset: true,
-              paginationData,
-            });
+            if (result.isOk) {
+              dispatch({
+                type: 'UPDATE_DEPARTURES',
+                reset: true,
+                paginationData: result.value,
+              });
+            } else {
+              dispatch({
+                type: 'UPDATE_ERROR',
+                error: result.error.errorType,
+              });
+            }
           } finally {
             dispatch({type: 'STOP_LOADER'});
           }
@@ -326,15 +340,24 @@ const reducer: ReducerWithSideEffects<
           try {
             // Use previously stored queryInput with stored startTime
             // to ensure that we get the same departures.
-            const paginationData = await getDepartures(action.location!, {
-              ...state.paging,
-              ...state.queryInput,
-            });
+            const result = await doRequest(
+              getDepartures(action.location!, {
+                ...state.paging,
+                ...state.queryInput,
+              }),
+            );
 
-            dispatch({
-              type: 'UPDATE_DEPARTURES',
-              paginationData,
-            });
+            if (result.isOk) {
+              dispatch({
+                type: 'UPDATE_DEPARTURES',
+                paginationData: result.value,
+              });
+            } else {
+              dispatch({
+                type: 'UPDATE_ERROR',
+                error: result.error.errorType,
+              });
+            }
           } finally {
             dispatch({type: 'STOP_LOADER'});
           }
@@ -349,14 +372,16 @@ const reducer: ReducerWithSideEffects<
         async (state, dispatch) => {
           // Use same query input with same startTime to ensure that
           // we get the same result.
-          const realtimeData = await getRealtimeDeparture(
-            state.departures ?? [],
-            state.queryInput,
+          const result = await doRequest(
+            getRealtimeDeparture(state.departures ?? [], state.queryInput),
           );
-          dispatch({
-            type: 'UPDATE_REALTIME',
-            realtimeData,
-          });
+
+          if (result.isOk) {
+            dispatch({
+              type: 'UPDATE_REALTIME',
+              realtimeData: result.value,
+            });
+          }
         },
       );
     }
@@ -415,6 +440,13 @@ const reducer: ReducerWithSideEffects<
           state.departures ?? [],
           action.realtimeData,
         ),
+      });
+    }
+
+    case 'UPDATE_ERROR': {
+      return Update({
+        ...state,
+        error: action.error,
       });
     }
 

@@ -1,18 +1,16 @@
 import {Feature, Coordinates} from '../sdk';
-import client from './client';
 import qs from 'query-string';
 import {stringifyUrl} from './utils';
-import {AxiosRequestConfig} from 'axios';
+import setupRequester from './requester';
 
-export const TRONDHEIM_CENTRAL_STATION: Coordinates = {
+const TRONDHEIM_CENTRAL_STATION: Coordinates = {
   latitude: 63.43457,
   longitude: 10.39844,
 };
 
-export async function autocomplete(
+export function autocomplete(
   text: string | null,
   coordinates: Coordinates | null,
-  config?: AxiosRequestConfig,
 ) {
   const url = 'bff/v1/geocoder/features';
   const query = qs.stringify({
@@ -22,18 +20,19 @@ export async function autocomplete(
     limit: 10,
   });
 
-  return await client.get<Feature[]>(stringifyUrl(url, query), config);
+  return setupRequester((client, opts) =>
+    client.get<Feature[]>(stringifyUrl(url, query), opts),
+  );
 }
 
-export async function reverse(
-  coordinates: Coordinates | null,
-  config?: AxiosRequestConfig,
-) {
+export function reverse(coordinates: Coordinates | null) {
   const url = 'bff/v1/geocoder/reverse';
   const query = qs.stringify({
     lat: coordinates?.latitude,
     lon: coordinates?.longitude,
   });
 
-  return await client.get<Feature[]>(stringifyUrl(url, query), config);
+  return setupRequester((client, opts) =>
+    client.get<Feature[]>(stringifyUrl(url, query), opts),
+  );
 }
