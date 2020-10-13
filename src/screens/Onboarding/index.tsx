@@ -1,5 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import {Linking, Text, TouchableOpacity, View} from 'react-native';
+import React, {useEffect, useState, useRef} from 'react';
+import {
+  Linking,
+  Text,
+  TouchableOpacity,
+  View,
+  AccessibilityInfo,
+  findNodeHandle,
+} from 'react-native';
 import {PRIVACY_POLICY_URL} from 'react-native-dotenv';
 import {useAppState} from '../../AppContext';
 import {
