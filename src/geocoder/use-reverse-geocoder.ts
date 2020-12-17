@@ -10,7 +10,7 @@ import {Location} from '../favorites/types';
 type ReverseGeocoderState = GeocoderState & {closestLocation?: Location};
 
 export default function useReverseGeocoder(
-  coords: Coordinates | null,
+  coords: Coordinates | undefined,
 ): ReverseGeocoderState {
   const [state, dispatch] = useGeocoderReducer();
 

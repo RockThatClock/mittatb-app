@@ -1,5 +1,6 @@
 export {CancelToken, isCancel, default as client} from './client';
 export {autocomplete, reverse} from './geocoder';
+export {getNearest as getNearestStopPlaces} from './stopPlaces';
 export {default as searchTrip} from './trips';
 export {
   listFareContracts,

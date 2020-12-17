@@ -22,6 +22,9 @@ import {StyleSheet} from '../../theme';
 import LocationBar from './LocationBar';
 import SelectionPin, {PinMode} from './SelectionPin';
 import {LocationSearchTexts, useTranslation} from '../../translations';
+import useNearestQuays, {NearestQuay} from './use-nearest-quays';
+import haversineDistance from 'haversine-distance';
+import {Location} from '../../favorites/types';
 
 export type RouteParams = {
   callerRouteName: string;
@@ -51,29 +54,37 @@ const MapSelection: React.FC<Props> = ({
 }) => {
   const [regionEvent, setRegionEvent] = useState<RegionEvent>();
 
-  const centeredCoordinates = useMemo<Coordinates | null>(
+  const mapPinCoordinates = useMemo<Coordinates | undefined>(
     () =>
       (regionEvent?.region?.geometry && {
         latitude: regionEvent.region.geometry.coordinates[1],
         longitude: regionEvent.region?.geometry?.coordinates[0],
       }) ??
-      null,
+      undefined,
     [
       regionEvent?.region?.geometry?.coordinates[0],
       regionEvent?.region?.geometry?.coordinates[1],
     ],
   );
 
-  const {closestLocation: location, isSearching, error} = useReverseGeocoder(
-    centeredCoordinates,
+  const {
+    closestLocation: closestReversedLocation,
+    isSearching,
+    error,
+  } = useReverseGeocoder(mapPinCoordinates);
+
+  const {nearestQuay} = useNearestQuays(mapPinCoordinates, 200);
+
+  const nearestLocationOrQuay = getNearestLocationOrQuay(
+    closestReversedLocation,
+    nearestQuay,
+    mapPinCoordinates,
   );
 
-  const {location: geolocation} = useGeolocationState();
-
   const onSelect = () => {
-    location &&
+    nearestLocationOrQuay &&
       navigation.navigate(callerRouteName as any, {
-        [callerRouteParam]: {...location, resultType: 'search'},
+        [callerRouteParam]: {...nearestLocationOrQuay, resultType: 'search'},
       });
   };
 
@@ -89,6 +100,8 @@ const MapSelection: React.FC<Props> = ({
     const currentZoom = await mapViewRef.current?.getZoom();
     mapCameraRef.current?.zoomTo((currentZoom ?? 10) - 1, 200);
   }
+
+  const {location: geolocation} = useGeolocationState();
 
   async function flyToCurrentLocation() {
     geolocation &&
@@ -124,7 +137,7 @@ const MapSelection: React.FC<Props> = ({
         />
 
         <LocationBar
-          location={location}
+          location={nearestLocationOrQuay}
           onSelect={onSelect}
           isSearching={!!regionEvent?.isMoving || isSearching}
           error={error}
@@ -160,7 +173,7 @@ const MapSelection: React.FC<Props> = ({
             isMoving={!!regionEvent?.isMoving}
             mode={getPinMode(
               !!regionEvent?.isMoving || isSearching,
-              !!location,
+              !!nearestLocationOrQuay,
             )}
           />
         </TouchableOpacity>
@@ -172,6 +185,25 @@ const MapSelection: React.FC<Props> = ({
     </View>
   );
 };
+
+function getNearestLocationOrQuay(
+  nearestLocation?: Location,
+  nearestQuay?: NearestQuay,
+  coordinates?: Coordinates,
+): Location | undefined {
+  if (!nearestLocation) return nearestQuay;
+}
+
+function mapNearestQuayToLocation(quay: NearestQuay): Location {
+  return {
+    coordinates: {
+      latitude: quay.stopPlace.latitude!,
+      longitude: quay.stopPlace.longitude!,
+    },
+    name: quay.name,
+    id: quay.id,
+  };
+}
 
 function getPinMode(isSearching: boolean, hasLocation: boolean): PinMode {
   if (isSearching) return 'searching';

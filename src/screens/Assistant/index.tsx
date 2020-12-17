@@ -70,7 +70,7 @@ const AssistantRoot: React.FC<RootProps> = ({navigation}) => {
   } = useGeolocationState();
 
   const {closestLocation: currentLocation} = useReverseGeocoder(
-    location?.coords ?? null,
+    location?.coords ?? undefined,
   );
 
   if (!status) {

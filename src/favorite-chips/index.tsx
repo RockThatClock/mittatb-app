@@ -144,7 +144,7 @@ function useCurrentLocationChip(
 ) {
   const {location, requestPermission} = useGeolocationState();
   const {closestLocation: currentLocation} = useReverseGeocoder(
-    location?.coords ?? null,
+    location?.coords ?? undefined,
   );
 
   const [recentlyAllowedGeo, setsetRecentlyAllowedGeo] = useState(false);
